@@ -162,5 +162,31 @@
           {"start": 178, "end": 184, "label": "GEO_LOCATION", "entity": "Alabama"},
           {"start": 262, "end": 270, "label": "GEO_LOCATION", "entity": "Louisiana"}
         ]
+    },
+    {
+        "text": "the Log4j vulnerability CVE-2021-44228, dubbed “Log4Shell.” This vulnerability has the highest possible critical severity...We’ve seen a high volume of activity associated with botnets, particularly Mirai and Kinsing (cryptomining). Other payloads we’ve observed have included the use of CobaltStrike, and there have been reports of brand new ransomware families that have emerged using this exploit",
+        "annotations": [
+          {"start": 57, "end": 66, "label": "MALWARE_NAME","entity": "Log4Shell"},
+          {"start": 227, "end": 232, "label": "MALWARE_NAME","entity": "Mirai"},
+          {"start": 256, "end": 263, "label": "MALWARE_NAME","entity": "Kinsing"}
+          {"start": 354, "end": 366, "label": "MALWARE_NAME","entity": "CobaltStrike"}
+        ]
+    },
+    {
+        "text": "Apache Log4j is an open-source logging library used in millions of JAVA projects, including a substantial percentage of enterprise applications and cloud services",
+        "annotations": [
+        {"start": 0, "end": 12, "label": "REGISTRY_KEYS", "entity": "Log4j"}
+    ]
+    },
+    {
+        "text": "Sign In admin.zscaler.net admin.zscalerone.net admin.zscalertwo.net admin.zscalerthree.net admin.zscalerbeta.net admin.zscloud.net Zscaler Private Access",
+        "annotations": [
+        {"start": 8, "end": 25, "label": "DOMAIN_NAME", "entity": "admin.zscaler.net"},
+        {"start": 26, "end": 46, "label": "DOMAIN_NAME", "entity": "admin.zscalerone.net"},
+        {"start": 47, "end": 67, "label": "DOMAIN_NAME", "entity": "admin.zscalertwo.net"},
+        {"start": 68, "end": 90, "label": "DOMAIN_NAME", "entity": "admin.zscalerthree.net"},
+        {"start": 91, "end": 112, "label": "DOMAIN_NAME", "entity": "admin.zscalerbeta.net"},
+        {"start": 113, "end": 130, "label": "DOMAIN_NAME", "entity": "admin.zscloud.net"}
+    ]
     }  
 ]
