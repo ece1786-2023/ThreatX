@@ -1,0 +1,166 @@
+[
+    {
+        "text": "Escola Digital, a Brazilian website offering a wide range of digital courses for both students and teachers was found leaking the personal records of nearly 75,000 active users between 2016 and 2017. MyTopDog, a South African children-oriented study platform providing practice tests and interactive games, exposed over 800,000 student records, courtesy of a misconfigured Amazon S3 bucket. Okoo, an online learning platform for children in Kazakhstan, exposed 7,200 user records that included PII and nearly 1 million entries regarding user activity on the platform and analytics. Square Panda, a US-based virtual platform that helps children learn how to read and write, exposed the information of nearly 15,000 users. Playground Sessions, a virtual piano lesson platform in the United States, revealed the private information of around 4,100 users registered between 2011 and 2013.",
+        "annotations": [
+            {
+                "start": 0,
+                "end": 13,
+                "label": "DOMAIN_NAME",
+                "entity": "Escola Digital"
+            },
+            {
+                "start": 18,
+                "end": 26,
+                "label": "GEO_LOCATION",
+                "entity": "Brazilian"
+            },
+            {
+                "start": 200,
+                "end": 207,
+                "label": "DOMAIN_NAME",
+                "entity": "MyTopDog"
+            },
+            {
+                "start": 212,
+                "end": 224,
+                "label": "GEO_LOCATION",
+                "entity": "South African"
+            },
+            {
+                "start": 391,
+                "end": 394,
+                "label": "DOMAIN_NAME",
+                "entity": "Okoo"
+            },
+            {
+                "start": 441,
+                "end": 450,
+                "label": "GEO_LOCATION",
+                "entity": "Kazakhstan"
+            },
+            {
+                "start": 582,
+                "end": 593,
+                "label": "DOMAIN_NAME",
+                "entity": "Square Panda"
+            },
+            {
+                "start": 598,
+                "end": 605,
+                "label": "GEO_LOCATION",
+                "entity": "US-based"
+            },
+            {
+                "start": 721,
+                "end": 739,
+                "label": "DOMAIN_NAME",
+                "entity": "Playground Sessions"
+            },
+            {
+                "start": 781,
+                "end": 793,
+                "label": "GEO_LOCATION",
+                "entity": "United States"
+            }
+        ]
+    },
+    {
+        "text": "Over the past several weeks, a number of banks have shared information with this reporter indicating that they are seeing fraud on cards that were all recently used by nomorerack.com customers. NoMoreRack.com Probes Possible Card Breach Turns out, nomorerack.com has heard this as well, and for the second time in the last seven months has called in outside investigators to check for signs of a digital break-in.",
+        "annotations": [
+            {
+                "start": 168,
+                "end": 181,
+                "label": "URL",
+                "entity": "nomorerack.com"
+            }
+        ]
+    },
+    {
+        "text": "The JCPA website's homepage is infected with a malicious Jquery JavaScript file. The Jquery JavaScript file receives an exploit kit server URL from another domain, cdn[dot]jameswoodwardmusic[dot]com.",
+        "annotations": [
+            {
+                "start": 164,
+                "end": 197,
+                "label": "DOMAIN_NAME",
+                "entity": "cdn[dot]jameswoodwardmusic[dot]com"
+            }
+        ]
+    },
+    {
+        "text": "Ultimately, the exploits are served from cdn3[dot]thecritico[dot]com:16122/clickheat/stargalaxy.php?nebua=3. Finally, the user is attacked via a series of Java and Internet Explorer exploits that were used to deliver an information-stealing Trojan dubbed Qbot.",
+        "annotations": [
+            {
+                "start": 41,
+                "end": 106,
+                "label": "URL",
+                "entity": "cdn3[dot]thecritico[dot]com:16122/clickheat/stargalaxy.php?nebua=3"
+            },
+            {
+                "start": 255,
+                "end": 258,
+                "label": "MALWARE_NAME",
+                "entity": "Qbot"
+            }
+        ]
+    },
+    {
+        "text": "This exploit kit served two (Qbot) binaries with same hash (4ff506fe8b390478524477503a76f91a). Encrypted binary transfer is done to hide it from signature-based network security devices such as IPS or AV gateways.",
+        "annotations": [
+            {
+                "start": 60,
+                "end": 91,
+                "label": "HASH_VAL",
+                "entity": "4ff506fe8b390478524477503a76f91a"
+            },
+            {
+                "start": 29,
+                "end": 32,
+                "label": "MALWARE_NAME",
+                "entity": "Qbot"
+            }
+        ]
+    },
+    {
+        "text": "The official website of a prominent Israel-based, Middle East foreign policy-focused think tank, the Jerusalem Center for Public Affairs (JCPA), has been compromised and abused by attackers to distribute malware.",
+        "annotations": [
+            {
+                "start": 36,
+                "end": 41,
+                "label": "GEO_LOCATION",
+                "entity": "Israel"
+            }
+        ]
+    },
+    {
+        "text": "Following the initial redirection server, Cyphort notes that the innocent users from music industry and law firms are being redirected to a link in the infection chain. Ultimately, users are led to an exploit server located in Russia.",
+        "annotations": [
+            {
+                "start": 227,
+                "end": 232,
+                "label": "GEO_LOCATION",
+                "entity": "Russia"
+            }
+        ]
+    },
+    {
+        "text": "The said file is now detected by Trend Micro as TROJ_DROPPER.HXK. Such spam messages are also already blocked through the Smart Protection Network.",
+        "annotations": [
+          {"start": 48, "end": 63, "label": "MALWARE_NAME", "entity": "TROJ_DROPPER.HXK"}
+        ]
+    },
+    {
+    "text": "The Angler exploit has been linked to several high­-profile ransomware campaigns, including both CryptoWall and TeslaCrypt. Angler is widely recognized as one of the most advanced and exploit kits on the market — making the information Talos disseminated all the more important for analysts and engineers who are working to protect their company systems from attacks.",
+    "annotations": [
+        {"start": 97, "end": 106, "label": "ACTOR", "entity": "CryptoWall"},
+        {"start": 112, "end": 121, "label": "ACTOR", "entity": "TeslaCrypt"}
+    ]
+    },
+    {
+        "text": "Sometime during the middle of September, the Colorado-based health service provider AspenPointe suffered a data breach. TheHuntsville City school district, one of the largest in Alabama, has been forced to close. At least 5 individuals have been arrested by the Louisiana Cyber Crime Unit, following an investigation into the online exploitation of children.",
+        "annotations": [
+          {"start": 45, "end": 52, "label": "GEO_LOCATION", "entity": "Colorado"},
+          {"start": 178, "end": 184, "label": "GEO_LOCATION", "entity": "Alabama"},
+          {"start": 262, "end": 270, "label": "GEO_LOCATION", "entity": "Louisiana"}
+        ]
+    }  
+]
