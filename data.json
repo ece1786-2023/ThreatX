@@ -166,10 +166,10 @@
     {
         "text": "the Log4j vulnerability CVE-2021-44228, dubbed “Log4Shell.” This vulnerability has the highest possible critical severity...We’ve seen a high volume of activity associated with botnets, particularly Mirai and Kinsing (cryptomining). Other payloads we’ve observed have included the use of CobaltStrike, and there have been reports of brand new ransomware families that have emerged using this exploit",
         "annotations": [
-          {"start": 57, "end": 66, "label": "MALWARE_NAME","entity": "Log4Shell"},
-          {"start": 227, "end": 232, "label": "MALWARE_NAME","entity": "Mirai"},
-          {"start": 256, "end": 263, "label": "MALWARE_NAME","entity": "Kinsing"},
-          {"start": 354, "end": 366, "label": "MALWARE_NAME","entity": "CobaltStrike"}
+          {"start": 48, "end": 57, "label": "MALWARE_NAME","entity": "Log4Shell"},
+          {"start": 199, "end": 204, "label": "MALWARE_NAME","entity": "Mirai"},
+          {"start": 209, "end": 216, "label": "MALWARE_NAME","entity": "Kinsing"},
+          {"start": 288, "end": 300, "label": "MALWARE_NAME","entity": "CobaltStrike"}
         ]
     },
     {
