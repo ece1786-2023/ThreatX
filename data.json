@@ -188,5 +188,71 @@
         {"start": 91, "end": 112, "label": "DOMAIN_NAME", "entity": "admin.zscalerbeta.net"},
         {"start": 113, "end": 130, "label": "DOMAIN_NAME", "entity": "admin.zscloud.net"}
     ]
-    }  
+    },
+    {
+    "text": "Attackers, purportedly hailing from Korea, are stepping up their Sanny Malware campaign with three new techniques ranging from abusing UAC and targeting Windows 10",
+    "annotations": [
+        {"start": 65, "end": 78, "label": "MALWARE_NAME", "entity": "Sanny Malware"}
+    ]
+    },
+    {
+    "text": "The group behind Sanny malware attacks has made significant changes to the way it delivers their payload.",
+    "annotations": [
+        {"start": 17, "end": 30, "label": "MALWARE_NAME", "entity": "Sanny malware"}
+    ]
+    },
+    {
+    "text": "The earlier malware delivery method used to spread Sanny malware was not multi stage.",
+    "annotations": [
+        {"start": 51, "end": 64, "label": "MALWARE_NAME", "entity": "Sanny malware"}
+    ]
+    },
+    {
+    "text": "In the case of Sanny, the CAB file contained several malicious functions including delivering “ipnet.dlle” (the Sanny malware) and “ipnet.ini” (a configuration file used by the malware).",
+    "annotations": [
+        {"start": 112, "end": 125, "label": "MALWARE_NAME", "entity": "Sanny malware"}
+    ]
+    },
+    {
+    "text": "Beyond the delivery method, the final payload (ipnet.dll/Sanny) has not changed since the previously observed variants, Singh said.",
+    "annotations": [
+        {"start": 57, "end": 62, "label": "MALWARE_NAME", "entity": "Sanny"}
+    ]
+    },
+    {
+    "text": "Once finally in, the malware harvests everything from Microsoft Outlook accounts and browser data that includes stored username and passwords. Sanny uses FTP as its means to exfiltrate data from the targeted system to the attacker’s command-and-control server.",
+    "annotations": [
+        {"start": 143, "end": 148, "label": "MALWARE_NAME", "entity": "Sanny"}
+    ]
+    },
+    {
+    "text": "This activity shows us that the threat actors using Sanny malware are evolving their malware delivery methods, notably by incorporating UAC bypasses and endpoint evasion techniques.",
+    "annotations": [
+        {"start": 52, "end": 65, "label": "MALWARE_NAME", "entity": "Sanny malware"}
+    ]
+    },
+    {
+    "text": "The macro leverages the legitimate Microsoft Windows certutil.exe utility to download an encoded Windows Batch (BAT) file from the following URL: http://more.1apps[.]com/1.txt.",
+    "annotations": [
+        {"start": 146, "end": 175, "label": "URL", "entity": "http://more.1apps[.]com/1.txt"}
+    ]
+    },
+    {
+    "text": "The attackers, believed to be based in Korea, have targeted English and Russian-language diplomatic victims around the world since 2012.",
+    "annotations": [
+        {"start": 39, "end": 44, "label": "GEO_LOCATION", "entity": "Korea"}
+    ]
+    },
+    {
+    "text": "The group behind Sanny malware attacks has made significant changes to the way it delivers their payload.",
+    "annotations": [
+        {"start": 0, "end": 38, "label": "ACTOR", "entity": "The group behind Sanny malware attacks"}
+    ]
+    },
+    {
+    "text": "The macro then decodes the encoded file and drops it in the %temp% directory with the name: 1.bat.",
+    "annotations": [
+        {"start": 60, "end": 97, "label": "FILE_PATH", "entity": "%temp% directory with the name: 1.bat"}
+    ]
+    }
 ]
