@@ -168,7 +168,7 @@
         "annotations": [
           {"start": 57, "end": 66, "label": "MALWARE_NAME","entity": "Log4Shell"},
           {"start": 227, "end": 232, "label": "MALWARE_NAME","entity": "Mirai"},
-          {"start": 256, "end": 263, "label": "MALWARE_NAME","entity": "Kinsing"}
+          {"start": 256, "end": 263, "label": "MALWARE_NAME","entity": "Kinsing"},
           {"start": 354, "end": 366, "label": "MALWARE_NAME","entity": "CobaltStrike"}
         ]
     },
