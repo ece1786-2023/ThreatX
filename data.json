@@ -259,7 +259,7 @@
     }, 
     {
         "text": "DGA-generated C2s as subdomains of:avsvmcloud.comC2 domain for malware to connect to, retrieved via CNAME from DGA-generated C2.", 
-        "annotations": [{"start": 36, "end": 50, "label": "IP_ADDRESSES", "entity": "avsvmcloud.com"}
+        "annotations": [{"start": 36, "end": 49, "label": "IP_ADDRESSES", "entity": "avsvmcloud.com"}
         ]
     }, 
     {
@@ -294,7 +294,7 @@
     {
         "text": "In a report [1] by US TV show \\u201c60 Minutes\\u201d about DARPA and the Internet of Things, the Department of Defence has shown that it can hack the General Motors OnStar.",
         "annotations": [
-            {"start": 49, "end": 54, "label": "ACTOR", "entity": "DARPA"}
+            {"start": 59, "end": 64, "label": "ACTOR", "entity": "DARPA"}
         ]
     },
     {
