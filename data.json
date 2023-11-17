@@ -298,25 +298,25 @@
         ]
     },
     {
-        "text": "[2] www.darpa.mil/default.aspx[3] https://www.onstar.com/us/en/home.html[4] http://www.darpa.mil/Our_Work/I2O/Programs/High.",
+        "text": "[2] www.darpa.mil/default.aspx [3] https://www.onstar.com/us/en/home.html[4] http://www.darpa.mil/Our_Work/I2O/Programs/High.",
         "annotations": [
             {"start": 4, "end": 30, "label": "DOMAIN_NAME", "entity": "www.darpa.mil/default.aspx"},
             {"start": 76, "end": 123, "label": "DOMAIN_NAME", "entity": "http://www.darpa.mil/Our_Work/I2O/Programs/High"}
         ]
     },
     {
-        "text": "[6] www.darpa.mil/WorkArea/DownloadAsset.aspx?id=2147484449[7]https://www.youtube.com/watch?v=bHfOziIwXic[8]http://en.wikipedia.org/wiki/Buffer_overflow[9]http://en.wikipedia.org/wiki/CAN_bus[10]http://en.wikipedia.org/wiki/Engine_control_unit[11]http://zubie.co/2014/11/07/110614/[12]",
+        "text": "[6] www.darpa.mil/WorkArea/DownloadAsset.aspx?id=2147484449 [7]https://www.youtube.com/watch?v=bHfOziIwXic[8]http://en.wikipedia.org/wiki/Buffer_overflow[9]http://en.wikipedia.org/wiki/CAN_bus[10]http://en.wikipedia.org/wiki/Engine_control_unit[11]http://zubie.co/2014/11/07/110614/[12]",
         "annotations": [
             {"start": 4, "end": 59, "label": "URL", "entity": "www.darpa.mil/WorkArea/DownloadAsset.aspx?id=2147484449"}
         ]
     },
-    {"text": "[11] http://zubie.co/2014/11/07/110614/[12]",
+    {"text": "[11] http://zubie.co/2014/11/07/110614/ [12]",
         "annotations": [
             {"start": 12, "end": 20, "label": "DOMAIN_NAME", "entity": "zubie.co"}
         ]
     },
     {
-        "text": "[11] http://zubie.co/2014/11/07/110614/[12] 2014/10 SBD post[13] 2014/10 asdl post",
+        "text": "[11] http://zubie.co/2014/11/07/110614/ [12] 2014/10 SBD post[13] 2014/10 asdl post",
         "annotations": [
             {"start": 12, "end": 38, "label": "URL", "entity": "zubie.co/2014/11/07/110614"}
         ]
