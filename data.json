@@ -333,5 +333,71 @@
             {"start": 13, "end": 23, "label": "EMAIL_ADDRESSES", "entity": "Andy Davis"},
             {"start": 42, "end": 52, "label": "EMAIL_ADDRESSES", "entity": "Andy Davis"}
         ]
+    },
+    {
+        "text": "This week we participated in Security Leaders 2014 in  Sao Paulo, Brazil , an annual gathering and exhibition to discuss information security and risk for enterprises, and featuring about 3,000 security professionals from the region. Check out some snaps from our time there below:",
+        "annotations": [
+            {"start": 55, "end": 64, "label": "Geo-location", "entity": "Sao Paulo"},
+            {"start": 66, "end": 72, "label": "Geo-location", "entity": "Brazil"}
+        ]
+    },
+    {
+        "text": "In Jan 2021, Zscaler ThreatLabZ discovered new instances of the  MINEBRIDGE remote-access Trojan (RAT)  embedded in macro-based Word document files crafted to look like valid job resumes (CVs). Such lures are often used as social engineering schemes by threat actors. MINEBRIDGE buries itself into the vulnerable remote desktop software TeamViewer, enabling the threat actor to take a wide array of remote follow-on actions such as spying on users or deploying additional malware.",
+        "annotations": [
+            {"start": 65, "end": 75, "label": "MALWARE_NAME", "entity": "MINEBRIDGE"},
+            {"start": 268, "end": 278, "label": "Geo-MALWARE_NAME", "entity": "MINEBRIDGE"}
+        ]
+    },
+    {
+        "text": "This attack was likely carried out by  TA505 , a financially motivated threat group that has been active since at least 2014. TA505 has been previously linked to very similar attacks using MINEBRIDGE RAT.",
+        "annotations": [
+            {"start": 39, "end": 44, "label": "ACTOR", "entity": "TA505"},
+            {"start": 126, "end": 131, "label": "ACTOR", "entity": "TA505"}
+        ]
+    },
+    {
+        "text": "This command leverages the Windows utility finger.exe to download encoded content from the  IP address: 184.164.146.102  and drops it in the %appdata% directory.",
+        "annotations": [
+            {"start": 104, "end": 119, "label": "IP_ADDRESSES", "entity": "184.164.146.102"}
+        ]
+    },
+    {
+        "text": "Trustwave held a roundtable in South Africa on May 23, 2013, to discuss the war on cybercrime and the role of compliance in reducing credit card fraud. The panel was hosted by  Andrew Kirkland, country manager for Trustwave in South Africa , and Michael Aminzade, Director of Delivery EMEA at Trustwave, and included notaries from VISA, South African Centre for Information Security, SABRIC and the University of Pretoria.",
+        "annotations": [
+            {"start": 0, "end": 9, "label": "ACTOR", "entity": "Trustwave"},
+            {"start": 214, "end": 223, "label": "ACTOR", "entity": "Trustwave"},
+            {"start": 293, "end": 302, "label": "ACTOR", "entity": "Trustwave"}]},
+    {
+        "text": "Developers take shortcuts and this is where cybercrime focuses its efforts - on those weaknesses in code where rushed solutions have flaws they can exploit, says  Trustwaves Kirkland . The infiltrators know that deadlines, financial pressures and urgency can push developers to overlook aspects of their code. We need to stop taking shortcuts and start treating the data we have as valuable.",
+        "annotations": [
+            {"start": 163, "end": 172, "label": "ACTOR", "entity": "Trustwave"}
+        ]
+    },
+    {"text": "Its not if you get hacked, but when, concludes  Aminzade , Businesses need to ask what message they can give to their customers to show them that they are protected, that they have put measures in place to protect data and that they are able to respond to an issue quickly and correctly.",
+        "annotations": [
+            {"start": 48, "end": 56, "label": "ACTOR", "entity": "Aminzade"}
+        ]
+    }, {
+    "text": "Trustwave held a roundtable in  South Africa  on May 23, 2013, to discuss the war on cybercrime and the role of compliance in reducing credit card fraud.",
+    "annotations": [
+        {"start": 32, "end": 44, "label": "GEO_LOCATION", "entity": "South Africa"}
+    ]
+}, {"text": "share  email  Trustwave held a roundtable in South Africa on May 23, 2013, to discuss the war on cybercrime and the role of compliance in reducing credit card fraud.",
+    "annotations": [
+        {"start": 7, "end": 12, "label": "EMAIL_ADDRESSES", "entity": "email"}
+    ]
+},
+    {
+        "text": "Related Media Coverage:  Tech Central  - Joint action needed on cyber crime  News24  - Education key to SA Cyber threat  News24  - Take cybercrime seriously, urge experts  IT Web  - SA needs offensive cyber warriors",
+        "annotations": [
+            {"start": 77, "end": 83, "label": "DOMAIN_NAME", "entity": "News24"},
+            {"start": 121, "end": 127, "label": "DOMAIN_NAME", "entity": "News24"},
+            {"start": 25, "end": 37, "label": "DOMAIN_NAME", "entity": "Tech Central"},
+            {"start": 172, "end": 178, "label": "DOMAIN_NAME", "entity": "IT Web"}]},
+    {
+        "text": "Copyright \\u00a9  www.trustwave.com  Holdings, Inc. All rights reserved.",
+        "annotations": [
+            {"start": 13, "end": 30, "label": "URL", "entity": "www.trustwave.com"}
+        ]
     }
 ]
