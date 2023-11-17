@@ -567,5 +567,305 @@
                 "entity": "184.164.146.102"
             }
         ]
+    },
+    {
+        "text": "Trustwave held a roundtable in South Africa on May 23, 2013, to discuss the war on cybercrime and the role of compliance in reducing credit card fraud. The panel was hosted by  Andrew Kirkland, country manager for Trustwave in South Africa , and Michael Aminzade, Director of Delivery EMEA at Trustwave, and included notaries from VISA, South African Centre for Information Security, SABRIC and the University of Pretoria.",
+        "annotations": [
+            {"start": 0, "end": 9, "label": "ACTOR", "entity": "Trustwave"},
+            {"start": 214, "end": 223, "label": "ACTOR", "entity": "Trustwave"},
+            {"start": 293, "end": 302, "label": "ACTOR", "entity": "Trustwave"}]},
+    {
+        "text": "Developers take shortcuts and this is where cybercrime focuses its efforts - on those weaknesses in code where rushed solutions have flaws they can exploit, says  Trustwaves Kirkland . The infiltrators know that deadlines, financial pressures and urgency can push developers to overlook aspects of their code. We need to stop taking shortcuts and start treating the data we have as valuable.",
+        "annotations": [
+            {"start": 163, "end": 172, "label": "ACTOR", "entity": "Trustwave"}
+        ]
+    },
+    {"text": "Its not if you get hacked, but when, concludes  Aminzade , Businesses need to ask what message they can give to their customers to show them that they are protected, that they have put measures in place to protect data and that they are able to respond to an issue quickly and correctly.",
+        "annotations": [
+            {"start": 48, "end": 56, "label": "ACTOR", "entity": "Aminzade"}
+        ]
+    }, {
+    "text": "Trustwave held a roundtable in  South Africa  on May 23, 2013, to discuss the war on cybercrime and the role of compliance in reducing credit card fraud.",
+    "annotations": [
+        {"start": 32, "end": 44, "label": "GEO_LOCATION", "entity": "South Africa"}
+    ]
+}, {"text": "share  email  Trustwave held a roundtable in South Africa on May 23, 2013, to discuss the war on cybercrime and the role of compliance in reducing credit card fraud.",
+    "annotations": [
+        {"start": 7, "end": 12, "label": "EMAIL_ADDRESSES", "entity": "email"}
+    ]
+},
+    {
+        "text": "Related Media Coverage:  Tech Central  - Joint action needed on cyber crime  News24  - Education key to SA Cyber threat  News24  - Take cybercrime seriously, urge experts  IT Web  - SA needs offensive cyber warriors",
+        "annotations": [
+            {"start": 77, "end": 83, "label": "DOMAIN_NAME", "entity": "News24"},
+            {"start": 121, "end": 127, "label": "DOMAIN_NAME", "entity": "News24"},
+            {"start": 25, "end": 37, "label": "DOMAIN_NAME", "entity": "Tech Central"},
+            {"start": 172, "end": 178, "label": "DOMAIN_NAME", "entity": "IT Web"}]},
+    {
+        "text": "Copyright \\u00a9  www.trustwave.com  Holdings, Inc. All rights reserved.",
+        "annotations": [
+            {"start": 13, "end": 30, "label": "URL", "entity": "www.trustwave.com"}
+        ]
+    },
+    {
+        "text": "At the center of the account ban wave are some of the most active members of OGUsers, a forum that caters to thousands of people selling access to hijacked social media and other online accounts.",
+        "annotations": [
+            {"start": 77, "end": 84, "label": "ACTOR", "entity": "OGUsers"}
+        ]
+    },
+    {
+        "text": "For example, one of the most active accounts targeted in this week\\u2019s social network crackdown is the Instagram profile \\u201cTrusted,\\u201d self-described as \\u201ctop-tier professional middleman/escrow since 2014.\\u201d Trusted\\u2019s profile included several screenshots of his OGUsers persona, \\u201cBeam,\\u201d who warns members about an uptick in the number of new OGUsers profiles impersonating him and other middlemen on the forum.",
+        "annotations": [
+            {"start": 273, "end": 277, "label": "ACTOR", "entity": "Beam"}
+        ]
+    },
+    {"text": "Among the top seller accounts targeted in the ban wave was the Instagram account belonging to Ryan Zanelli (@zanelli), a 22-year-old self-described \\u201csocial media marketing specialist\\u201d from Melbourne, Australia.",
+        "annotations": [
+            {"start": 94, "end": 106, "label": "ACTOR", "entity": "Ryan Zanelli"}
+        ]
+    },
+    {
+        "text": "Users and applications are moving to the cloud and putting a strain on legacy castle-and-moat network security. Legacy security models weren\\u2019t designed for today\\u2019s environments and threats, and don\\u2019t provide adequate monitoring, protection, or scale in a cloud and mobile-first world: You can\\u2019t enforce perimeter-dependent security when cloud-based apps and data reside outside the castle moat. The new cloud-first, remote-enabled, device-agnostic way of working, however, demands a new security model. CrowdStrike and Zscaler have partnered to enhance end-to-end visibility and automating detection and remediation using both platforms. CrowdStrike and Zscaler are cloud-native security services that provide uniform security enforcement for all users, applications, endpoints, no matter the location. Together they enable better user experience and security. Their integration reduces threat dwell time and enables security professionals to do more, faster. This article demonstrates how to integrate ZIA with CrowdStrike to provide zero-day threat detection and endpoint data correlation for faster remediation.",
+        "annotations": [
+            {"start": 503, "end": 526, "label": "ACTOR", "entity": "CrowdStrike and Zscaler"},
+            {"start": 638, "end": 661, "label": "ACTOR", "entity": "CrowdStrike and Zscaler"}
+        ]
+    },
+    {
+        "text": "From the client PC, download a file or executable from the Internet. Since Zscaler sits inline and enforces all customer-configured security policies, Zscaler checks against its security engines to determine whether the file or executable is benign or malicious.",
+        "annotations": [
+            {"start": 75, "end": 82, "label": "URL", "entity": "Zscaler"},
+            {"start": 151, "end": 158, "label": "URL", "entity": "Zscaler"}
+        ]
+    },
+    {
+        "text": "(Note, displayed columns can be adjusted in Web Insights. Make sure that MD5 is selected for display.) The Sandbox uses a scoring system to determine if files are malicious where anything above 60 is suspect. In this example, the file has a threat score of 86 and is malicious.",
+        "annotations": [
+            {"start": 73, "end": 76, "label": "FILE_PATH", "entity": "MD5"}
+        ]
+    },
+    {
+        "text": "To quarantine the endpoints, select Contain. This cuts off network access from that host. Once quarantined, the endpoint can only talk to CrowdStrike\\u2019s IP addresses or any other IPs specifically whitelisted by customer\\u2019s CrowdStrike policy settings. The host\\u2019s status has changed to Contained.",
+        "annotations": [
+            {"start": 221, "end": 248, "label": "REG_KEY", "entity": "CrowdStrike policy settings"}
+        ]
+    },
+    {
+        "text": "Termite popped up on our radar when we were reviewing malicious binaries compiled to run on IoT architectures. Termite is available for a range  https://github.com/rootkiter/Binary-files/tree/master/Termite/release/agent  of different operating systems and architectures including x86 ARM, PowerPC, Motorola, SPARC and Renesas.",
+        "annotations": [
+            {"start": 145, "end": 220, "label": "URL", "entity": "https://github.com/rootkiter/Binary-files/tree/master/Termite/release/agent"}
+        ]
+    },
+    {
+        "text": "alert tcp $HOME_NET any -> $EXTERNAL_NET any (msg:\\AV TROJAN EarthWorm/Termite IoT Agent Reporting Infection\\; flow:established,to_server; content:\\|00 00 00 01|\\; offset:1; depth:4; content:\\|00 00 00 01 6b 00 00 00 01|\\; distance:7; within:9; content:\\agent\\; distance:4; within:5; pcre:\\/ +?[ -\\u007f]+? +?$/R\\;  reference:url,https://github.com/anhilo/xiaogongju/tree/422136c014ba6b95ad3a746662be88372eb11b09  ; classtype:trojan-activity; sid:xxx; rev:1;)",
+        "annotations": [
+            {"start": 324, "end": 406, "label": "URL", "entity": "https://github.com/anhilo/xiaogongju/tree/422136c014ba6b95ad3a746662be88372eb11b09"}
+        ]
+    },
+    {
+        "text": "Termite and EarthWorm are publicly available tools written by an employee of  360NetLab . They can be considered an updated version of the well known packet relay tool HTRAN.",
+        "annotations": [
+            {"start": 78, "end": 87, "label": "ACTOR", "entity": "360NetLab"}
+        ]
+    },
+    {"text": "Note: As we were publishing this,  Symantec  released a report on attackers using Termite in the 2018 attack stealing the health data of a quarter of the Singapore population.",
+        "annotations": [
+            {"start": 35, "end": 43, "label": "ACTOR", "entity": "Symantec"}
+        ]
+    },
+    {
+        "text": "There has been little reporting on Termite, beyond a brief mention in a report by  Kaspersky  of an earlier version of Termite called \\u201cEarthWorm\\u201d.",
+        "annotations": [
+            {"start": 83, "end": 92, "label": "ACTOR", "entity": "Kaspersky"}
+        ]
+    },
+    {
+        "text": "\\u00a0\\u00a0\\u00a0\\u00a0\\u00a0\\u00a0 copyright = \\Alienvault Inc. 2019\\ \\u00a0\\u00a0\\u00a0\\u00a0\\u00a0\\u00a0 license = \\Apache License, Version 2.0\\ \\u00a0\\u00a0\\u00a0\\u00a0\\u00a0\\u00a0  sha256 = \\f4dd44bc19c19056794d29151a5b1bb76afd502388622e24c863a8494af147dd\\  \\u00a0\\u00a0\\u00a0\\u00a0\\u00a0\\u00a0 description = \\EarthWorm Packet Relay Tool\\",
+        "annotations": [
+            {"start": 197, "end": 261, "label": "HASH_VALUES", "entity": "f4dd44bc19c19056794d29151a5b1bb76afd502388622e24c863a8494af147dd"}
+        ]
+    },
+    {
+    "text": "Termite is a tool used to connect together chains of machines on a network. That means it can be used used to bounce a connection between multiple machines, to maintain a connection that otherwise wouldn\\u2019t be possible:  Termite  is a useful networking and penetration testing tool, but we re seeing it used in attacks to enable access to machines too.",
+    "annotations": [
+        {"start": 0, "end": 7, "label": "MALWARE_NAME", "entity": "Termite"},
+        {"start": 220, "end": 227, "label": "MALWARE_NAME", "entity": "Termite"}
+    ]
+},
+    {
+        "text": "Note: As we were publishing this, Symantec released a report on attackers using Termite in the 2018 attack stealing the health data of a quarter of the  Singapore  population. In one Android application, EarthWorm is hidden inside an image file called box_07.png. The Application communicates with the hostname apache2013.qpoe[.]com - which resolves to a server in  Taiwan .",
+        "annotations": [
+            {"start": 153, "end": 162, "label": "GEO_LOCATION", "entity": "Singapore"},
+            {"start": 366, "end": 372, "label": "GEO_LOCATION", "entity": "Taiwan"}
+        ]
+    },
+    {
+        "text": "Oracle\\u2019s Java, infamous in the past for bundling the Ask Toolbar as part of its install and update processes, is ditching Ask in favour of Yahoo\\u2019s search engine. The news was announced by Yahoo CEO Marissa Meyer at yesterday\\u2019s shareholders meeting, although no details were revealed on how much Yahoo will be paying Oracle for the privilege. As with Ask, the  Yahoo  \\u201coption\\u201d will be checked by default in both new installs and routine updates, so anyone in a hurry or not paying much attention will find themselves facing some unexpected changes to their systems",
+        "annotations": [
+            {"start": 139, "end": 144, "label": "DOMAIN_NAME", "entity": "Yahoo"},
+            {"start": 188, "end": 193, "label": "DOMAIN_NAME", "entity": "Yahoo"},
+            {"start": 295, "end": 300, "label": "DOMAIN_NAME", "entity": "Yahoo"},
+            {"start": 360, "end": 365, "label": "DOMAIN_NAME", "entity": "Yahoo"}
+        ]
+    },
+    {"text": "Oracle\\u2019s Java, infamous in the past for bundling the Ask Toolbar as part of its install and update processes, is ditching Ask in favour of Yahoo\\u2019s search engine. The news was announced by Yahoo CEO Marissa Meyer at yesterday\\u2019s shareholders meeting, although no details were revealed on how much Yahoo will be paying  Oracle  for the privilege. As with Ask, the Yahoo \\u201coption\\u201d will be checked by default in both new installs and routine updates, so anyone in a hurry or not paying much attention will find themselves facing some unexpected changes to their systems.",
+        "annotations": [
+            {"start": 0, "end": 6, "label": "ACTOR", "entity": "Oracle"},
+            {"start": 317, "end": 323, "label": "ACTOR", "entity": "Oracle"}
+        ]
+    },
+    {
+        "text": "In December of 2011, we blogged about the approval of the .xxx TLD (top-level domain) and discussed issues related to how these sites are categorized and how legitimate companies could avoid having their reputation damaged through an .xxx registration.",
+        "annotations": [
+            {"start": 58, "end": 66, "label": "DOMAIN_NAME", "entity": ".xxx TLD"}
+        ]
+    },
+    {
+        "text": "Under the banner \\The Evolution of Online Responsibility,\\ ICM Registry, the company behind .xxx, is now trying to establish .sex, .porn, and .adult to expand its online offerings.",
+        "annotations": [
+            {"start": 59, "end": 71, "label": "ACTOR", "entity": "ICM Registry"}
+        ]
+    },
+    {
+        "text": "ICM Registry, the company behind .xxx, is now trying to establish .sex, .porn, and .adult to expand its online offerings.",
+        "annotations": [
+            {"start": 66, "end": 89, "label": "DOMAIN_NAME", "entity": ".sex, .porn, and .adult"}
+        ]
+    },
+    {
+        "text": "This is part of a major expansion in TLDs. Despite a number of glitches in the process, ICANN has reportedly received more than 1,900 proposals for new domain names and will reveal the list in a press conference on June 13.",
+        "annotations": [
+            {"start": 88, "end": 93, "label": "ACTOR", "entity": "ICANN"}
+        ]
+    },
+    {
+        "text": "Today, you can keep up with the ICANN announcement by following the ICANN Reveal Day.",
+        "annotations": [
+            {"start": 68, "end": 84, "label": "URL", "entity": "ICANN Reveal Day"}
+        ]
+    },
+    {
+    "text": "Websense is following the evolution of TLDs in order to ensure coverage for our customers, and our security solutions are protecting them with ACE, our Advanced Classification Engine.",
+    "annotations": [
+        {"start": 0, "end": 8, "label": "ACTOR", "entity": "Websense"}
+    ]
+},
+    {
+        "text": "Research \\n\\n\\nMore on  Backdoor.Win32.Breplibot.b  \\n\\n\\n\\n\\t\\t\\t\\t\\t\\tBy Yury Mashevsky  on November 10, 2005. 3:00 pm \\n\\n\\n\\nWe\\u2019ve been analysing the backdoor program which uses the Sony rootkit technology.",
+        "annotations": [
+            {"start": 21, "end": 47, "label": "MALWARE_NAME", "entity": "Backdoor.Win32.Breplibot.b"}
+        ]
+    },
+    {
+        "text": "When launching, the backdoor copies itself to the Windows system directory as  $SYS$DRV.EXE . Using this name makes it possible for the rootkit technology used by Sony to hide the activity of the malicious program.",
+        "annotations": [
+            {"start": 79, "end": 91, "label": "FILE_PATH", "entity": "$SYS$DRV.EXE"}
+        ]
+    },
+    {
+        "text": "Once launched, the backdoor creates the following system registry key:\\n [HKEY_LOCAL_MACHINE]\\nWkbpsevaXImgvkwkbpXSmj kswXGqvvajpRavwmkjXVqj=$SYS$DRV.EXE \\n\\n\\n\\nRootkits",
+        "annotations": [
+            {"start": 72, "end": 151, "label": "FILE_PATH", "entity": "[HKEY_LOCAL_MACHINE]\\nWkbpsevaXImgvkwkbpXSmj kswXGqvvajpRavwmkjXVqj=$SYS$DRV.EXE"}
+        ]
+    },
+    {
+        "text": "Hello,\\nYour photograph was forwarded to us as part of an article we are publishing for our December edition of Total Business Monthly. Can you check over the format and get back to us with your approval or any changes? If the picture is not to your liking then please send a preferred one. We have attached the photo with the article here.\\nKind regards,\\nJamie Andrews\\nEditor\\n www.TotalBusiness.co.uk ",
+        "annotations": [
+            {"start": 376, "end": 399, "label": "URL", "entity": "www.TotalBusiness.co.uk"}
+        ]
+    },
+    {
+        "text": "Hello,\\nYour photograph was forwarded to us as part of an article we are publishing for our December edition of Total Business Monthly. Can you check over the format and get back to us with your approval or any changes? If the picture is not to your liking then please send a preferred one. We have attached the photo with the article here.\\nKind regards,\\n Jamie Andrews \\nEditor\\nwww.TotalBusiness.co.uk",
+        "annotations": [
+            {"start": 355, "end": 368, "label": "EMAIL_ADDRESSES", "entity": "Jamie Andrews"}
+        ]
+    },
+    {
+        "text": "We\\u2019ve been analysing the backdoor program which uses the  Sony rootkit technology .",
+        "annotations": [
+            {"start": 58, "end": 81, "label": "ACTOR", "entity": "Sony rootkit technology"}
+        ]
+    },
+    {
+        "text": "make\\nCloud Security Service\\nDNS-Layer Network Security\\nSecure Web Gateway\\nSecurity Packages\\n\\nWho we are\\nGlobal Cloud Architecture\\nCloud Network Status\\nCloud Network Activity\\nhttp://www.opendns.com is now Umbrella\\nCisco Umbrella Blog",
+        "annotations": [{"start": 174, "end": 196, "label": "URL", "entity": "http://www.opendns.com"}
+        ]
+    },
+    {
+        "text": "Service\\nSitemap\\n\\u00a9\\u00a02021 http://www.cisco.com",
+        "annotations": [
+            {"start": 23, "end": 43, "label": "URL", "entity": "http://www.cisco.com"}
+        ]
+    },
+    {
+        "text": "make\\nCloud Security Service\\nDNS-Layer Network Security\\nSecure Web Gateway\\nSecurity Packages\\n\\nWho we are\\nGlobal Cloud Architecture\\nCloud Network Status\\nCloud Network Activity\\nopendns.com is now Umbrella\\nCisco Umbrella Blog",
+        "annotations": [
+            {"start": 174, "end": 185, "label": "DOMAIN_NAME", "entity": "opendns.com"}
+        ]
+    },
+    {
+        "text": "Service\\nSitemap\\n\\u00a9\\u00a02021 cisco.com",
+        "annotations": [
+            {"start": 23, "end": 32, "label": "DOMAIN_NAME", "entity": "cisco.com"}
+        ]
+    },
+    {
+        "text": "Sign up for a Free Trial\\nCisco Online Privacy Statement\\nTerms of Service\\nSitemap\\n\\u00a9\\u00a02021 Cisco Umbrella\\n208.67.222.222+208.67.220.220",
+        "annotations": [
+            {"start": 103, "end": 117, "label": "IP_ADDRESSES", "entity": "208.67.222.222"}
+        ]
+    },
+    {
+        "text": "Sign up for a Free Trial\\nCisco Online Privacy Statement\\nTerms of Service\\nSitemap\\n\\u00a9\\u00a02021 Cisco Umbrella\\n208.67.222.222+208.67.220.220",
+        "annotations": [
+            {"start": 103, "end": 117, "label": "IP_ADDRESSES", "entity": "208.67.222.222"}
+        ]
+    },
+    {
+    "text": "Here at OpenDNS we have been working on a next-generation data visualization tool. We have been using this tool extensively",
+    "annotations": [
+        {"start": 8, "end": 15, "label": "ACTOR", "entity": "OpenDNS"}
+    ]
+},
+    {
+        "text": "You already know how to easily create and use the passwords database using Password Manager in  Kaspersky PURE 3.0  for quick and safe on-site authorization.",
+        "annotations": [
+            {"start": 96, "end": 114, "label": "MALWARE_NAME", "entity": "Kaspersky PURE 3.0"}
+        ]
+    },
+    {
+        "text": "But keeping pace with time we all use several computers (both stand-alone PCs and notebooks) in several places, e.g. at home and at work. And the reasonable question is how to make the created passwords database available and augmented on all computers you work on? To bridge the gap a new feature was introduced in  Kaspersky PURE 3.0  that allows synchronizing databases of Password Manager.",
+        "annotations": [
+            {"start": 317, "end": 335, "label": "MALWARE_NAME", "entity": "Kaspersky PURE 3.0"}
+        ]
+    },
+    {
+        "text": "Thus, with  Kaspersky PURE 3.0  installed and the Internet available, you can use your passwords database on all computers of yours in any part of the world.",
+        "annotations": [
+            {"start": 12, "end": 30, "label": "MALWARE_NAME", "entity": "Kaspersky PURE 3.0"}
+        ]
+    },
+    {
+        "text": "Synchronization can be enabled during an initial start and configuration of Password Manager or later. A Kaspersky Account will allow you accessing your online storage from different computers. If you have already worked with the component but haven\\u2019t enabled the sync yet, then enable it by clicking the Sync is disabled link and by clicking the Enable sync button in the pop-up window. The configuration wizard will either offer you to create a Kaspersky Account or to enter your credentials for an existing account. If you do not have a Kaspersky Account, create one following the recommendations of the wizard. A Kaspersky Account will allow you accessing your online storage from different computers. Once an account is activated, the Password Manager database will automatically synchronize with an online storage. Now when you have configured synchronization of Password Manager on all computers you can manage the passwords database and visit the sites for which you have added accounts from any computer without bothering to remember your passwords and their safe input. Any changes in your passwords database will appear on all synchronized computers automatically.",
+        "annotations": [
+            {"start": 105, "end": 114, "label": "MALWARE_NAME", "entity": "Kaspersky"},
+            {"start": 447, "end": 456, "label": "MALWARE_NAME", "entity": "Kaspersky"},
+            {"start": 540, "end": 549, "label": "MALWARE_NAME", "entity": "Kaspersky"},
+            {"start": 617, "end": 626, "label": "MALWARE_NAME", "entity": "Kaspersky"}
+        ]
+    },
+    {
+        "text": "But keeping pace with time we all use several computers (both stand-alone PCs and notebooks) in several places, e.g. at  home  and at  work . And the reasonable question is how to make the created passwords database available and augmented on all computers you work on?",
+        "annotations": [
+            {"start": 121, "end": 125, "label": "GEO_LOCATION", "entity": "home"},
+            {"start": 135, "end": 139, "label": "GEO_LOCATION", "entity": "work"},
+            {"start": 261, "end": 265, "label": "GEO_LOCATION", "entity": "work"}
+        ]
+    },
+    {
+        "text": "Thus, with Kaspersky PURE 3.0 installed and the Internet available, you can use your passwords database on all computers of yours in any  part of the world .",
+        "annotations": [
+            {"start": 138, "end": 155, "label": "GEO_LOCATION", "entity": "part of the world"}
+        ]
     }
 ]
