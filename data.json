@@ -312,13 +312,13 @@
     },
     {"text": "[11] http://zubie.co/2014/11/07/110614/ [12]",
         "annotations": [
-            {"start": 12, "end": 20, "label": "DOMAIN_NAME", "entity": "zubie.co"}
+            {"start": 5, "end": 39, "label": "DOMAIN_NAME", "entity": "http://zubie.co/2014/11/07/110614/"}
         ]
     },
     {
         "text": "[11] http://zubie.co/2014/11/07/110614/ [12] 2014/10 SBD post[13] 2014/10 asdl post",
         "annotations": [
-            {"start": 12, "end": 38, "label": "URL", "entity": "zubie.co/2014/11/07/110614"}
+            {"start": 5, "end": 39, "label": "URL", "entity": "http://zubie.co/2014/11/07/110614/"}
         ]
     },
     {
