@@ -208,5 +208,47 @@
     "annotations": [
         {"start": 60, "end": 97, "label": "FILE_PATH", "entity": "%temp% directory with the name: 1.bat"}
     ]
-    }
+    },
+    {
+        "text": "FireEye Labs is detecting a significant spike in Locky ransomware downloaders due to a pair of concurrent email spam campaigns impacting users in over 50 countries.",
+        "annotations": [
+          {"start": 49, "end": 65, "label": "MALWARE_NAME", "entity": "Locky ransomware"}
+        ]
+      },
+    {
+    "text": "Prior to Locky’s emergence in February 2016, Dridex was known to be responsible for a relatively higher volume of email spam campaigns.",
+    "annotations": [
+        {"start": 45, "end": 51, "label": "ACTOR", "entity": "Dridex"}
+    ]
+    },
+    {
+        "text": "The malware communicates with the following hard-coded hosts using HTTP over TCP port 80. The malware also uses a domain name generation algorithm as described below. 188.138.88.184 31.41.47.37 5.34.183.136 91.121.97.170",
+        "annotations": [
+          {"start": 167, "end": 181, "label": "IP", "entity": "188.138.88.184"},
+          {"start": 182, "end": 193, "label": "IP", "entity": "31.41.47.37"},
+          {"start": 194, "end": 206, "label": "IP", "entity": "5.34.183.136"},
+          {"start": 207, "end": 220, "label": "IP", "entity": "91.121.97.170"}
+        ]
+    },
+    {
+    "text": "Technical Analysis of a Locky Payload Sample MD5 Sum: 3F118D0B888430AB9F58FC2589207988 (First seen on 2016-02-24 in VirusTotal)",
+    "annotations": [
+        {"start": 54, "end": 86, "label": "HASH_VAL", "entity": "3F118D0B888430AB9F58FC2589207988"}
+    ]
+    },
+    {
+        "text": "The malware contains the ability to install the following registry key for persistence; this functionality is disabled in this variant. HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Locky HKCU\\Software\\Locky HKCU\\Control Panel\\Desktop\\Wallpaper is set to: %CSIDL_DESKTOPDIRECTORY%\\_Locky_recover_instructions.bmp",
+        "annotations": [
+          {"start": 136, "end": 192, "label": "REG_KEY", "entity": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Locky"},
+          {"start": 193, "end": 212, "label": "REG_KEY", "entity": "HKCU\\Software\\Locky"},
+          {"start": 213, "end": 249, "label": "REG_KEY", "entity": "HKCU\\Control Panel\\Desktop\\Wallpaper"}
+        ]
+    },
+    {
+    "text": "The malware drops a ransom note provided by the C2 server in all directories with encrypted files and on the desktop of the current user: _Locky_recover_instructions.txt The malware drops an image on the desktop of the current user: _Locky_recover_instructions.bmp",
+    "annotations": [
+        {"start": 138, "end": 169, "label": "FILE_PATH", "entity": "_Locky_recover_instructions.txt"},
+        {"start": 233, "end": 264, "label": "FILE_PATH", "entity": "_Locky_recover_instructions.bmp"}
+    ]
+    }    
 ]
