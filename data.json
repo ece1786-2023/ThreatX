@@ -145,259 +145,427 @@
     {
         "text": "The said file is now detected by Trend Micro as TROJ_DROPPER.HXK. Such spam messages are also already blocked through the Smart Protection Network.",
         "annotations": [
-          {"start": 48, "end": 63, "label": "MALWARE_NAME", "entity": "TROJ_DROPPER.HXK"}
+            {
+                "start": 48,
+                "end": 63,
+                "label": "MALWARE_NAME",
+                "entity": "TROJ_DROPPER.HXK"
+            }
         ]
     },
     {
-    "text": "The Angler exploit has been linked to several high­-profile ransomware campaigns, including both CryptoWall and TeslaCrypt. Angler is widely recognized as one of the most advanced and exploit kits on the market — making the information Talos disseminated all the more important for analysts and engineers who are working to protect their company systems from attacks.",
-    "annotations": [
-        {"start": 97, "end": 106, "label": "ACTOR", "entity": "CryptoWall"},
-        {"start": 112, "end": 121, "label": "ACTOR", "entity": "TeslaCrypt"}
-    ]
+        "text": "The Angler exploit has been linked to several high­-profile ransomware campaigns, including both CryptoWall and TeslaCrypt. Angler is widely recognized as one of the most advanced and exploit kits on the market — making the information Talos disseminated all the more important for analysts and engineers who are working to protect their company systems from attacks.",
+        "annotations": [
+            {
+                "start": 97,
+                "end": 106,
+                "label": "ACTOR",
+                "entity": "CryptoWall"
+            },
+            {
+                "start": 112,
+                "end": 121,
+                "label": "ACTOR",
+                "entity": "TeslaCrypt"
+            }
+        ]
     },
     {
         "text": "Sometime during the middle of September, the Colorado-based health service provider AspenPointe suffered a data breach. TheHuntsville City school district, one of the largest in Alabama, has been forced to close. At least 5 individuals have been arrested by the Louisiana Cyber Crime Unit, following an investigation into the online exploitation of children.",
         "annotations": [
-          {"start": 45, "end": 52, "label": "GEO_LOCATION", "entity": "Colorado"},
-          {"start": 178, "end": 184, "label": "GEO_LOCATION", "entity": "Alabama"},
-          {"start": 262, "end": 270, "label": "GEO_LOCATION", "entity": "Louisiana"}
+            {
+                "start": 45,
+                "end": 52,
+                "label": "GEO_LOCATION",
+                "entity": "Colorado"
+            },
+            {
+                "start": 178,
+                "end": 184,
+                "label": "GEO_LOCATION",
+                "entity": "Alabama"
+            },
+            {
+                "start": 262,
+                "end": 270,
+                "label": "GEO_LOCATION",
+                "entity": "Louisiana"
+            }
         ]
     },
     {
         "text": "the Log4j vulnerability CVE-2021-44228, dubbed “Log4Shell.” This vulnerability has the highest possible critical severity...We’ve seen a high volume of activity associated with botnets, particularly Mirai and Kinsing (cryptomining). Other payloads we’ve observed have included the use of CobaltStrike, and there have been reports of brand new ransomware families that have emerged using this exploit",
         "annotations": [
-          {"start": 48, "end": 57, "label": "MALWARE_NAME","entity": "Log4Shell"},
-          {"start": 199, "end": 204, "label": "MALWARE_NAME","entity": "Mirai"},
-          {"start": 209, "end": 216, "label": "MALWARE_NAME","entity": "Kinsing"},
-          {"start": 288, "end": 300, "label": "MALWARE_NAME","entity": "CobaltStrike"}
+            {
+                "start": 48,
+                "end": 57,
+                "label": "MALWARE_NAME",
+                "entity": "Log4Shell"
+            },
+            {
+                "start": 199,
+                "end": 204,
+                "label": "MALWARE_NAME",
+                "entity": "Mirai"
+            },
+            {
+                "start": 209,
+                "end": 216,
+                "label": "MALWARE_NAME",
+                "entity": "Kinsing"
+            },
+            {
+                "start": 288,
+                "end": 300,
+                "label": "MALWARE_NAME",
+                "entity": "CobaltStrike"
+            }
         ]
     },
     {
-    "text": "Attackers, purportedly hailing from Korea, are stepping up their Sanny Malware campaign with three new techniques ranging from abusing UAC and targeting Windows 10",
-    "annotations": [
-        {"start": 36, "end": 41, "label": "GEO_LOCATION", "entity": "Korea"},
-        {"start": 65, "end": 78, "label": "MALWARE_NAME", "entity": "Sanny Malware"}
-    ]
+        "text": "Attackers, purportedly hailing from Korea, are stepping up their Sanny Malware campaign with three new techniques ranging from abusing UAC and targeting Windows 10",
+        "annotations": [
+            {
+                "start": 36,
+                "end": 41,
+                "label": "GEO_LOCATION",
+                "entity": "Korea"
+            },
+            {
+                "start": 65,
+                "end": 78,
+                "label": "MALWARE_NAME",
+                "entity": "Sanny Malware"
+            }
+        ]
     },
     {
-    "text": "The group behind Sanny malware attacks has made significant changes to the way it delivers their payload.",
-    "annotations": [
-        {"start": 17, "end": 30, "label": "MALWARE_NAME", "entity": "Sanny malware"}
-    ]
+        "text": "The group behind Sanny malware attacks has made significant changes to the way it delivers their payload.",
+        "annotations": [
+            {
+                "start": 17,
+                "end": 30,
+                "label": "MALWARE_NAME",
+                "entity": "Sanny malware"
+            }
+        ]
     },
     {
-    "text": "This activity shows us that the threat actors using Sanny malware are evolving their malware delivery methods, notably by incorporating UAC bypasses and endpoint evasion techniques.",
-    "annotations": [
-        {"start": 52, "end": 65, "label": "MALWARE_NAME", "entity": "Sanny malware"}
-    ]
+        "text": "This activity shows us that the threat actors using Sanny malware are evolving their malware delivery methods, notably by incorporating UAC bypasses and endpoint evasion techniques.",
+        "annotations": [
+            {
+                "start": 52,
+                "end": 65,
+                "label": "MALWARE_NAME",
+                "entity": "Sanny malware"
+            }
+        ]
     },
     {
-    "text": "The macro leverages the legitimate Microsoft Windows certutil.exe utility to download an encoded Windows Batch (BAT) file from the following URL: http://more.1apps[.]com/1.txt.",
-    "annotations": [
-        {"start": 146, "end": 175, "label": "URL", "entity": "http://more.1apps[.]com/1.txt"}
-    ]
+        "text": "The macro leverages the legitimate Microsoft Windows certutil.exe utility to download an encoded Windows Batch (BAT) file from the following URL: http://more.1apps[.]com/1.txt.",
+        "annotations": [
+            {
+                "start": 146,
+                "end": 175,
+                "label": "URL",
+                "entity": "http://more.1apps[.]com/1.txt"
+            }
+        ]
     },
     {
-    "text": "The attackers, believed to be based in Korea, have targeted English and Russian-language diplomatic victims around the world since 2012.",
-    "annotations": [
-        {"start": 39, "end": 44, "label": "GEO_LOCATION", "entity": "Korea"}
-    ]
+        "text": "The attackers, believed to be based in Korea, have targeted English and Russian-language diplomatic victims around the world since 2012.",
+        "annotations": [
+            {
+                "start": 39,
+                "end": 44,
+                "label": "GEO_LOCATION",
+                "entity": "Korea"
+            }
+        ]
     },
     {
-    "text": "The macro then decodes the encoded file and drops it in the %temp% directory with the name: 1.bat.",
-    "annotations": [
-        {"start": 60, "end": 97, "label": "FILE_PATH", "entity": "%temp% directory with the name: 1.bat"}
-    ]
+        "text": "The macro then decodes the encoded file and drops it in the %temp% directory with the name: 1.bat.",
+        "annotations": [
+            {
+                "start": 60,
+                "end": 97,
+                "label": "FILE_PATH",
+                "entity": "%temp% directory with the name: 1.bat"
+            }
+        ]
     },
     {
         "text": "FireEye Labs is detecting a significant spike in Locky ransomware downloaders due to a pair of concurrent email spam campaigns impacting users in over 50 countries.",
         "annotations": [
-          {"start": 49, "end": 65, "label": "MALWARE_NAME", "entity": "Locky ransomware"}
+            {
+                "start": 49,
+                "end": 65,
+                "label": "MALWARE_NAME",
+                "entity": "Locky ransomware"
+            }
         ]
-      },
+    },
     {
-    "text": "Prior to Locky’s emergence in February 2016, Dridex was known to be responsible for a relatively higher volume of email spam campaigns.",
-    "annotations": [
-        {"start": 45, "end": 51, "label": "ACTOR", "entity": "Dridex"}
-    ]
+        "text": "Prior to Locky’s emergence in February 2016, Dridex was known to be responsible for a relatively higher volume of email spam campaigns.",
+        "annotations": [
+            {
+                "start": 45,
+                "end": 51,
+                "label": "ACTOR",
+                "entity": "Dridex"
+            }
+        ]
     },
     {
         "text": "The malware communicates with the following hard-coded hosts using HTTP over TCP port 80. The malware also uses a domain name generation algorithm as described below. 188.138.88.184 31.41.47.37 5.34.183.136 91.121.97.170",
         "annotations": [
-          {"start": 167, "end": 181, "label": "IP", "entity": "188.138.88.184"},
-          {"start": 182, "end": 193, "label": "IP", "entity": "31.41.47.37"},
-          {"start": 194, "end": 206, "label": "IP", "entity": "5.34.183.136"},
-          {"start": 207, "end": 220, "label": "IP", "entity": "91.121.97.170"}
+            {
+                "start": 167,
+                "end": 181,
+                "label": "IP",
+                "entity": "188.138.88.184"
+            },
+            {
+                "start": 182,
+                "end": 193,
+                "label": "IP",
+                "entity": "31.41.47.37"
+            },
+            {
+                "start": 194,
+                "end": 206,
+                "label": "IP",
+                "entity": "5.34.183.136"
+            },
+            {
+                "start": 207,
+                "end": 220,
+                "label": "IP",
+                "entity": "91.121.97.170"
+            }
         ]
     },
     {
-    "text": "Technical Analysis of a Locky Payload Sample MD5 Sum: 3F118D0B888430AB9F58FC2589207988 (First seen on 2016-02-24 in VirusTotal)",
-    "annotations": [
-        {"start": 54, "end": 86, "label": "HASH_VAL", "entity": "3F118D0B888430AB9F58FC2589207988"}
-    ]
+        "text": "Technical Analysis of a Locky Payload Sample MD5 Sum: 3F118D0B888430AB9F58FC2589207988 (First seen on 2016-02-24 in VirusTotal)",
+        "annotations": [
+            {
+                "start": 54,
+                "end": 86,
+                "label": "HASH_VAL",
+                "entity": "3F118D0B888430AB9F58FC2589207988"
+            }
+        ]
     },
     {
         "text": "The malware contains the ability to install the following registry key for persistence; this functionality is disabled in this variant. HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Locky HKCU\\Software\\Locky HKCU\\Control Panel\\Desktop\\Wallpaper is set to: %CSIDL_DESKTOPDIRECTORY%\\_Locky_recover_instructions.bmp",
         "annotations": [
-          {"start": 136, "end": 192, "label": "REG_KEY", "entity": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Locky"},
-          {"start": 193, "end": 212, "label": "REG_KEY", "entity": "HKCU\\Software\\Locky"},
-          {"start": 213, "end": 249, "label": "REG_KEY", "entity": "HKCU\\Control Panel\\Desktop\\Wallpaper"}
+            {
+                "start": 136,
+                "end": 192,
+                "label": "REG_KEY",
+                "entity": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Locky"
+            },
+            {
+                "start": 193,
+                "end": 212,
+                "label": "REG_KEY",
+                "entity": "HKCU\\Software\\Locky"
+            },
+            {
+                "start": 213,
+                "end": 249,
+                "label": "REG_KEY",
+                "entity": "HKCU\\Control Panel\\Desktop\\Wallpaper"
+            }
         ]
     },
     {
-        "text": "On Sunday, Dec. 13, FireEye released information related to a breach and data exfiltration originating from an unknown actor FireEye is calling UNC2452. Unit 42 tracks this and related activity as the SolarStorm. According to FireEye, SolarStorm has compromised organizations across the globe via a supply chain attack that consists of a trojanized update file for the SolarWinds Orion Platform.", 
+        "text": "On Sunday, Dec. 13, FireEye released information related to a breach and data exfiltration originating from an unknown actor FireEye is calling UNC2452. Unit 42 tracks this and related activity as the SolarStorm. According to FireEye, SolarStorm has compromised organizations across the globe via a supply chain attack that consists of a trojanized update file for the SolarWinds Orion Platform.",
         "annotations": [
-            {"start": 201, "end": 211, "label": "ACTOR", "entity": "SolarStorm"}, 
-            {"start": 235, "end": 245, "label": "ACTOR", "entity": "SolarStorm"}
-        ]
-    }, 
-    {
-        "text": "SolarStorm threat actors created a legitimate digitally signed backdoor, SUNBURST, as a trojanized version of a SolarWinds Orion plug-in. The trojanized software acts as a powerful supply chain infiltration mechanism for delivery.", 
-        "annotations": [
-            {"start": 73, "end": 81, "label": "MALWARE_NAME", "entity": "SUNBURST"}
-        ]
-    }, 
-    {
-        "text": "DGA-generated C2s as subdomains of:avsvmcloud.com C2 domain for malware to connect to, retrieved via CNAME from DGA-generated C2.", 
-        "annotations": [{"start": 35, "end": 49, "label": "IP_ADDRESSES", "entity": "avsvmcloud.com"}
-        ]
-    }, 
-    {
-        "text": "C2 domain for malware to connect to, retrieved via CNAME from DGA-generated C2:freescanonline.com, deftsecurity.com, thedoccloud.com, websitetheme.com, highdatabase.com, incomeupdate.com, databasegalore.com, panhardware.com, Zupertech.com, Virtualdataserver.com, digitalcollege.org", 
-        "annotations": [
-            {"start": 79, "end": 97, "label": "DOMAIN_NAME", "entity": "freescanonline.com"}, 
-            {"start": 99, "end": 115, "label": "DOMAIN_NAME", "entity": "deftsecurity.com"}, 
-            {"start": 117, "end": 132, "label": "DOMAIN_NAME", "entity": "thedoccloud.com"}, 
-            {"start": 134, "end": 150, "label": "DOMAIN_NAME", "entity": "websitetheme.com"}, 
-            {"start": 152, "end": 168, "label": "DOMAIN_NAME", "entity": "highdatabase.com"}, 
-            {"start": 170, "end": 186, "label": "DOMAIN_NAME", "entity": "incomeupdate.com"}, 
-            {"start": 188, "end": 206, "label": "DOMAIN_NAME", "entity": "databasegalore.com"}, 
-            {"start": 208, "end": 223, "label": "DOMAIN_NAME", "entity": "panhardware.com"}, 
-            {"start": 225, "end": 238, "label": "DOMAIN_NAME", "entity": "Zupertech.com"}, 
-            {"start": 240, "end": 261, "label": "DOMAIN_NAME", "entity": "Virtualdataserver.com"}, 
-            {"start": 263, "end": 281, "label": "DOMAIN_NAME", "entity": "digitalcollege.org"}
-        ]
-    }, 
-    {
-        "text": "At the time of this publication, the Windows Installer Patch file including the trojanized version of the SolarWinds Orion product was still reachable:Filename: SolarWinds-Core-v2019.4.5220-Hotfix5.mspSHA-256: d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600 This installer contains: Legitimate SolarWinds Orion update components. A digitally signed SUNBURST backdoor, and its configuration files: SHA-256: 32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77 Filename: SolarWinds.Orion.Core.BusinessLayer.dll Certificate SN: 0f:e9:73:75:20:22:a6:06:ad:f2:a3:6e:34:5d:c0:ed SHA-256: efbec6863f4330dbb702cc43a85a0a7c29d79fde0f7d66eac9a3be43493cab4f Filename: SolarWinds.Orion.Core.BusinessLayer.dll.config", 
-        "annotations": [
-            {"start": 210, "end": 274, "label": "HASH_VALUES", "entity": "d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600"}, 
-            {"start": 423, "end": 487, "label": "HASH_VALUES", "entity": "32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77"}, 
-            {"start": 611, "end": 675, "label": "HASH_VALUES", "entity": "efbec6863f4330dbb702cc43a85a0a7c29d79fde0f7d66eac9a3be43493cab4f"}
+            {
+                "start": 201,
+                "end": 211,
+                "label": "ACTOR",
+                "entity": "SolarStorm"
+            },
+            {
+                "start": 235,
+                "end": 245,
+                "label": "ACTOR",
+                "entity": "SolarStorm"
+            }
         ]
     },
     {
-        "text": "The infrastructure related to this series of attacks includes:Trojanized update file hosted at:hxxps://downloads.solarwinds.com/solarwinds/CatalogResources/Core/2019.4/2019.4.5220.20574/SolarWinds-Core-v2019.4.5220-Hotfix5.msp", 
-        "annotations": [{"start": 95, "end": 226, "label": "FILE_PATH", "entity": "hxxps://downloads.solarwinds.com/solarwinds/CatalogResources/Core/2019.4/2019.4.5220.20574/SolarWinds-Core-v2019.4.5220-Hotfix5.msp"}
+        "text": "SolarStorm threat actors created a legitimate digitally signed backdoor, SUNBURST, as a trojanized version of a SolarWinds Orion plug-in. The trojanized software acts as a powerful supply chain infiltration mechanism for delivery.",
+        "annotations": [
+            {
+                "start": 73,
+                "end": 81,
+                "label": "MALWARE_NAME",
+                "entity": "SUNBURST"
+            }
         ]
     },
     {
-        "text": "In a report [1] by US TV show \\u201c60 Minutes\\u201d about DARPA and the Internet of Things, the Department of Defence has shown that it can hack the General Motors OnStar.",
+        "text": "DGA-generated C2s as subdomains of:avsvmcloud.com C2 domain for malware to connect to, retrieved via CNAME from DGA-generated C2.",
         "annotations": [
-            {"start": 59, "end": 64, "label": "ACTOR", "entity": "DARPA"}
+            {
+                "start": 35,
+                "end": 49,
+                "label": "DOMAIN_NAME",
+                "entity": "avsvmcloud.com"
+            }
         ]
     },
     {
-        "text": "[2] www.darpa.mil/default.aspx [3] https://www.onstar.com/us/en/home.html[4] http://www.darpa.mil/Our_Work/I2O/Programs/High.",
+        "text": "C2 domain for malware to connect to, retrieved via CNAME from DGA-generated C2:freescanonline.com, deftsecurity.com, thedoccloud.com, websitetheme.com, highdatabase.com, incomeupdate.com, databasegalore.com, panhardware.com, Zupertech.com, Virtualdataserver.com, digitalcollege.org",
         "annotations": [
-            {"start": 4, "end": 30, "label": "DOMAIN_NAME", "entity": "www.darpa.mil/default.aspx"},
-            {"start": 76, "end": 123, "label": "DOMAIN_NAME", "entity": "http://www.darpa.mil/Our_Work/I2O/Programs/High"}
+            {
+                "start": 79,
+                "end": 97,
+                "label": "DOMAIN_NAME",
+                "entity": "freescanonline.com"
+            },
+            {
+                "start": 99,
+                "end": 115,
+                "label": "DOMAIN_NAME",
+                "entity": "deftsecurity.com"
+            },
+            {
+                "start": 117,
+                "end": 132,
+                "label": "DOMAIN_NAME",
+                "entity": "thedoccloud.com"
+            },
+            {
+                "start": 134,
+                "end": 150,
+                "label": "DOMAIN_NAME",
+                "entity": "websitetheme.com"
+            },
+            {
+                "start": 152,
+                "end": 168,
+                "label": "DOMAIN_NAME",
+                "entity": "highdatabase.com"
+            },
+            {
+                "start": 170,
+                "end": 186,
+                "label": "DOMAIN_NAME",
+                "entity": "incomeupdate.com"
+            },
+            {
+                "start": 188,
+                "end": 206,
+                "label": "DOMAIN_NAME",
+                "entity": "databasegalore.com"
+            },
+            {
+                "start": 208,
+                "end": 223,
+                "label": "DOMAIN_NAME",
+                "entity": "panhardware.com"
+            },
+            {
+                "start": 225,
+                "end": 238,
+                "label": "DOMAIN_NAME",
+                "entity": "Zupertech.com"
+            },
+            {
+                "start": 240,
+                "end": 261,
+                "label": "DOMAIN_NAME",
+                "entity": "Virtualdataserver.com"
+            },
+            {
+                "start": 263,
+                "end": 281,
+                "label": "DOMAIN_NAME",
+                "entity": "digitalcollege.org"
+            }
         ]
     },
     {
-        "text": "[6] www.darpa.mil/WorkArea/DownloadAsset.aspx?id=2147484449 [7]https://www.youtube.com/watch?v=bHfOziIwXic[8]http://en.wikipedia.org/wiki/Buffer_overflow[9]http://en.wikipedia.org/wiki/CAN_bus[10]http://en.wikipedia.org/wiki/Engine_control_unit[11]http://zubie.co/2014/11/07/110614/[12]",
+        "text": "At the time of this publication, the Windows Installer Patch file including the trojanized version of the SolarWinds Orion product was still reachable:Filename: SolarWinds-Core-v2019.4.5220-Hotfix5.mspSHA-256: d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600 This installer contains: Legitimate SolarWinds Orion update components. A digitally signed SUNBURST backdoor, and its configuration files: SHA-256: 32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77 Filename: SolarWinds.Orion.Core.BusinessLayer.dll Certificate SN: 0f:e9:73:75:20:22:a6:06:ad:f2:a3:6e:34:5d:c0:ed SHA-256: efbec6863f4330dbb702cc43a85a0a7c29d79fde0f7d66eac9a3be43493cab4f Filename: SolarWinds.Orion.Core.BusinessLayer.dll.config",
         "annotations": [
-            {"start": 4, "end": 59, "label": "URL", "entity": "www.darpa.mil/WorkArea/DownloadAsset.aspx?id=2147484449"}
-        ]
-    },
-    {"text": "[11] http://zubie.co/2014/11/07/110614/ [12]",
-        "annotations": [
-            {"start": 5, "end": 39, "label": "DOMAIN_NAME", "entity": "http://zubie.co/2014/11/07/110614/"}
-        ]
-    },
-    {
-        "text": "[11] http://zubie.co/2014/11/07/110614/ [12] 2014/10 SBD post[13] 2014/10 asdl post",
-        "annotations": [
-            {"start": 5, "end": 39, "label": "URL", "entity": "http://zubie.co/2014/11/07/110614/"}
-        ]
-    },
-    {
-        "text": "Published date: 12 February 2015 Written by: Andy Davis Share this:TwitterRedditLinkedInFacebookLike this:Like Loading",
-        "annotations": [
-            {"start": 45, "end": 55, "label": "ACTOR", "entity": "Andy Davis"}
-        ]
-    },
-    {
-        "text": "Published by Andy Davis View all posts by Andy Davis Published February 12, 2015December 9, 2020",
-        "annotations": [
-            {"start": 13, "end": 23, "label": "EMAIL_ADDRESSES", "entity": "Andy Davis"},
-            {"start": 42, "end": 52, "label": "EMAIL_ADDRESSES", "entity": "Andy Davis"}
+            {
+                "start": 210,
+                "end": 274,
+                "label": "HASH_VAL",
+                "entity": "d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600"
+            },
+            {
+                "start": 423,
+                "end": 487,
+                "label": "HASH_VAL",
+                "entity": "32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77"
+            },
+            {
+                "start": 611,
+                "end": 675,
+                "label": "HASH_VAL",
+                "entity": "efbec6863f4330dbb702cc43a85a0a7c29d79fde0f7d66eac9a3be43493cab4f"
+            }
         ]
     },
     {
-        "text": "This week we participated in Security Leaders 2014 in  Sao Paulo, Brazil , an annual gathering and exhibition to discuss information security and risk for enterprises, and featuring about 3,000 security professionals from the region. Check out some snaps from our time there below:",
+        "text": "The infrastructure related to this series of attacks includes:Trojanized update file hosted at:hxxps://downloads.solarwinds.com/solarwinds/CatalogResources/Core/2019.4/2019.4.5220.20574/SolarWinds-Core-v2019.4.5220-Hotfix5.msp",
         "annotations": [
-            {"start": 55, "end": 64, "label": "Geo-location", "entity": "Sao Paulo"},
-            {"start": 66, "end": 72, "label": "Geo-location", "entity": "Brazil"}
+            {
+                "start": 95,
+                "end": 226,
+                "label": "URL",
+                "entity": "hxxps://downloads.solarwinds.com/solarwinds/CatalogResources/Core/2019.4/2019.4.5220.20574/SolarWinds-Core-v2019.4.5220-Hotfix5.msp"
+            }
         ]
     },
     {
         "text": "In Jan 2021, Zscaler ThreatLabZ discovered new instances of the  MINEBRIDGE remote-access Trojan (RAT)  embedded in macro-based Word document files crafted to look like valid job resumes (CVs). Such lures are often used as social engineering schemes by threat actors. MINEBRIDGE buries itself into the vulnerable remote desktop software TeamViewer, enabling the threat actor to take a wide array of remote follow-on actions such as spying on users or deploying additional malware.",
         "annotations": [
-            {"start": 65, "end": 75, "label": "MALWARE_NAME", "entity": "MINEBRIDGE"},
-            {"start": 268, "end": 278, "label": "Geo-MALWARE_NAME", "entity": "MINEBRIDGE"}
+            {
+                "start": 65,
+                "end": 75,
+                "label": "MALWARE_NAME",
+                "entity": "MINEBRIDGE"
+            },
+            {
+                "start": 268,
+                "end": 278,
+                "label": "MALWARE_NAME",
+                "entity": "MINEBRIDGE"
+            }
         ]
     },
     {
         "text": "This attack was likely carried out by  TA505 , a financially motivated threat group that has been active since at least 2014. TA505 has been previously linked to very similar attacks using MINEBRIDGE RAT.",
         "annotations": [
-            {"start": 39, "end": 44, "label": "ACTOR", "entity": "TA505"},
-            {"start": 126, "end": 131, "label": "ACTOR", "entity": "TA505"}
+            {
+                "start": 39,
+                "end": 44,
+                "label": "ACTOR",
+                "entity": "TA505"
+            },
+            {
+                "start": 126,
+                "end": 131,
+                "label": "ACTOR",
+                "entity": "TA505"
+            }
         ]
     },
     {
         "text": "This command leverages the Windows utility finger.exe to download encoded content from the  IP address: 184.164.146.102  and drops it in the %appdata% directory.",
         "annotations": [
-            {"start": 104, "end": 119, "label": "IP_ADDRESSES", "entity": "184.164.146.102"}
-        ]
-    },
-    {
-        "text": "Trustwave held a roundtable in South Africa on May 23, 2013, to discuss the war on cybercrime and the role of compliance in reducing credit card fraud. The panel was hosted by  Andrew Kirkland, country manager for Trustwave in South Africa , and Michael Aminzade, Director of Delivery EMEA at Trustwave, and included notaries from VISA, South African Centre for Information Security, SABRIC and the University of Pretoria.",
-        "annotations": [
-            {"start": 0, "end": 9, "label": "ACTOR", "entity": "Trustwave"},
-            {"start": 214, "end": 223, "label": "ACTOR", "entity": "Trustwave"},
-            {"start": 293, "end": 302, "label": "ACTOR", "entity": "Trustwave"}]},
-    {
-        "text": "Developers take shortcuts and this is where cybercrime focuses its efforts - on those weaknesses in code where rushed solutions have flaws they can exploit, says  Trustwaves Kirkland . The infiltrators know that deadlines, financial pressures and urgency can push developers to overlook aspects of their code. We need to stop taking shortcuts and start treating the data we have as valuable.",
-        "annotations": [
-            {"start": 163, "end": 172, "label": "ACTOR", "entity": "Trustwave"}
-        ]
-    },
-    {"text": "Its not if you get hacked, but when, concludes  Aminzade , Businesses need to ask what message they can give to their customers to show them that they are protected, that they have put measures in place to protect data and that they are able to respond to an issue quickly and correctly.",
-        "annotations": [
-            {"start": 48, "end": 56, "label": "ACTOR", "entity": "Aminzade"}
-        ]
-    }, {
-    "text": "Trustwave held a roundtable in  South Africa  on May 23, 2013, to discuss the war on cybercrime and the role of compliance in reducing credit card fraud.",
-    "annotations": [
-        {"start": 32, "end": 44, "label": "GEO_LOCATION", "entity": "South Africa"}
-    ]
-}, {"text": "share  email  Trustwave held a roundtable in South Africa on May 23, 2013, to discuss the war on cybercrime and the role of compliance in reducing credit card fraud.",
-    "annotations": [
-        {"start": 7, "end": 12, "label": "EMAIL_ADDRESSES", "entity": "email"}
-    ]
-},
-    {
-        "text": "Related Media Coverage:  Tech Central  - Joint action needed on cyber crime  News24  - Education key to SA Cyber threat  News24  - Take cybercrime seriously, urge experts  IT Web  - SA needs offensive cyber warriors",
-        "annotations": [
-            {"start": 77, "end": 83, "label": "DOMAIN_NAME", "entity": "News24"},
-            {"start": 121, "end": 127, "label": "DOMAIN_NAME", "entity": "News24"},
-            {"start": 25, "end": 37, "label": "DOMAIN_NAME", "entity": "Tech Central"},
-            {"start": 172, "end": 178, "label": "DOMAIN_NAME", "entity": "IT Web"}]},
-    {
-        "text": "Copyright \\u00a9  www.trustwave.com  Holdings, Inc. All rights reserved.",
-        "annotations": [
-            {"start": 13, "end": 30, "label": "URL", "entity": "www.trustwave.com"}
+            {
+                "start": 104,
+                "end": 119,
+                "label": "IP",
+                "entity": "184.164.146.102"
+            }
         ]
     }
 ]
