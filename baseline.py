@@ -116,24 +116,17 @@ import spacy
 from spacy.scorer import Scorer
 from spacy.training.example import Example
 
-def evaluate(ner_model, test_data):
-    scorer = Scorer(ner_model)
-    examples = []
-    for data in test_data:
-      input_ = data['text']
-      annot = dict()
-      annot['entities'] = [(i, j+1, k) for i, j, k in data['entities']]
-      # print(annot)
-      doc = ner_model.make_doc(input_)
-      example = Example.from_dict(doc, annot)
-      print(example.reference.ents)
-      examples.append(example)
-      doc = ner_model(input_)
-      print(doc.ents)
-      spacy.displacy.render(doc, style="ent", options= options, jupyter=True)
-    print(examples)
-    ret = scorer.score(examples)
-    return ret
+def evaluate(nlp_ner, test_data):
+  scorer = Scorer()
+  example = []
+  for obs in test_data:
+    # print('Input for a prediction:', obs['text'])
+    pred = nlp_ner(obs['text'])  ## custom_nlp is the custome model I am using to generate docs
+    # print('Predicted based off of input:', pred, '// Entities being reviewed:', obs['entities'])
+    temp = Example.from_dict(pred, {'entities': obs['entities']})
+    example.append(temp)
+  scores = scorer.score_spans(example, "ents")
+  return scores
 
 # example run
 results = evaluate(nlp_ner, test)
