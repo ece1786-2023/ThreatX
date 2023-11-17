@@ -1,0 +1,69 @@
+#copy the code to colab for running
+!pip install -U spacy
+
+!python -m spacy download en_core_web_sm
+
+import json
+
+train_file = "data.json"
+with open(train_file, 'r') as json_file:
+    data = json.load(json_file)
+
+def extract_entities(annotation):
+    start = annotation['start']
+    end = annotation['end']
+    label = annotation['label'].upper()
+    return start, end, label
+
+def process_example(example):
+    entities = [extract_entities(annotation) for annotation in example['annotations']]
+    return {
+        'text': example['text'],
+        'entities': entities
+    }
+
+training_data = [process_example(example) for example in data]
+
+def process_training_example(nlp, training_example):
+    text = training_example['text']
+    labels = training_example['entities']
+    doc = nlp.make_doc(text)
+    entities = []
+    
+    for start, end, label in labels:
+        span = doc.char_span(start, end, label=label, alignment_mode="contract")
+        if span is None:
+          span1 = doc.char_span(start, end+1, label=label, alignment_mode="contract")
+          if span1 is None:
+            print(f"Skipping invalid entity: {label} [{start}:{end}]")
+          else:
+            entities.append(span1)
+        else:
+            entities.append(span)
+    
+    filtered_entities = spacy.util.filter_spans(entities)
+    doc.ents = filtered_entities
+    return doc
+
+import spacy
+from spacy.tokens import DocBin
+from tqdm import tqdm
+# Load a new spaCy model
+nlp = spacy.blank("en")
+
+# Create a DocBin to store processed documents
+doc_bin = DocBin()
+
+# Process training data and add to DocBin
+for training_example in tqdm(training_data, desc="Processing training data"):
+    processed_doc = process_training_example(nlp, training_example)
+    doc_bin.add(processed_doc)
+
+# Save the processed documents to disk
+doc_bin.to_disk("train.spacy")
+
+#initialize config
+!python -m spacy init fill-config base_config.cfg base_config.cfg
+
+#train
+!python -m spacy train base_config.cfg --output ./output --paths.train /content/train.spacy --paths.dev /content/train.spacy
