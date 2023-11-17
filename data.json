@@ -173,25 +173,9 @@
         ]
     },
     {
-        "text": "Apache Log4j is an open-source logging library used in millions of JAVA projects, including a substantial percentage of enterprise applications and cloud services",
-        "annotations": [
-        {"start": 0, "end": 12, "label": "REGISTRY_KEYS", "entity": "Log4j"}
-    ]
-    },
-    {
-        "text": "Sign In admin.zscaler.net admin.zscalerone.net admin.zscalertwo.net admin.zscalerthree.net admin.zscalerbeta.net admin.zscloud.net Zscaler Private Access",
-        "annotations": [
-        {"start": 8, "end": 25, "label": "DOMAIN_NAME", "entity": "admin.zscaler.net"},
-        {"start": 26, "end": 46, "label": "DOMAIN_NAME", "entity": "admin.zscalerone.net"},
-        {"start": 47, "end": 67, "label": "DOMAIN_NAME", "entity": "admin.zscalertwo.net"},
-        {"start": 68, "end": 90, "label": "DOMAIN_NAME", "entity": "admin.zscalerthree.net"},
-        {"start": 91, "end": 112, "label": "DOMAIN_NAME", "entity": "admin.zscalerbeta.net"},
-        {"start": 113, "end": 130, "label": "DOMAIN_NAME", "entity": "admin.zscloud.net"}
-    ]
-    },
-    {
     "text": "Attackers, purportedly hailing from Korea, are stepping up their Sanny Malware campaign with three new techniques ranging from abusing UAC and targeting Windows 10",
     "annotations": [
+        {"start": 36, "end": 41, "label": "GEO_LOCATION", "entity": "Korea"},
         {"start": 65, "end": 78, "label": "MALWARE_NAME", "entity": "Sanny Malware"}
     ]
     },
@@ -199,30 +183,6 @@
     "text": "The group behind Sanny malware attacks has made significant changes to the way it delivers their payload.",
     "annotations": [
         {"start": 17, "end": 30, "label": "MALWARE_NAME", "entity": "Sanny malware"}
-    ]
-    },
-    {
-    "text": "The earlier malware delivery method used to spread Sanny malware was not multi stage.",
-    "annotations": [
-        {"start": 51, "end": 64, "label": "MALWARE_NAME", "entity": "Sanny malware"}
-    ]
-    },
-    {
-    "text": "In the case of Sanny, the CAB file contained several malicious functions including delivering “ipnet.dlle” (the Sanny malware) and “ipnet.ini” (a configuration file used by the malware).",
-    "annotations": [
-        {"start": 112, "end": 125, "label": "MALWARE_NAME", "entity": "Sanny malware"}
-    ]
-    },
-    {
-    "text": "Beyond the delivery method, the final payload (ipnet.dll/Sanny) has not changed since the previously observed variants, Singh said.",
-    "annotations": [
-        {"start": 57, "end": 62, "label": "MALWARE_NAME", "entity": "Sanny"}
-    ]
-    },
-    {
-    "text": "Once finally in, the malware harvests everything from Microsoft Outlook accounts and browser data that includes stored username and passwords. Sanny uses FTP as its means to exfiltrate data from the targeted system to the attacker’s command-and-control server.",
-    "annotations": [
-        {"start": 143, "end": 148, "label": "MALWARE_NAME", "entity": "Sanny"}
     ]
     },
     {
@@ -241,12 +201,6 @@
     "text": "The attackers, believed to be based in Korea, have targeted English and Russian-language diplomatic victims around the world since 2012.",
     "annotations": [
         {"start": 39, "end": 44, "label": "GEO_LOCATION", "entity": "Korea"}
-    ]
-    },
-    {
-    "text": "The group behind Sanny malware attacks has made significant changes to the way it delivers their payload.",
-    "annotations": [
-        {"start": 0, "end": 38, "label": "ACTOR", "entity": "The group behind Sanny malware attacks"}
     ]
     },
     {
