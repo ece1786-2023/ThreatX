@@ -290,5 +290,48 @@
         "text": "The infrastructure related to this series of attacks includes:Trojanized update file hosted at:hxxps://downloads.solarwinds.com/solarwinds/CatalogResources/Core/2019.4/2019.4.5220.20574/SolarWinds-Core-v2019.4.5220-Hotfix5.msp", 
         "annotations": [{"start": 95, "end": 226, "label": "FILE_PATH", "entity": "hxxps://downloads.solarwinds.com/solarwinds/CatalogResources/Core/2019.4/2019.4.5220.20574/SolarWinds-Core-v2019.4.5220-Hotfix5.msp"}
         ]
+    },
+    {
+        "text": "In a report [1] by US TV show \\u201c60 Minutes\\u201d about DARPA and the Internet of Things, the Department of Defence has shown that it can hack the General Motors OnStar.",
+        "annotations": [
+            {"start": 49, "end": 54, "label": "ACTOR", "entity": "DARPA"}
+        ]
+    },
+    {
+        "text": "[2] www.darpa.mil/default.aspx[3] https://www.onstar.com/us/en/home.html[4] http://www.darpa.mil/Our_Work/I2O/Programs/High.",
+        "annotations": [
+            {"start": 4, "end": 17, "label": "DOMAIN_NAME", "entity": "www.darpa.mil"},
+            {"start": 83, "end": 96, "label": "DOMAIN_NAME", "entity": "www.darpa.mil"}
+        ]
+    },
+    {
+        "text": "[6] www.darpa.mil/WorkArea/DownloadAsset.aspx?id=2147484449[7]https://www.youtube.com/watch?v=bHfOziIwXic[8]http://en.wikipedia.org/wiki/Buffer_overflow[9]http://en.wikipedia.org/wiki/CAN_bus[10]http://en.wikipedia.org/wiki/Engine_control_unit[11]http://zubie.co/2014/11/07/110614/[12]",
+        "annotations": [
+            {"start": 4, "end": 59, "label": "URL", "entity": "www.darpa.mil/WorkArea/DownloadAsset.aspx?id=2147484449"}
+        ]
+    },
+    {"text": "[11] http://zubie.co/2014/11/07/110614/[12]",
+        "annotations": [
+            {"start": 12, "end": 20, "label": "DOMAIN_NAME", "entity": "zubie.co"}
+        ]
+    },
+    {
+        "text": "[11] http://zubie.co/2014/11/07/110614/[12] 2014/10 SBD post[13] 2014/10 asdl post",
+        "annotations": [
+            {"start": 12, "end": 38, "label": "URL", "entity": "zubie.co/2014/11/07/110614"}
+        ]
+    },
+    {
+        "text": "Published date: 12 February 2015 Written by: Andy Davis Share this:TwitterRedditLinkedInFacebookLike this:Like Loading",
+        "annotations": [
+            {"start": 45, "end": 55, "label": "ACTOR", "entity": "Andy Davis"}
+        ]
+    },
+    {
+        "text": "Published by Andy Davis View all posts by Andy Davis Published February 12, 2015December 9, 2020",
+        "annotations": [
+            {"start": 13, "end": 23, "label": "EMAIL_ADDRESSES", "entity": "Andy Davis"},
+            {"start": 42, "end": 52, "label": "EMAIL_ADDRESSES", "entity": "Andy Davis"}
+        ]
     }
 ]
