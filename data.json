@@ -243,53 +243,5 @@
           {"start": 193, "end": 212, "label": "REG_KEY", "entity": "HKCU\\Software\\Locky"},
           {"start": 213, "end": 249, "label": "REG_KEY", "entity": "HKCU\\Control Panel\\Desktop\\Wallpaper"}
         ]
-    },
-    {
-        'text': 'On Sunday, Dec. 13, FireEye released information related to a breach and data exfiltration originating from an unknown actor FireEye is calling UNC2452. Unit 42 tracks this and related activity as the SolarStorm. According to FireEye, SolarStorm has compromised organizations across the globe via a supply chain attack that consists of a trojanized update file for the SolarWinds Orion Platform.',
-    'annotations': [
-        {'start': 201, 'end': 211, 'label': 'Actor', 'entity': 'SolarStorm'},
-        {'start': 235, 'end': 245, 'label': 'Actor', 'entity': 'SolarStorm'}
-    ]
-    },
-    {
-        'text': 'SolarStorm threat actors created a legitimate digitally signed backdoor, SUNBURST, as a trojanized version of a SolarWinds Orion plug-in. The trojanized software acts as a powerful supply chain infiltration mechanism for delivery.',
-    'annotations': [
-        {'start': 73, 'end': 81, 'label': 'Malware Names', 'entity': 'SUNBURST'}
-    ]
-    },
-    {
-        'text': 'DGA-generated C2s as subdomains of:avsvmcloud.comC2 domain for malware to connect to, retrieved via CNAME from DGA-generated C2.',
-    'annotations': [
-        {'start': 35, 'end': 49, 'label': 'IP Addresses', 'entity': 'avsvmcloud.com'}
-    ]
-    },
-    {
-        'text': 'C2 domain for malware to connect to, retrieved via CNAME from DGA-generated C2:freescanonline.com, deftsecurity.com, thedoccloud.com, websitetheme.com, highdatabase.com, incomeupdate.com, databasegalore.com, panhardware.com, Zupertech.com, Virtualdataserver.com, digitalcollege.org',
-    'annotations': [
-        {'start': 79, 'end': 97, 'label': 'Domain Names', 'entity': 'freescanonline.com'},
-        {'start': 99, 'end': 115, 'label': 'Domain Names', 'entity': 'deftsecurity.com'},
-        {'start': 117, 'end': 132, 'label': 'Domain Names', 'entity': 'thedoccloud.com'},
-        {'start': 134, 'end': 150, 'label': 'Domain Names', 'entity': 'websitetheme.com'},
-        {'start': 152, 'end': 168, 'label': 'Domain Names', 'entity': 'highdatabase.com'},
-        {'start': 170, 'end': 186, 'label': 'Domain Names', 'entity': 'incomeupdate.com'},
-        {'start': 188, 'end': 206, 'label': 'Domain Names', 'entity': 'databasegalore.com'},
-        {'start': 208, 'end': 223, 'label': 'Domain Names', 'entity': 'panhardware.com'},
-        {'start': 225, 'end': 238, 'label': 'Domain Names', 'entity': 'Zupertech.com'},
-        {'start': 240, 'end': 261, 'label': 'Domain Names', 'entity': 'Virtualdataserver.com'},
-        {'start': 263, 'end': 281, 'label': 'Domain Names', 'entity': 'digitalcollege.org'}
-    ]
-    },
-    {
-        'text': 'At the time of this publication, the Windows Installer Patch file including the trojanized version of the SolarWinds Orion product was still reachable:Filename: SolarWinds-Core-v2019.4.5220-Hotfix5.mspSHA-256: d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600 This installer contains: Legitimate SolarWinds Orion update components. A digitally signed SUNBURST backdoor, and its configuration files: SHA-256: 32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77 Filename: SolarWinds.Orion.Core.BusinessLayer.dll Certificate SN: 0f:e9:73:75:20:22:a6:06:ad:f2:a3:6e:34:5d:c0:ed SHA-256: efbec6863f4330dbb702cc43a85a0a7c29d79fde0f7d66eac9a3be43493cab4f Filename: SolarWinds.Orion.Core.BusinessLayer.dll.config',
-    'annotations': [
-        {'start': 210, 'end': 274, 'label': 'Hash Values', 'entity': 'd0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600'},
-        {'start': 423, 'end': 487, 'label': 'Hash Values', 'entity': '32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77'},
-        {'start': 611, 'end': 675, 'label': 'Hash Values', 'entity': 'efbec6863f4330dbb702cc43a85a0a7c29d79fde0f7d66eac9a3be43493cab4f'}
-    ]
-    },
-    {
-        'text': 'The infrastructure related to this series of attacks includes:Trojanized update file hosted at:hxxps://downloads.solarwinds.com/solarwinds/CatalogResources/Core/2019.4/2019.4.5220.20574/SolarWinds-Core-v2019.4.5220-Hotfix5.msp',
-    'annotations': [{'start': 95, 'end': 226, 'label': 'File Paths', 'entity': 'hxxps://downloads.solarwinds.com/solarwinds/CatalogResources/Core/2019.4/2019.4.5220.20574/SolarWinds-Core-v2019.4.5220-Hotfix5.msp'}
-    ]
     }
 ]
