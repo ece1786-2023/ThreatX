@@ -300,8 +300,8 @@
     {
         "text": "[2] www.darpa.mil/default.aspx[3] https://www.onstar.com/us/en/home.html[4] http://www.darpa.mil/Our_Work/I2O/Programs/High.",
         "annotations": [
-            {"start": 4, "end": 17, "label": "DOMAIN_NAME", "entity": "www.darpa.mil"},
-            {"start": 83, "end": 96, "label": "DOMAIN_NAME", "entity": "www.darpa.mil"}
+            {"start": 4, "end": 30, "label": "DOMAIN_NAME", "entity": "www.darpa.mil/default.aspx"},
+            {"start": 76, "end": 123, "label": "DOMAIN_NAME", "entity": "http://www.darpa.mil/Our_Work/I2O/Programs/High"}
         ]
     },
     {
