@@ -259,7 +259,7 @@
     }, 
     {
         "text": "DGA-generated C2s as subdomains of:avsvmcloud.comC2 domain for malware to connect to, retrieved via CNAME from DGA-generated C2.", 
-        "annotations": [{"start": 35, "end": 49, "label": "IP_ADDRESSES", "entity": "avsvmcloud.com"}
+        "annotations": [{"start": 36, "end": 50, "label": "IP_ADDRESSES", "entity": "avsvmcloud.com"}
         ]
     }, 
     {
