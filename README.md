@@ -9,5 +9,6 @@ Baseline model: baseline.py, 1786modelProj
 
 Config for baseline model training: base_config.cfg  
 
-Fine tune model: FineTuneProjTestILLMA.ipynb  
+Fine tune model Llama: FineTuneProjTestILLMA.ipynb  
 
+Fine tune model distilbert-base-uncased: 1786modelFineTuneProj.ipynb  
