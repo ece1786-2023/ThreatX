@@ -5,7 +5,7 @@ Data format: 1786dataFormatProj.ipynb
 
 Formatted data: data.json  
 
-Baseline model: baseline.py, 1786modelProj  
+Baseline model: baseline.py (for python), 1786modelProj  (for colab)  
 
 Config for baseline model training: base_config.cfg  
 
