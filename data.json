@@ -930,5 +930,130 @@
         "text": "In a spam message about a supposed video of the Large Hadron Collider, recipients were directed to  http://mytinyurl.net/hidden . This URL was part of a malicious campaign, redirecting users to a page that prompted them to download a fake Flash update, which was actually the TDSS-BP malware.",
         "annotations": [{"start": 100, "end": 127, "label": "URL", "entity": "http://mytinyurl.net/hidden"}
         ]
+    },
+    {
+        "text": "SophosLabs reported on another mass-spammed JavaScript redirect attack. The email messages used social engineering to entice users to open an attachment containing HTML files that, when opened in a browser, ran malicious JavaScript. This script redirected users to a remote site showing a please wait page, then redirected again to a fake antivirus (AV) site after a four-second delay. The please wait page also contained an iframe linking to another remote site, likely hosting exploit scripts. Sophos protections against this attack included blocking spam messages, detecting spammed redirects, blocking the redirection page, and the scripts on the fake AV site, and proactively detecting the fake AV payload.",
+        "annotations": [
+            {"start": 44, "end": 54, "label": "MALWARE_NAME", "entity": "JavaScript"},
+            {"start": 221, "end": 231, "label": "MALWARE_NAME", "entity": "JavaScript"}
+        ]
+    },
+    {
+        "text": "In the context of the mass-spammed JavaScript redirects leading to fake antivirus sites, Sophos customers were protected through various measures. This included proactive detection of scripts used on the fake AV site as Mal/FakeAvJs-A and the fake AV payload itself as Mal/FakeAV-EI. Sophos layered protection approach ensured that even before the latest updates, their customers were safeguarded against these attacks through their anti-spam products, URL filtering, and proactive malware detections.",
+        "annotations": [
+            {"start": 220, "end": 234, "label": "MALWARE_NAME", "entity": "Mal/FakeAvJs-A"},
+            {"start": 269, "end": 282, "label": "MALWARE_NAME", "entity": "Mal/FakeAV-EI"}
+        ]
+    },
+    {
+        "text": "SophosLabs encountered an interesting phishing attempt targeting McDonalds customers. The phishing email enticed recipients to complete a survey with the promise of a $90 credit. The email contained a link to a fake survey page about McDonalds products, which, despite being poorly coded and displaying errors, led to a phishing page. This page asked for personal information, including the recipients drivers license, credit card number, and CVV. Sophos provided protection against these emails and advised users to be cautious and think before clicking on such links. The phishing attempt was notable for its improbability and the lure of a high reward for minimal effort, a common tactic in such scams.",
+        "annotations": [
+            {"start": 138, "end": 144, "label": "MALWARE_NAME", "entity": "survey"},
+            {"start": 216, "end": 222, "label": "MALWARE_NAME", "entity": "survey"}
+        ]
+    },
+    {
+        "text": "As news spread amongst the loosely-knit group of Anonymous hackers who support WikiLeaks, websites belonging to the Zimbabwe government and Robert Mugabes ZANU-PF party were hit by distributed denial-of-service (DDoS) attacks and, in the case of the Finance Ministry, defacements.",
+        "annotations": [{"start": 49, "end": 58, "label": "ACTOR", "entity": "Anonymous"}
+        ]
+    },
+    {
+        "text": "The Zimbabwe governments online portal at www.gta.gov.zw and the official ZANU-PF website continue to be offline, and the Finance Ministrys website now displays a message saying it is under maintenance.",
+        "annotations": [{"start": 42, "end": 56, "label": "URL", "entity": "www.gta.gov.zw"}
+        ]
+    },
+    {
+        "text": "Post navigation Previous: Stay alert for prize offers over the New Years holiday Next: Geinimi Android Trojan horse discovered",
+        "annotations": [{"start": 87, "end": 114, "label": "MALWARE_NAME", "entity": "Geinimi Android Trojan hors"}
+        ]
+    },
+    {
+        "text": "A statement published on an Anonymous website offered an explanation for the attacks, which have been dubbed Operation: Zimbabwe.",
+        "annotations": [{"start": 120, "end": 128, "label": "ACTOR", "entity": "Zimbabwe"}
+        ]
+    },
+    {
+        "text": "Rahul Gandhis Website Hacked By TeaMp0isoN - Pak Cyber Army!",
+        "annotations": [{"start": 32, "end": 59, "label": "ACTOR", "entity": "TeaMp0isoN - Pak Cyber Army"}
+        ]
+    },
+    {
+        "text": "Hacked Link: https://www.rahulgandhi.us/in-the-media-cms36",
+        "annotations": [{"start": 13, "end": 58, "label": "URL", "entity": "https://www.rahulgandhi.us/in-the-media-cms36"}
+        ]
+    },
+    {
+        "text": "EBook Link: https://rs221.rapidshare.com/files/356187584/1597494259_PenetrationA.rar",
+        "annotations": [{"start": 12, "end": 84, "label": "URL", "entity": "https://rs221.rapidshare.com/files/356187584/1597494259_PenetrationA.rar"}
+        ]
+    },
+    {
+        "text": "FBI adds 5 Chinese APT41 hackers to its Cybers Most Wanted List",
+        "annotations": [{"start": 19, "end": 24, "label": "ACTOR", "entity": "APT41"}
+        ]
+    },
+    {
+        "text": "Android 11 \\u2014 5 New Security and Privacy Features You Need to Know [URL not provided in the text]",
+        "annotations": [{"start": 67, "end": 95, "label": "URL", "entity": "URL not provided in the text"}
+        ]
+    },
+    {
+        "text": "U.S. Treasury Sanctions Hacking Group Backed by Iranian Intelligence",
+        "annotations": [{"start": 48, "end": 68, "label": "ACTOR", "entity": "Iranian Intelligence"}
+        ]
+    },
+    {
+        "text": "2 Hackers Charged for Defacing Sites after U.S. Airstrike Killed Iranian General",
+        "annotations": [{"start": 2, "end": 9, "label": "ACTOR", "entity": "Hackers"}
+        ]
+    },
+    {
+        "text": "A group called Gnosis claimed responsibility for the hack, which exploited a flaw in the source code of Gawkers Web servers.",
+        "annotations": [{"start": 15, "end": 21, "label": "ACTOR", "entity": "Gnosis"}
+        ]
+    },
+    {
+        "text": "Chinese hackers not only attacked key federal departments: they also cracked into the computer system of the House of Commons, targeting MPs with large ethnic Chinese constituencies.",
+        "annotations": [{"start": 8, "end": 15, "label": "ACTOR", "entity": "hackers"}
+        ]
+    },
+    {
+        "text": "Sources say Canadas secret cyber spy agency -- the Communications Security Establishment -- tracked the hacking operation to the Chinese embassy in Ottawa and to computer servers in Beijing.",
+        "annotations": [{"start": 182, "end": 189, "label": "GEO_LOCATION", "entity": "Beijing"}
+        ]
+    },
+    {"text": "Indra Gandhi Dental College Website & 40 other Indian Sites Hacked by TeaMp0isoN & ZHC!",
+        "annotations": [{"start": 70, "end": 86, "label": "ACTOR", "entity": "TeaMp0isoN & ZHC"}
+        ]
+    },
+    {
+        "text": "Site: https://igmt.org/",
+        "annotations": [{"start": 6, "end": 23, "label": "URL", "entity": "https://igmt.org/"}
+        ]
+    },
+    {
+        "text": "Mirror: https://zone-h.org/mirror/id/13179147",
+        "annotations": [{"start": 8, "end": 45, "label": "URL", "entity": "https://zone-h.org/mirror/id/13179147"}
+        ]
+    },
+    {
+        "text": "QNet has confirmed that its e-commerce portal was recently the target of a Distributed Denial of Service (DDoS) attack. This caused its main website to be offline for over 36 hours. The unknown actors launched a DDoS attack on QNets e-commerce portal.",
+        "annotations": [{"start": 186, "end": 200, "label": "ACTOR", "entity": "unknown actors"}
+        ]
+    },
+    {
+        "text": "In the context of the DDoS attack, QNets e-commerce portal, https://www.qnet.net, was mentioned as being targeted and taken offline for an extended period.",
+        "annotations": [{"start": 60, "end": 80, "label": "URL", "entity": "https://www.qnet.net"}
+        ]
+    },
+    {
+        "text": "QNet confirmed that its e-commerce portal was down due to a DDoS attack. The attack resulted in the website being offline for over 36 hours.",
+        "annotations": [{"start": 60, "end": 71, "label": "MALWARE_NAME", "entity": "DDoS attack"}
+        ]
+    },
+    {
+        "text": "... Hackers circulate database containing millions of players’ details Wildly-popular online game impresses with its response to data breach Don’t worry if you haven’t heard of Animal Jam. It’s not a game that’s aimed at you – it’s target audience are kids between 7-12 years old. With more than 300 million registered players, Animal Jam is a wildly popular online game which sees kids adopt their favourite animal guises and explore a brightly-coloured world. Animal Jam likes to present itself as “safe and fun,” but this week we have learnt that that doesn’t mean it can’t ever suffer a security breach. WildWorks, the developer of Animal Jam, has confirmed that early last month a hacker broke into its systems and stole 46 million Animal Jam records. According to the alert posted on the Animal Jam website, the database containing the records was stolen following an attack that saw a hacker break into a third-party communications tool used by WildWorks employees, and steal an access key...",
+        "annotations": [{"start": 737, "end": 755, "label": "ACTOR", "entity": "Animal Jam records"}
+        ]
     }
 ]
