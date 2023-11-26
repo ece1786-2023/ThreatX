@@ -641,5 +641,294 @@
         "annotations": [
             {"start": 58, "end": 81, "label": "MALWARE_NAME", "entity": "Sony rootkit technology"}
         ]
+    },
+    {
+        "text": "... for stealing $850 million through the  Butterfly Botnet , which included more than 11 million infected computers, according to the FBI. Cyber-criminals mainly targeted Facebook users ...",
+        "annotations": [{"start": 43, "end": 59, "label": "MALWARE_NAME", "entity": "Butterfly Botnet"}
+        ]
+    },
+    {
+        "text": "... Facebook users with the  Yahos  malware to steal their credit card, bank account, and other personal details. The arrests occurred in Bosnia and Herzegovina, Croatia, Macedonia, New ...",
+        "annotations": [{"start": 29, "end": 34, "label": "MALWARE_NAME", "entity": "Yahos"}
+        ]
+    },
+    {
+        "text": "... global spam was halted after the  Grum  botnets command and control servers in the Netherlands and Panama were blocked. Though cyber-crooks set up seven new centers in Russia ...",
+        "annotations": [{"start": 38, "end": 42, "label": "MALWARE_NAME", "entity": "Grum"}
+        ]
+    },
+    {
+        "text": "... outbreak of botnets based on the Butterfly (aka  Mariposa ) bot tool, according to Ars Technica. The first variant was discovered in December 2008 and shut down a year later, after infecting more than 12 million PCs ...",
+        "annotations": [{"start": 53, "end": 61, "label": "MALWARE_NAME", "entity": "Mariposa"}
+        ]
+    },
+    {
+        "text": "... Three Brits Arrested for Running  Police Ransomware  Con ...",
+        "annotations": [{"start": 38, "end": 55, "label": "MALWARE_NAME", "entity": "Police Ransomware"}
+        ]
+    },
+    {
+        "text": "... Ransomware operatives have hacked the City of Torrance in the Los Angeles metropolitan area and are holding city systems ransom. The hacking group is threatening to leak file archives allegedly stolen from the city during the ransomware attack. While Torrance officials are reluctant to comment, reports are coming out suggesting that the suburb was indeed the victim of a hack in March. The  DoppelPaymer  hacking group that claimed responsibility for the attack is using its \\u201cDopple Leaks\\u201d site to publish samples ...",
+        "annotations": [{"start": 397, "end": 409, "label": "ACTOR", "entity": "DoppelPaymer"}
+        ]
+    },
+    {
+        "text": "... are coming out suggesting that the suburb was indeed the victim of a hack in March. The DoppelPaymer hacking group that claimed responsibility for the attack is using its Dopple Leaks site to publish samples of the stolen data, which reportedly includes city budget financials, accounting documents, an archive of documents belonging to the City Manager, and more. According to BleepingComputer, the hackers demand a ransom of 100 Bitcoin, or roughly $700,000, to keep the data private and hand the city the decryption keys to unfreeze their  DoppelPaymer ransomware  tainted systems ...",
+        "annotations": [{"start": 547, "end": 570, "label": "MALWARE_NAME", "entity": "DoppelPaymer ransomware"}
+        ]
+    },
+    {
+        "text": "... have hacked the City of Torrance in the  Los Angeles  metropolitan area and are holding city systems ransom. The hacking group is threatening to leak file archives allegedly stolen from the city during the ransomware attack. While Torrance officials are reluctant to comment, reports are coming out suggesting that the suburb was indeed the victim of a hack in March. The DoppelPaymer hacking group that claimed responsibility for the attack ...",
+        "annotations": [{"start": 45, "end": 56, "label": "GEO_LOCATION", "entity": "Los Angeles"}
+        ]
+    },
+    {
+        "text": "... Ransomware operatives have hacked the City of  Torrance  in the Los Angeles metropolitan area and are holding city systems ransom. The hacking group is threatening to leak file archives allegedly stolen from the city during the ransomware attack. While Torrance officials are reluctant to comment, reports are coming out suggesting that the suburb was indeed the victim of a hack in March. The DoppelPaymer hacking group that claimed responsibility for the attack is using its \\u201cDopple Leaks\\u201d site to publish samples ...",
+        "annotations": [
+            {"start": 51, "end": 59, "label": "GEO_LOCATION", "entity": "Torrance"},
+            {"start": 257, "end": 265, "label": "GEO_LOCATION", "entity": "Torrance"}
+        ]
+    },
+    {
+        "text": "Also see Brian Krebs write up on the same EAST findings, with pictures at the http://krebsonsecurity.com/2010/11/crooks-rock-audio-based-atm-skimmers/.",
+        "annotations": [{"start": 78, "end": 150, "label": "URL", "entity": "http://krebsonsecurity.com/2010/11/crooks-rock-audio-based-atm-skimmers/"}
+        ]
+    },
+    {
+        "text": "But it now appears in some areas that those devices are being successfully removed and then modified for skimming, according to the latest report from the European ATM Security Team (EAST), which collects data on ATM fraud throughout Europe.",
+        "annotations": [{"start": 155, "end": 188, "label": "ACTOR", "entity": "European ATM Security Team (EAST)"}
+        ]
+    },
+    {
+        "text": "See fraud report from APAC UK. Black hole still in USA due to cross border transactions at http://www.novinite.com/view_news.php?id=121889.",
+        "annotations": [{"start": 91, "end": 138, "label": "URL", "entity": "http://www.novinite.com/view_news.php?id=121889"}
+
+        ]
+    },
+    {
+        "text": "Just google to the facts. See fraud report from APAC UK. Black hole still in USA due to cross border transactions.",
+        "annotations": [{"start": 48, "end": 55, "label": "ACTOR", "entity": "APAC UK"}
+        ]
+    },
+    {
+        "text": "Big deal (and I think you mean ‘cannot be copied AS YET’)… What about magstripe ATMs abroad and this – http://www.zdnet.co.uk/news/it-at-work/2010/02/11/how-the-cambridge-chip-and-pin-attack-works-40022669/.",
+        "annotations": [{"start": 103, "end": 206, "label": "URL", "entity": "http://www.zdnet.co.uk/news/it-at-work/2010/02/11/how-the-cambridge-chip-and-pin-attack-works-40022669/"}
+        ]
+    },
+    {
+        "text": "... Luuuk campaign, covered earlier – a long-running attack against the clients of a large European bank that resulted in the theft of half a million euros in just one week ...",
+        "annotations": [{"start": 4, "end": 9, "label": "MALWARE_NAME", "entity": "Luuuk"}
+        ]
+    },
+    {
+        "text": "... Yet another large-scale threat was detected in Q2: MiniDuke, an APT campaign from early 2013 reignited, bringing in some serious and novel additions ...",
+        "annotations": [
+            {"start": 55, "end": 63, "label": "MALWARE_NAME", "entity": "MiniDuke"}
+        ]
+    },
+    {
+        "text": "... Also the first mobile ransomware encryptor had been detected. In the middle of May an announcement appeared on one of the virus writing forums offering a unique Trojan-encryptor for sale at $5000, working on the Android OS. It didn\\u2019t take long before we detected Trojan-Ransom.AndroidOS.Pletor.a in the wild ...",
+        "annotations": [{"start": 267, "end": 299, "label": "MALWARE_NAME", "entity": "Trojan-Ransom.AndroidOS.Pletor.a"}
+        ]
+    },
+    {
+        "text": "... New banking Trojan Pandemiya, stealing payment information ...",
+        "annotations": [{"start": 23, "end": 32, "label": "MALWARE_NAME", "entity": "Pandemiya"}
+        ]
+    },
+    {
+        "text": "... A global Operation Tovar, launched by security vendors and law enforcement agencies against the notorious (or plainly hated) Gameover ZeuS botnet ...",
+        "annotations": [{"start": 129, "end": 142, "label": "MALWARE_NAME", "entity": "Gameover ZeuS"}
+        ]
+    },
+    {
+        "text": "... while Russia remains the most malware-attacked country ...",
+        "annotations": [{"start": 10, "end": 16, "label": "GEO_LOCATION", "entity": "Russia"}
+        ]
+    },
+    {
+        "text": "... Kaspersky Labs experts identified 190 victims in total, most of them located in Italy ...",
+        "annotations": [{"start": 84, "end": 89, "label": "GEO_LOCATION", "entity": "Italy"}
+        ]
+    },
+    {
+        "text": "... Kaspersky Labs experts identified 190 victims in total, most of them located in Italy and Turkey ...",
+        "annotations": [{"start": 94, "end": 100, "label": "GEO_LOCATION", "entity": "Turkey"}
+        ]
+    },
+    {
+        "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
+        "annotations": [{"start": 63, "end": 72, "label": "GEO_LOCATION", "entity": "Australia"}
+        ]
+    },
+    {
+        "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
+        "annotations": [{"start": 74, "end": 81, "label": "GEO_LOCATION", "entity": "Belgium"}
+        ]
+    },
+    {
+        "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
+        "annotations": [{"start": 83, "end": 89, "label": "GEO_LOCATION", "entity": "France"}
+        ]
+    },
+    {
+        "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
+        "annotations": [{"start": 91, "end": 98, "label": "GEO_LOCATION", "entity": "Germany"}
+        ]
+    },
+    {
+        "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
+        "annotations": [{"start": 100, "end": 107, "label": "GEO_LOCATION", "entity": "Hungary"}
+        ]
+    },
+    {
+        "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
+        "annotations": [{"start": 113, "end": 124, "label": "GEO_LOCATION", "entity": "Netherlands"}
+        ]
+    },
+    {
+        "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
+        "annotations": [{"start": 126, "end": 131, "label": "GEO_LOCATION", "entity": "Spain"}
+        ]
+    },
+    {
+        "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
+        "annotations": [{"start": 133, "end": 140, "label": "GEO_LOCATION", "entity": "Ukraine"}
+        ]
+    },
+    {
+        "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
+        "annotations": [{"start": 150, "end": 153, "label": "GEO_LOCATION", "entity": "USA"}
+        ]
+    },
+    {
+        "text": "It looks like  China  is becoming a hotbed for malware and malicious websites (those sites that push malware infections via browser exploits). They often used to be found in Korea and Taiwan and parts of Eastern Europe. According to the latest data more than half of the sites are now located in China.",
+        "annotations": [
+            {"start": 15, "end": 20, "label": "GEO_LOCATION", "entity": "China"},
+            {"start": 296, "end": 301, "label": "GEO_LOCATION", "entity": "China"}
+        ]
+    },
+    {
+        "text": "They often used to be found in  Korea  and  Taiwan  and parts of Eastern Europe.",
+        "annotations": [
+            {"start": 32, "end": 37, "label": "GEO_LOCATION", "entity": "Korea"},
+            {"start": 44, "end": 50, "label": "GEO_LOCATION", "entity": "Taiwan"}
+        ]
+    },
+    {
+        "text": "They often used to be found in Korea and Taiwan and parts of  Eastern Europe . According to the latest data more than half of the sites are now located in China.",
+        "annotations": [{"start": 62, "end": 76, "label": "GEO_LOCATION", "entity": "Eastern Europe"}
+        ]
+    },
+    {
+        "text": "More than half of the Web sites foisting malicious software on visitors are located at networks in China, according to data released today. Stopbadware.org, a joint project between researchers at Harvard, Oxford and Google, found that 52 percent of the more than 200,000 infected sites the group analyzed in late May were hosted at Chinese networks.",
+        "annotations": [{"start": 140, "end": 155, "label": "ACTOR", "entity": "Stopbadware.org"}
+        ]
+    },
+    {
+        "text": "Stopbadware.org, a joint project between researchers at Harvard, Oxford and  Google , found that 52 percent of the more than 200,000 infected sites the group analyzed in late May were hosted at Chinese networks.",
+        "annotations": [{"start": 77, "end": 83, "label": "ACTOR", "entity": "Google"}
+        ]
+    },
+    {
+        "text": "The sites examined in the study were all reported as malicious by Google, which interestingly enough ranked as the 6th largest source of malicious Web sites in this report, with 4,261 malware sites. Most of those appear to be the result of scammers and virus writers devising ways to automate the creation of sites at  Google-owned Blogger.com .",
+        "annotations": [{"start": 332, "end": 343, "label": "DOMAIN_NAME", "entity": "Blogger.com"}
+        ]
+    },
+    {
+        "text": "The numbers from just one month prior paint a much harsher picture for Google. Stopbadware never published these figures, but a source involved in the group\\u2019s effort shared data with  Security Fix  showing Google and Blogger as the 4th largest source of malicious sites, with more than 10,000 such domains.",
+        "annotations": [{"start": 184, "end": 196, "label": "ACTOR", "entity": "Security Fix"}
+        ]
+    },
+    {
+        "text": "Max Weinstein, project manager for Stopbadware, said the group plans to begin releasing stats on a monthly basis.  Weinstein  said he believes the spike in malicious domains at Google properties was due to the company\\u2019s recent aggressiveness in scanning its own sites for malware.",
+        "annotations": [{"start": 0, "end": 13, "label": "ACTOR", "entity": "Max Weinstein"}
+        ]
+    },
+    {
+        "text": "Hmm interesting indeed, we\\u2019ll have to watch and see what Google is going to do about this, they really need to control it. Especially with many of the new botnet infectors leveraging on Blogger.com sites. Source:  Washington Post .",
+        "annotations": [{"start": 214, "end": 229, "label": "ACTOR", "entity": "Washington Post"}
+        ]
+    },
+    {
+        "text": "The only thing I can say for sure is that China does have a huge problem with media pirating and seems to do nothing or not much about it.  OVGUIDE.COM  will link you to thousands of streaming movies\\u2026.most of which are hosted on Chinese sites.",
+        "annotations": [{"start": 140, "end": 151, "label": "ACTOR", "entity": "OVGUIDE.COM"}
+        ]
+    },
+    {
+        "text": "Another thing that is really funny and plays to human nature is that email that reads You have won the international lottery... host their sites on free webhosts…so the phishing site address reads something like  yahoomaillogin.freehostia.com  (just an example…believe me there are thousands with similar names)….and people do fall for this…sheesh!!",
+        "annotations": [{"start": 213, "end": 242, "label": "ACTOR", "entity": "yahoomaillogin.freehostia.com"}
+        ]
+    },
+    {
+        "text": "Sarah Palin, like many other officials and business workers, uses email and the internet extensively to communicate, keep herself updated and schedule her activities. It was no surprise, therefore, to learn in the newspapers earlier this week that she has a web-email address,  gov.palin@yahoo.com .",
+        "annotations": [{"start": 0, "end": 11, "label": "ACTOR", "entity": "Sarah Palin"}
+        ]
+    },
+    {
+        "text": "Word now reaches us that hackers claim to have broken into Sarah Palins Yahoo account and posted examples of her emails, addresses of her contacts, and family photos on Wikileaks.  gov.palin@yahoo.com .",
+        "annotations": [{"start": 181, "end": 200, "label": "EMAIL_ADDRESSES", "entity": "gov.palin@yahoo.com"}
+        ]
+    },
+    {
+        "text": "Word now reaches us that hackers claim to have broken into Sarah Palins Yahoo account and posted examples of her emails, addresses of her contacts, and family photos on  Wikileaks .",
+        "annotations": [{"start": 170, "end": 179, "label": "ACTOR", "entity": "Wikileaks"}
+        ]
+    },
+    {
+        "text": "Breaking into Sarah Palins  Yahoo  account is an offence. Yes, there may be interest in what she has been doing in her private email account but that is no excuse for breaching security and breaking the law.",
+        "annotations": [{"start": 28, "end": 33, "label": "ACTOR", "entity": "Yahoo"}
+        ]
+    },
+    {
+        "text": "By the way, Sarah Palin isnt the first public figure to have her email hacked. Watch this video: Paris Hilton & Sarah Palin \\u2013 whats the connection?. (Image of Sarah Palin using her BlackBerry from www.mccainblogette.com.) Follow Naked Security on Twitter for the latest computer security news. ",
+        "annotations": [{"start": 229, "end": 243, "label": "ACTOR", "entity": "Naked Security"}
+        ]
+    },
+    {
+        "text": "Cybersecurity New Years resolutions, you say? Why not. -  Malwarebytes Labs  | Malwarebytes Labs.",
+        "annotations": [
+            {"start": 58, "end": 75, "label": "ACTOR", "entity": "Malwarebytes Labs"},
+            {"start": 79, "end": 96, "label": "ACTOR", "entity": "Malwarebytes Labs"}
+        ]
+    },
+    {
+        "text": "Opportunely, there are extensions you can install to your browser to automatically connect to HTTPS versions of websites. Take  HTTPS Everywhere , for example.",
+        "annotations": [{"start": 128, "end": 144, "label": "URL", "entity": "HTTPS Everywhere"}
+        ]
+    },
+    {
+        "text": "...including the release of  Malwarebytes  4.0, vendor email compromise, fake news, robocalls, and more.",
+        "annotations": [{"start": 29, "end": 41, "label": "ACTOR", "entity": "Malwarebytes"}
+        ]
+    },
+    {
+        "text": "We’ve seen continued activity from the author of Pushdo this year, with new variants being pushed out on a regular basis, usually by spam. One of the latest tricks we’ve seen them use is to use unusual API calls with the intention of them failing with particular error codes, and then feeding those error codes into some maths to generate the key which the Pushdo then uses to decrypt its executable payload.",
+        "annotations": [
+            {"start": 49, "end": 55, "label": "MALWARE_NAME", "entity": "Pushdo"},
+            {"start": 357, "end": 363, "label": "MALWARE_NAME", "entity": "Pushdo"}
+        ]
+    },
+    {
+        "text": "A special spam message was identified, masquerading as a flash player plug-in. The message enticed users with a video of the Large Hadron Collider, but instead of a video, it led to a malicious so-called Flash update, which is actually malware detected as Troj/TDSS-BP.",
+        "annotations": [{"start": 256, "end": 268, "label": "MALWARE_NAME", "entity": "Troj/TDSS-BP"}
+        ]
+    },
+    {
+        "text": "A spam email was received from whoswhopublication@gmail.com. The email claimed to be from the Cambridge Whos Who registry, but it was deemed suspicious due to the use of a Gmail address and because it was sent to AskESET. The email invited the recipient to be part of the 2010-11 Edition of Whos Who among Executives and Professionals, but it was identified as a scam attempt.",
+        "annotations": [{"start": 31, "end": 59, "label": "EMAIL_ADDRESSES", "entity": "whoswhopublication@gmail.com"}
+        ]
+    },
+    {
+        "text": "The malware masquerading as a Flash player plugin was identified as  TDSS-BP . This malicious software was part of a spam campaign using a deceptive message about a video of the Large Hadron Collider. Users were tricked into downloading what they thought was a necessary Flash update to view the video, but instead, they ended up downloading the TDSS-BP malware.",
+        "annotations": [
+            {"start": 69, "end": 76, "label": "MALWARE_NAME", "entity": "TDSS-BP"},
+            {"start": 346, "end": 353, "label": "MALWARE_NAME", "entity": "TDSS-BP"}
+        ]
+    },
+    {
+        "text": "In a spam message about a supposed video of the Large Hadron Collider, recipients were directed to  http://mytinyurl.net/hidden . This URL was part of a malicious campaign, redirecting users to a page that prompted them to download a fake Flash update, which was actually the TDSS-BP malware.",
+        "annotations": [{"start": 100, "end": 127, "label": "URL", "entity": "http://mytinyurl.net/hidden"}
+        ]
     }
 ]
