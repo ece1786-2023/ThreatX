@@ -1055,5 +1055,145 @@
         "text": "... Hackers circulate database containing millions of players’ details Wildly-popular online game impresses with its response to data breach Don’t worry if you haven’t heard of Animal Jam. It’s not a game that’s aimed at you – it’s target audience are kids between 7-12 years old. With more than 300 million registered players, Animal Jam is a wildly popular online game which sees kids adopt their favourite animal guises and explore a brightly-coloured world. Animal Jam likes to present itself as “safe and fun,” but this week we have learnt that that doesn’t mean it can’t ever suffer a security breach. WildWorks, the developer of Animal Jam, has confirmed that early last month a hacker broke into its systems and stole 46 million Animal Jam records. According to the alert posted on the Animal Jam website, the database containing the records was stolen following an attack that saw a hacker break into a third-party communications tool used by WildWorks employees, and steal an access key...",
         "annotations": [{"start": 737, "end": 755, "label": "ACTOR", "entity": "Animal Jam records"}
         ]
+    },
+    {
+        "text": "The Darkness (Optima) DDoS Bot is a notable piece of malware used for Distributed Denial of Service (DDoS) attacks. It was developed by Russian malware coders and has been actively available in cybercrime-friendly online communities since 2009. The bot is known for its modular nature, allowing cybercriminals to customize it with various malicious modules. Key features include the ability to launch different types of DDoS attacks (HTTP, ICMP, SYN, UDP), execute arbitrary .exe files, bypass Windows Firewall, and operate on a wide range of Microsoft Windows versions. The bots effectiveness is further enhanced by its ability to bypass some Anti-DDoS defenses and use proxies.",
+        "annotations": [{"start": 4, "end": 30, "label": "MALWARE_NAME", "entity": "Darkness (Optima) DDoS Bot"}
+        ]
+    },
+    {
+        "text": "The development and sale of the Darkness (Optima) DDoS Bot are attributed to Russian malware coders. These individuals are responsible for the bots ongoing development and distribution within cybercrime-friendly online communities. Their expertise in creating sophisticated malware tools is evident in the bots advanced features and modular nature, appealing to a wide range of cybercriminals seeking customizable and effective tools for DDoS attacks.",
+        "annotations": [{"start": 77, "end": 99, "label": "ACTOR", "entity": "Russian malware coders"}
+        ]
+    },
+    {
+        "text": "... At ESET we flag malicious autorun.inf files as  INF/Autorun  and this category of threat currently holds the number two spot in our Top World Threats...",
+        "annotations": [{"start": 52, "end": 63, "label": "MALWARE_NAME", "entity": "INF/Autorun"}
+        ]
+    },
+    {
+        "text": "... One particular USB-enabled worm–detected by ESET as  Win32/Pronny.xx –has been quite active of late and it employs autorun.inf files detected as INF/Autorun.AC...",
+        "annotations": [{"start": 57, "end": 72, "label": "MALWARE_NAME", "entity": "Win32/Pronny.xx"}
+        ]
+    },
+    {"text": "... Win32/Gapzs new bootkit technique modifies just 4 bytes of the original VBR, has an enhanced dropper and complex kernel mode functionality, and evades ELAM...",
+        "annotations": [{"start": 4, "end": 14, "label": "MALWARE_NAME", "entity": "Win32/Gapz"}
+        ]
+    },
+    {
+        "text": "... In the last couple of years a number of new bootkits have appeared in the wild targeting the Microsoft Windows platform. Among the most prominent examples are  TDL4 , Olmasco, and Rovnix...",
+        "annotations": [{"start": 164, "end": 168, "label": "MALWARE_NAME", "entity": "TDL4"}
+        ]
+    },
+    {
+        "text": "... In the last couple of years a number of new bootkits have appeared in the wild targeting the Microsoft Windows platform. Among the most prominent examples are TDL4,  Olmasco , and Rovnix...",
+        "annotations": [{"start": 170, "end": 177, "label": "MALWARE_NAME", "entity": "Olmasco"}
+        ]
+    },
+    {
+        "text": "... In the last couple of years a number of new bootkits have appeared in the wild targeting the Microsoft Windows platform. Among the most prominent examples are TDL4, Olmasco, and  Rovnix ...",
+        "annotations": [
+            {"start": 183, "end": 189, "label": "MALWARE_NAME", "entity": "Rovnix"}
+        ]
+    },
+    {
+        "text": "... The bootkit functionality of Win32/Gapz is quite conventional: once the code in the malicious MBR has been executed it restores the original code into memory and reads sectors from the hard drive containing the next stage bootkit code, to which it passes control. The bootkit code hooks the int 13h handler so as to monitor the loading of the following system modules to setup hooks:  ntldr ,  bootmgr ,  winload.exe ...",
+        "annotations": [
+            {"start": 389, "end": 394, "label": "FILE_PATH", "entity": "ntldr"},
+            {"start": 398, "end": 405, "label": "FILE_PATH", "entity": "bootmgr"},
+            {"start": 409, "end": 420, "label": "FILE_PATH", "entity": "winload.exe"}
+        ]
+    },
+    {
+        "text": "... ELAM is a new feature introduced in Microsoft Windows 8 operating systems. It allows antivirus software to load its own dedicated module: this provides assurance that it will be started before any other 3rd party kernel-mode drivers...",
+        "annotations": [{"start": 4, "end": 8, "label": "ACTOR", "entity": "ELAM"}
+        ]
+    },
+    {
+        "text": "... XSS Vulnerability discovered on  PayPal . Vansh and Vaibhuv, two Indian Hackers, found a XSS vulnerability in the world-famous site PayPal...",
+        "annotations": [{"start": 4, "end": 21, "label": "MALWARE_NAME", "entity": "XSS Vulnerability"}
+        ]
+    },
+    {
+        "text": "... XSS Vulnerability discovered on  PayPal . Vansh and Vaibhuv, two Indian Hackers, found a XSS vulnerability in the world-famous site PayPal...",
+        "annotations": [
+            {"start": 37, "end": 43, "label": "ACTOR", "entity": "PayPal"},
+            {"start": 136, "end": 142, "label": "ACTOR", "entity": "PayPal"}
+        ]
+    },
+    {
+        "text": "...Six months ago, Flashback was attracting a lot of attention from researchers and media due to its wide spread and interesting features. Since then, we have witnessed its operator...",
+        "annotations": [{"start": 19, "end": 28, "label": "MALWARE_NAME", "entity": "Flashback"}
+        ]
+    },
+    {
+        "text": "... Every day a new data breach is making headlines suggesting hackers have gone into overdrive. However, what is of particular interest is that a bulk of them is being attributed to cellphones. Hacking alone accounted for $3.2 billion in losses for the telecom industry, says the  CFCA . The culprits are ...",
+        "annotations": [{"start": 282, "end": 286, "label": "ACTOR", "entity": "CFCA"}
+        ]
+    },
+    {
+        "text": "... downloading applications that appear to be legitimate. Once on the device, the app can do a variety of damage, and at times without alarming the user. The  App Genome Project  by the company Lookout showed that in a study of 100,000 apps for iPhones and Android devices, a substantial ...",
+        "annotations": [{"start": 160, "end": 178, "label": "MALWARE_NAME", "entity": "App Genome Project"}
+        ]
+    },
+    {
+        "text": "... another recent finding, security researchers at Trend Micro discovered a malware on Android devices that disguised itself as a Google+ app. The app, called  Google++ , was capable of performing malicious activities like recording phone calls and gathering GPS location, and more ...",
+        "annotations": [{"start": 161, "end": 169, "label": "MALWARE_NAME", "entity": "Google++"}
+        ]
+    },
+    {
+        "text": "... In another report,  SMS Android Trojan  was hidden inside a movie player app and, once installed, would send out premium text messages. Many such malwares and viruses combined have affected up to 250,000 android devices to date ...",
+        "annotations": [{"start": 24, "end": 42, "label": "MALWARE_NAME", "entity": "SMS Android Trojan"}
+        ]
+    },
+    {"text": "... to hackers with malicious intent. This increased visibility has, however, put pressure on software companies ... Trojan stole $3.2 million from US victims,  Android users will be next target!  SpyEye Trojan stole $3.2 million from US victims ...",
+        "annotations": [{"start": 197, "end": 210, "label": "MALWARE_NAME", "entity": "SpyEye Trojan"}
+        ]
+    },
+    {
+        "text": "... smartphones, has come of age and is increasingly replacing PCs for internet surfing, emails, gaming and social networking. As per a recent survey by Neilson Media Research, smartphones now comprise over 38% of the  U.S. Cellphone Market  and will become the majority by end of the year ...",
+    "annotations": [{"start": 219, "end": 240, "label": "GEO_LOCATION", "entity": "U.S. Cellphone Market"}
+    ]
+    },
+    {
+        "text": "... 2012 - 02:00AM Win32/Gapz new bootkit technique modifies just 4 bytes of the original VBR, has an enhanced dropper and complex kernel mode functionality, and evades ELAM. In the last couple of years a number of new bootkits have appeared in the wild targeting the Microsoft Windows platform. Among the most prominent examples are TDL4, Olmasco and Rovnix. These each employ different ways of infecting the system by means of modifying either the MBR (Master Boot Record) or the VBR/IPL (Volume Boot Record/Initial Program Loader). This is shown in the figure below. In this blog I am going to describe a relatively new bootkit technique which allows the malware to execute its code before the OS loader receives control, using only a few modifications to the VBR (highlighted as BIOS Parameter Block modification in the figure above). This brand new technology was seen for the first time in the latest modification of the  Win32/Gapz  bootkit ...",
+        "annotations": [
+            {"start": 19, "end": 29, "label": "MALWARE_NAME", "entity": "Win32/Gapz"},
+            {"start": 928, "end": 938, "label": "MALWARE_NAME", "entity": "Win32/Gapz"}
+        ]
+    },
+    {
+        "text": "... of new bootkits have appeared in the wild targeting the Microsoft Windows platform. Among the most prominent examples are  TDL4 , Olmasco and Rovnix ...",
+        "annotations": [
+            {"start": 127, "end": 131, "label": "MALWARE_NAME", "entity": "TDL4"},
+            {"start": 134, "end": 141, "label": "MALWARE_NAME", "entity": "Olmasco"},
+            {"start": 146, "end": 152, "label": "MALWARE_NAME", "entity": "Rovnix"}
+        ]
+    },
+    {
+        "text": "... appeared in the wild targeting the Microsoft Windows platform. Among the most prominent examples are TDL4,  Olmasco  and Rovnix ...",
+        "annotations": [
+            {"start": 105, "end": 109, "label": "MALWARE_NAME", "entity": "TDL4"},
+            {"start": 112, "end": 119, "label": "MALWARE_NAME", "entity": "Olmasco"},
+            {"start": 125, "end": 131, "label": "MALWARE_NAME", "entity": "Rovnix"}
+        ]
+    },
+    {
+        "text": "... in the wild targeting the Microsoft Windows platform. Among the most prominent examples are TDL4, Olmasco and  Rovnix . These each employ different ways ...",
+        "annotations": [
+            {"start": 96, "end": 100, "label": "MALWARE_NAME", "entity": "TDL4"},
+            {"start": 102, "end": 109, "label": "MALWARE_NAME", "entity": "Olmasco"},
+            {"start": 115, "end": 121, "label": "MALWARE_NAME", "entity": "Rovnix"}
+        ]
+    },
+    {
+        "text": "... to say a few words on the effectiveness of  ELAM  (Early Launch Anti-Malware Module) against bootkit threats, based on example of Win32/Gapz ...",
+        "annotations": [{"start": 48, "end": 52, "label": "MALWARE_NAME", "entity": "ELAM"}
+        ]
+    },
+    {
+        "text": "... The bootkit installed onto the system by the earliest modification of the malware consists of two parts:  malicious MBR , kernel-mode code and payload injected into user-mode processes ...",
+        "annotations": [{"start": 110, "end": 123, "label": "MALWARE_NAME", "entity": "malicious MBR"}
+        ]
     }
 ]
