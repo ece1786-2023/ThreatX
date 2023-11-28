@@ -571,629 +571,988 @@
     {
         "text": "At the center of the account ban wave are some of the most active members of OGUsers, a forum that caters to thousands of people selling access to hijacked social media and other online accounts.",
         "annotations": [
-            {"start": 77, "end": 84, "label": "ACTOR", "entity": "OGUsers"}
+            {
+                "start": 77,
+                "end": 84,
+                "label": "ACTOR",
+                "entity": "OGUsers"
+            }
         ]
     },
-    {"text": "Among the top seller accounts targeted in the ban wave was the Instagram account belonging to Ryan Zanelli (@zanelli), a 22-year-old self-described \\u201csocial media marketing specialist\\u201d from Melbourne, Australia.",
+    {
+        "text": "Among the top seller accounts targeted in the ban wave was the Instagram account belonging to Ryan Zanelli (@zanelli), a 22-year-old self-described \\u201csocial media marketing specialist\\u201d from Melbourne, Australia.",
         "annotations": [
-            {"start": 94, "end": 106, "label": "ACTOR", "entity": "Ryan Zanelli"}
+            {
+                "start": 94,
+                "end": 106,
+                "label": "ACTOR",
+                "entity": "Ryan Zanelli"
+            }
         ]
     },
     {
         "text": "Termite popped up on our radar when we were reviewing malicious binaries compiled to run on IoT architectures. Termite is available for a range  https://github.com/rootkiter/Binary-files/tree/master/Termite/release/agent  of different operating systems and architectures including x86 ARM, PowerPC, Motorola, SPARC and Renesas.",
         "annotations": [
-            {"start": 145, "end": 220, "label": "URL", "entity": "https://github.com/rootkiter/Binary-files/tree/master/Termite/release/agent"}
+            {
+                "start": 145,
+                "end": 220,
+                "label": "URL",
+                "entity": "https://github.com/rootkiter/Binary-files/tree/master/Termite/release/agent"
+            }
         ]
     },
     {
         "text": "Termite and EarthWorm are publicly available tools written by an employee of  360NetLab . They can be considered an updated version of the well known packet relay tool HTRAN.",
         "annotations": [
-            {"start": 78, "end": 87, "label": "ACTOR", "entity": "360NetLab"}
+            {
+                "start": 78,
+                "end": 87,
+                "label": "ACTOR",
+                "entity": "360NetLab"
+            }
         ]
     },
     {
         "text": "\\u00a0\\u00a0\\u00a0\\u00a0\\u00a0\\u00a0 copyright = \\Alienvault Inc. 2019\\ \\u00a0\\u00a0\\u00a0\\u00a0\\u00a0\\u00a0 license = \\Apache License, Version 2.0\\ \\u00a0\\u00a0\\u00a0\\u00a0\\u00a0\\u00a0  sha256 = \\f4dd44bc19c19056794d29151a5b1bb76afd502388622e24c863a8494af147dd\\  \\u00a0\\u00a0\\u00a0\\u00a0\\u00a0\\u00a0 description = \\EarthWorm Packet Relay Tool\\",
         "annotations": [
-            {"start": 197, "end": 261, "label": "HASH_VALUES", "entity": "f4dd44bc19c19056794d29151a5b1bb76afd502388622e24c863a8494af147dd"}
+            {
+                "start": 197,
+                "end": 261,
+                "label": "HASH_VALUES",
+                "entity": "f4dd44bc19c19056794d29151a5b1bb76afd502388622e24c863a8494af147dd"
+            }
         ]
     },
     {
-    "text": "Termite is a tool used to connect together chains of machines on a network. That means it can be used used to bounce a connection between multiple machines, to maintain a connection that otherwise wouldn\\u2019t be possible:  Termite  is a useful networking and penetration testing tool, but we re seeing it used in attacks to enable access to machines too.",
-    "annotations": [
-        {"start": 0, "end": 7, "label": "MALWARE_NAME", "entity": "Termite"},
-        {"start": 220, "end": 227, "label": "MALWARE_NAME", "entity": "Termite"}
-    ]
-},
+        "text": "Termite is a tool used to connect together chains of machines on a network. That means it can be used used to bounce a connection between multiple machines, to maintain a connection that otherwise wouldn\\u2019t be possible:  Termite  is a useful networking and penetration testing tool, but we re seeing it used in attacks to enable access to machines too.",
+        "annotations": [
+            {
+                "start": 0,
+                "end": 7,
+                "label": "MALWARE_NAME",
+                "entity": "Termite"
+            },
+            {
+                "start": 220,
+                "end": 227,
+                "label": "MALWARE_NAME",
+                "entity": "Termite"
+            }
+        ]
+    },
     {
         "text": "Note: As we were publishing this, Symantec released a report on attackers using Termite in the 2018 attack stealing the health data of a quarter of the  Singapore  population. In one Android application, EarthWorm is hidden inside an image file called box_07.png. The Application communicates with the hostname apache2013.qpoe[.]com - which resolves to a server in  Taiwan .",
         "annotations": [
-            {"start": 153, "end": 162, "label": "GEO_LOCATION", "entity": "Singapore"},
-            {"start": 366, "end": 372, "label": "GEO_LOCATION", "entity": "Taiwan"}
+            {
+                "start": 153,
+                "end": 162,
+                "label": "GEO_LOCATION",
+                "entity": "Singapore"
+            },
+            {
+                "start": 366,
+                "end": 372,
+                "label": "GEO_LOCATION",
+                "entity": "Taiwan"
+            }
         ]
     },
     {
         "text": "Under the banner \\The Evolution of Online Responsibility,\\ ICM Registry, the company behind .xxx, is now trying to establish .sex, .porn, and .adult to expand its online offerings.",
         "annotations": [
-            {"start": 59, "end": 71, "label": "ACTOR", "entity": "ICM Registry"}
+            {
+                "start": 59,
+                "end": 71,
+                "label": "ACTOR",
+                "entity": "ICM Registry"
+            }
         ]
     },
     {
         "text": "ICM Registry, the company behind .xxx, is now trying to establish .sex, .porn, and .adult to expand its online offerings.",
         "annotations": [
-            {"start": 66, "end": 89, "label": "DOMAIN_NAME", "entity": ".sex, .porn, and .adult"}
+            {
+                "start": 66,
+                "end": 89,
+                "label": "DOMAIN_NAME",
+                "entity": ".sex, .porn, and .adult"
+            }
         ]
     },
-
     {
         "text": "Research \\n\\n\\nMore on  Backdoor.Win32.Breplibot.b  \\n\\n\\n\\n\\t\\t\\t\\t\\t\\tBy Yury Mashevsky  on November 10, 2005. 3:00 pm \\n\\n\\n\\nWe\\u2019ve been analysing the backdoor program which uses the Sony rootkit technology.",
         "annotations": [
-            {"start": 21, "end": 47, "label": "MALWARE_NAME", "entity": "Backdoor.Win32.Breplibot.b"}
+            {
+                "start": 21,
+                "end": 47,
+                "label": "MALWARE_NAME",
+                "entity": "Backdoor.Win32.Breplibot.b"
+            }
         ]
     },
     {
         "text": "When launching, the backdoor copies itself to the Windows system directory as  $SYS$DRV.EXE . Using this name makes it possible for the rootkit technology used by Sony to hide the activity of the malicious program.",
         "annotations": [
-            {"start": 79, "end": 91, "label": "FILE_PATH", "entity": "$SYS$DRV.EXE"}
+            {
+                "start": 79,
+                "end": 91,
+                "label": "FILE_PATH",
+                "entity": "$SYS$DRV.EXE"
+            }
         ]
     },
     {
         "text": "We\\u2019ve been analysing the backdoor program which uses the  Sony rootkit technology .",
         "annotations": [
-            {"start": 58, "end": 81, "label": "MALWARE_NAME", "entity": "Sony rootkit technology"}
+            {
+                "start": 58,
+                "end": 81,
+                "label": "MALWARE_NAME",
+                "entity": "Sony rootkit technology"
+            }
         ]
     },
     {
         "text": "... for stealing $850 million through the  Butterfly Botnet , which included more than 11 million infected computers, according to the FBI. Cyber-criminals mainly targeted Facebook users ...",
-        "annotations": [{"start": 43, "end": 59, "label": "MALWARE_NAME", "entity": "Butterfly Botnet"}
+        "annotations": [
+            {
+                "start": 43,
+                "end": 59,
+                "label": "MALWARE_NAME",
+                "entity": "Butterfly Botnet"
+            }
         ]
     },
     {
         "text": "... Facebook users with the  Yahos  malware to steal their credit card, bank account, and other personal details. The arrests occurred in Bosnia and Herzegovina, Croatia, Macedonia, New ...",
-        "annotations": [{"start": 29, "end": 34, "label": "MALWARE_NAME", "entity": "Yahos"}
+        "annotations": [
+            {
+                "start": 29,
+                "end": 34,
+                "label": "MALWARE_NAME",
+                "entity": "Yahos"
+            }
         ]
     },
     {
         "text": "... global spam was halted after the  Grum  botnets command and control servers in the Netherlands and Panama were blocked. Though cyber-crooks set up seven new centers in Russia ...",
-        "annotations": [{"start": 38, "end": 42, "label": "MALWARE_NAME", "entity": "Grum"}
+        "annotations": [
+            {
+                "start": 38,
+                "end": 42,
+                "label": "MALWARE_NAME",
+                "entity": "Grum"
+            }
         ]
     },
     {
         "text": "... outbreak of botnets based on the Butterfly (aka  Mariposa ) bot tool, according to Ars Technica. The first variant was discovered in December 2008 and shut down a year later, after infecting more than 12 million PCs ...",
-        "annotations": [{"start": 53, "end": 61, "label": "MALWARE_NAME", "entity": "Mariposa"}
+        "annotations": [
+            {
+                "start": 53,
+                "end": 61,
+                "label": "MALWARE_NAME",
+                "entity": "Mariposa"
+            }
         ]
     },
     {
         "text": "... Three Brits Arrested for Running  Police Ransomware  Con ...",
-        "annotations": [{"start": 38, "end": 55, "label": "MALWARE_NAME", "entity": "Police Ransomware"}
+        "annotations": [
+            {
+                "start": 38,
+                "end": 55,
+                "label": "MALWARE_NAME",
+                "entity": "Police Ransomware"
+            }
         ]
     },
     {
         "text": "... Ransomware operatives have hacked the City of Torrance in the Los Angeles metropolitan area and are holding city systems ransom. The hacking group is threatening to leak file archives allegedly stolen from the city during the ransomware attack. While Torrance officials are reluctant to comment, reports are coming out suggesting that the suburb was indeed the victim of a hack in March. The  DoppelPaymer  hacking group that claimed responsibility for the attack is using its \\u201cDopple Leaks\\u201d site to publish samples ...",
-        "annotations": [{"start": 397, "end": 409, "label": "ACTOR", "entity": "DoppelPaymer"}
+        "annotations": [
+            {
+                "start": 397,
+                "end": 409,
+                "label": "ACTOR",
+                "entity": "DoppelPaymer"
+            }
         ]
     },
     {
         "text": "... are coming out suggesting that the suburb was indeed the victim of a hack in March. The DoppelPaymer hacking group that claimed responsibility for the attack is using its Dopple Leaks site to publish samples of the stolen data, which reportedly includes city budget financials, accounting documents, an archive of documents belonging to the City Manager, and more. According to BleepingComputer, the hackers demand a ransom of 100 Bitcoin, or roughly $700,000, to keep the data private and hand the city the decryption keys to unfreeze their  DoppelPaymer ransomware  tainted systems ...",
-        "annotations": [{"start": 547, "end": 570, "label": "MALWARE_NAME", "entity": "DoppelPaymer ransomware"}
+        "annotations": [
+            {
+                "start": 547,
+                "end": 570,
+                "label": "MALWARE_NAME",
+                "entity": "DoppelPaymer ransomware"
+            }
         ]
     },
     {
         "text": "... have hacked the City of Torrance in the  Los Angeles  metropolitan area and are holding city systems ransom. The hacking group is threatening to leak file archives allegedly stolen from the city during the ransomware attack. While Torrance officials are reluctant to comment, reports are coming out suggesting that the suburb was indeed the victim of a hack in March. The DoppelPaymer hacking group that claimed responsibility for the attack ...",
-        "annotations": [{"start": 45, "end": 56, "label": "GEO_LOCATION", "entity": "Los Angeles"}
+        "annotations": [
+            {
+                "start": 45,
+                "end": 56,
+                "label": "GEO_LOCATION",
+                "entity": "Los Angeles"
+            }
         ]
     },
     {
         "text": "... Ransomware operatives have hacked the City of  Torrance  in the Los Angeles metropolitan area and are holding city systems ransom. The hacking group is threatening to leak file archives allegedly stolen from the city during the ransomware attack. While Torrance officials are reluctant to comment, reports are coming out suggesting that the suburb was indeed the victim of a hack in March. The DoppelPaymer hacking group that claimed responsibility for the attack is using its \\u201cDopple Leaks\\u201d site to publish samples ...",
         "annotations": [
-            {"start": 51, "end": 59, "label": "GEO_LOCATION", "entity": "Torrance"},
-            {"start": 257, "end": 265, "label": "GEO_LOCATION", "entity": "Torrance"}
+            {
+                "start": 51,
+                "end": 59,
+                "label": "GEO_LOCATION",
+                "entity": "Torrance"
+            },
+            {
+                "start": 257,
+                "end": 265,
+                "label": "GEO_LOCATION",
+                "entity": "Torrance"
+            }
         ]
     },
-    {
-        "text": "Also see Brian Krebs write up on the same EAST findings, with pictures at the http://krebsonsecurity.com/2010/11/crooks-rock-audio-based-atm-skimmers/.",
-        "annotations": [{"start": 78, "end": 150, "label": "URL", "entity": "http://krebsonsecurity.com/2010/11/crooks-rock-audio-based-atm-skimmers/"}
-        ]
-    },
-    {
-        "text": "But it now appears in some areas that those devices are being successfully removed and then modified for skimming, according to the latest report from the European ATM Security Team (EAST), which collects data on ATM fraud throughout Europe.",
-        "annotations": [{"start": 155, "end": 188, "label": "ACTOR", "entity": "European ATM Security Team (EAST)"}
-        ]
-    },
-    {
-        "text": "See fraud report from APAC UK. Black hole still in USA due to cross border transactions at http://www.novinite.com/view_news.php?id=121889.",
-        "annotations": [{"start": 91, "end": 138, "label": "URL", "entity": "http://www.novinite.com/view_news.php?id=121889"}
 
-        ]
-    },
-    {
-        "text": "Just google to the facts. See fraud report from APAC UK. Black hole still in USA due to cross border transactions.",
-        "annotations": [{"start": 48, "end": 55, "label": "ACTOR", "entity": "APAC UK"}
-        ]
-    },
-    {
-        "text": "Big deal (and I think you mean ‘cannot be copied AS YET’)… What about magstripe ATMs abroad and this – http://www.zdnet.co.uk/news/it-at-work/2010/02/11/how-the-cambridge-chip-and-pin-attack-works-40022669/.",
-        "annotations": [{"start": 103, "end": 206, "label": "URL", "entity": "http://www.zdnet.co.uk/news/it-at-work/2010/02/11/how-the-cambridge-chip-and-pin-attack-works-40022669/"}
-        ]
-    },
     {
         "text": "... Luuuk campaign, covered earlier – a long-running attack against the clients of a large European bank that resulted in the theft of half a million euros in just one week ...",
-        "annotations": [{"start": 4, "end": 9, "label": "MALWARE_NAME", "entity": "Luuuk"}
+        "annotations": [
+            {
+                "start": 4,
+                "end": 9,
+                "label": "ACTOR",
+                "entity": "Luuuk"
+            }
         ]
     },
     {
         "text": "... Yet another large-scale threat was detected in Q2: MiniDuke, an APT campaign from early 2013 reignited, bringing in some serious and novel additions ...",
         "annotations": [
-            {"start": 55, "end": 63, "label": "MALWARE_NAME", "entity": "MiniDuke"}
+            {
+                "start": 55,
+                "end": 63,
+                "label": "ACTOR",
+                "entity": "MiniDuke"
+            }
         ]
     },
     {
         "text": "... Also the first mobile ransomware encryptor had been detected. In the middle of May an announcement appeared on one of the virus writing forums offering a unique Trojan-encryptor for sale at $5000, working on the Android OS. It didn\\u2019t take long before we detected Trojan-Ransom.AndroidOS.Pletor.a in the wild ...",
-        "annotations": [{"start": 267, "end": 299, "label": "MALWARE_NAME", "entity": "Trojan-Ransom.AndroidOS.Pletor.a"}
+        "annotations": [
+            {
+                "start": 267,
+                "end": 299,
+                "label": "MALWARE_NAME",
+                "entity": "Trojan-Ransom.AndroidOS.Pletor.a"
+            }
         ]
     },
     {
         "text": "... New banking Trojan Pandemiya, stealing payment information ...",
-        "annotations": [{"start": 23, "end": 32, "label": "MALWARE_NAME", "entity": "Pandemiya"}
+        "annotations": [
+            {
+                "start": 23,
+                "end": 32,
+                "label": "MALWARE_NAME",
+                "entity": "Pandemiya"
+            }
         ]
     },
     {
         "text": "... A global Operation Tovar, launched by security vendors and law enforcement agencies against the notorious (or plainly hated) Gameover ZeuS botnet ...",
-        "annotations": [{"start": 129, "end": 142, "label": "MALWARE_NAME", "entity": "Gameover ZeuS"}
+        "annotations": [
+            {
+                "start": 129,
+                "end": 142,
+                "label": "MALWARE_NAME",
+                "entity": "Gameover ZeuS"
+            }
         ]
     },
     {
         "text": "... while Russia remains the most malware-attacked country ...",
-        "annotations": [{"start": 10, "end": 16, "label": "GEO_LOCATION", "entity": "Russia"}
+        "annotations": [
+            {
+                "start": 10,
+                "end": 16,
+                "label": "GEO_LOCATION",
+                "entity": "Russia"
+            }
         ]
     },
     {
         "text": "... Kaspersky Labs experts identified 190 victims in total, most of them located in Italy ...",
-        "annotations": [{"start": 84, "end": 89, "label": "GEO_LOCATION", "entity": "Italy"}
+        "annotations": [
+            {
+                "start": 84,
+                "end": 89,
+                "label": "GEO_LOCATION",
+                "entity": "Italy"
+            }
         ]
     },
     {
         "text": "... Kaspersky Labs experts identified 190 victims in total, most of them located in Italy and Turkey ...",
-        "annotations": [{"start": 94, "end": 100, "label": "GEO_LOCATION", "entity": "Turkey"}
+        "annotations": [
+            {
+                "start": 94,
+                "end": 100,
+                "label": "GEO_LOCATION",
+                "entity": "Turkey"
+            }
         ]
     },
     {
         "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
-        "annotations": [{"start": 63, "end": 72, "label": "GEO_LOCATION", "entity": "Australia"}
+        "annotations": [
+            {
+                "start": 63,
+                "end": 72,
+                "label": "GEO_LOCATION",
+                "entity": "Australia"
+            }
         ]
     },
     {
         "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
-        "annotations": [{"start": 74, "end": 81, "label": "GEO_LOCATION", "entity": "Belgium"}
+        "annotations": [
+            {
+                "start": 74,
+                "end": 81,
+                "label": "GEO_LOCATION",
+                "entity": "Belgium"
+            }
         ]
     },
     {
         "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
-        "annotations": [{"start": 83, "end": 89, "label": "GEO_LOCATION", "entity": "France"}
+        "annotations": [
+            {
+                "start": 83,
+                "end": 89,
+                "label": "GEO_LOCATION",
+                "entity": "France"
+            }
         ]
     },
     {
         "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
-        "annotations": [{"start": 91, "end": 98, "label": "GEO_LOCATION", "entity": "Germany"}
+        "annotations": [
+            {
+                "start": 91,
+                "end": 98,
+                "label": "GEO_LOCATION",
+                "entity": "Germany"
+            }
         ]
     },
     {
         "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
-        "annotations": [{"start": 100, "end": 107, "label": "GEO_LOCATION", "entity": "Hungary"}
+        "annotations": [
+            {
+                "start": 100,
+                "end": 107,
+                "label": "GEO_LOCATION",
+                "entity": "Hungary"
+            }
         ]
     },
     {
         "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
-        "annotations": [{"start": 113, "end": 124, "label": "GEO_LOCATION", "entity": "Netherlands"}
+        "annotations": [
+            {
+                "start": 113,
+                "end": 124,
+                "label": "GEO_LOCATION",
+                "entity": "Netherlands"
+            }
         ]
     },
     {
         "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
-        "annotations": [{"start": 126, "end": 131, "label": "GEO_LOCATION", "entity": "Spain"}
+        "annotations": [
+            {
+                "start": 126,
+                "end": 131,
+                "label": "GEO_LOCATION",
+                "entity": "Spain"
+            }
         ]
     },
     {
         "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
-        "annotations": [{"start": 133, "end": 140, "label": "GEO_LOCATION", "entity": "Ukraine"}
+        "annotations": [
+            {
+                "start": 133,
+                "end": 140,
+                "label": "GEO_LOCATION",
+                "entity": "Ukraine"
+            }
         ]
     },
     {
         "text": "... The campaign targets countries across the world, including Australia, Belgium, France, Germany, Hungary, the Netherlands, Spain, Ukraine, and the USA ...",
-        "annotations": [{"start": 150, "end": 153, "label": "GEO_LOCATION", "entity": "USA"}
+        "annotations": [
+            {
+                "start": 150,
+                "end": 153,
+                "label": "GEO_LOCATION",
+                "entity": "USA"
+            }
         ]
     },
     {
         "text": "It looks like  China  is becoming a hotbed for malware and malicious websites (those sites that push malware infections via browser exploits). They often used to be found in Korea and Taiwan and parts of Eastern Europe. According to the latest data more than half of the sites are now located in China.",
         "annotations": [
-            {"start": 15, "end": 20, "label": "GEO_LOCATION", "entity": "China"},
-            {"start": 296, "end": 301, "label": "GEO_LOCATION", "entity": "China"}
+            {
+                "start": 15,
+                "end": 20,
+                "label": "GEO_LOCATION",
+                "entity": "China"
+            },
+            {
+                "start": 296,
+                "end": 301,
+                "label": "GEO_LOCATION",
+                "entity": "China"
+            }
         ]
     },
     {
         "text": "They often used to be found in  Korea  and  Taiwan  and parts of Eastern Europe.",
         "annotations": [
-            {"start": 32, "end": 37, "label": "GEO_LOCATION", "entity": "Korea"},
-            {"start": 44, "end": 50, "label": "GEO_LOCATION", "entity": "Taiwan"}
+            {
+                "start": 32,
+                "end": 37,
+                "label": "GEO_LOCATION",
+                "entity": "Korea"
+            },
+            {
+                "start": 44,
+                "end": 50,
+                "label": "GEO_LOCATION",
+                "entity": "Taiwan"
+            }
         ]
     },
     {
         "text": "They often used to be found in Korea and Taiwan and parts of  Eastern Europe . According to the latest data more than half of the sites are now located in China.",
-        "annotations": [{"start": 62, "end": 76, "label": "GEO_LOCATION", "entity": "Eastern Europe"}
-        ]
-    },
-    {
-        "text": "More than half of the Web sites foisting malicious software on visitors are located at networks in China, according to data released today. Stopbadware.org, a joint project between researchers at Harvard, Oxford and Google, found that 52 percent of the more than 200,000 infected sites the group analyzed in late May were hosted at Chinese networks.",
-        "annotations": [{"start": 140, "end": 155, "label": "ACTOR", "entity": "Stopbadware.org"}
-        ]
-    },
-    {
-        "text": "Stopbadware.org, a joint project between researchers at Harvard, Oxford and  Google , found that 52 percent of the more than 200,000 infected sites the group analyzed in late May were hosted at Chinese networks.",
-        "annotations": [{"start": 77, "end": 83, "label": "ACTOR", "entity": "Google"}
+        "annotations": [
+            {
+                "start": 62,
+                "end": 76,
+                "label": "GEO_LOCATION",
+                "entity": "Eastern Europe"
+            }
         ]
     },
     {
         "text": "The sites examined in the study were all reported as malicious by Google, which interestingly enough ranked as the 6th largest source of malicious Web sites in this report, with 4,261 malware sites. Most of those appear to be the result of scammers and virus writers devising ways to automate the creation of sites at  Google-owned Blogger.com .",
-        "annotations": [{"start": 332, "end": 343, "label": "DOMAIN_NAME", "entity": "Blogger.com"}
-        ]
-    },
-    {
-        "text": "The numbers from just one month prior paint a much harsher picture for Google. Stopbadware never published these figures, but a source involved in the group\\u2019s effort shared data with  Security Fix  showing Google and Blogger as the 4th largest source of malicious sites, with more than 10,000 such domains.",
-        "annotations": [{"start": 184, "end": 196, "label": "ACTOR", "entity": "Security Fix"}
-        ]
-    },
-    {
-        "text": "Max Weinstein, project manager for Stopbadware, said the group plans to begin releasing stats on a monthly basis.  Weinstein  said he believes the spike in malicious domains at Google properties was due to the company\\u2019s recent aggressiveness in scanning its own sites for malware.",
-        "annotations": [{"start": 0, "end": 13, "label": "ACTOR", "entity": "Max Weinstein"}
+        "annotations": [
+            {
+                "start": 332,
+                "end": 343,
+                "label": "DOMAIN_NAME",
+                "entity": "Blogger.com"
+            }
         ]
     },
     {
         "text": "Hmm interesting indeed, we\\u2019ll have to watch and see what Google is going to do about this, they really need to control it. Especially with many of the new botnet infectors leveraging on Blogger.com sites. Source:  Washington Post .",
-        "annotations": [{"start": 214, "end": 229, "label": "ACTOR", "entity": "Washington Post"}
+        "annotations": [
         ]
     },
     {
         "text": "The only thing I can say for sure is that China does have a huge problem with media pirating and seems to do nothing or not much about it.  OVGUIDE.COM  will link you to thousands of streaming movies\\u2026.most of which are hosted on Chinese sites.",
-        "annotations": [{"start": 140, "end": 151, "label": "ACTOR", "entity": "OVGUIDE.COM"}
+        "annotations": [
+            {
+                "start": 140,
+                "end": 151,
+                "label": "DOMAIN_NAME",
+                "entity": "OVGUIDE.COM"
+            }
         ]
     },
     {
         "text": "Another thing that is really funny and plays to human nature is that email that reads You have won the international lottery... host their sites on free webhosts…so the phishing site address reads something like  yahoomaillogin.freehostia.com  (just an example…believe me there are thousands with similar names)….and people do fall for this…sheesh!!",
-        "annotations": [{"start": 213, "end": 242, "label": "ACTOR", "entity": "yahoomaillogin.freehostia.com"}
-        ]
-    },
-    {
-        "text": "Sarah Palin, like many other officials and business workers, uses email and the internet extensively to communicate, keep herself updated and schedule her activities. It was no surprise, therefore, to learn in the newspapers earlier this week that she has a web-email address,  gov.palin@yahoo.com .",
-        "annotations": [{"start": 0, "end": 11, "label": "ACTOR", "entity": "Sarah Palin"}
-        ]
-    },
-    {
-        "text": "Word now reaches us that hackers claim to have broken into Sarah Palins Yahoo account and posted examples of her emails, addresses of her contacts, and family photos on Wikileaks.  gov.palin@yahoo.com .",
-        "annotations": [{"start": 181, "end": 200, "label": "EMAIL_ADDRESSES", "entity": "gov.palin@yahoo.com"}
-        ]
-    },
-    {
-        "text": "Word now reaches us that hackers claim to have broken into Sarah Palins Yahoo account and posted examples of her emails, addresses of her contacts, and family photos on  Wikileaks .",
-        "annotations": [{"start": 170, "end": 179, "label": "ACTOR", "entity": "Wikileaks"}
-        ]
-    },
-    {
-        "text": "Breaking into Sarah Palins  Yahoo  account is an offence. Yes, there may be interest in what she has been doing in her private email account but that is no excuse for breaching security and breaking the law.",
-        "annotations": [{"start": 28, "end": 33, "label": "ACTOR", "entity": "Yahoo"}
-        ]
-    },
-    {
-        "text": "By the way, Sarah Palin isnt the first public figure to have her email hacked. Watch this video: Paris Hilton & Sarah Palin \\u2013 whats the connection?. (Image of Sarah Palin using her BlackBerry from www.mccainblogette.com.) Follow Naked Security on Twitter for the latest computer security news. ",
-        "annotations": [{"start": 229, "end": 243, "label": "ACTOR", "entity": "Naked Security"}
-        ]
-    },
-    {
-        "text": "Cybersecurity New Years resolutions, you say? Why not. -  Malwarebytes Labs  | Malwarebytes Labs.",
         "annotations": [
-            {"start": 58, "end": 75, "label": "ACTOR", "entity": "Malwarebytes Labs"},
-            {"start": 79, "end": 96, "label": "ACTOR", "entity": "Malwarebytes Labs"}
+            {
+                "start": 213,
+                "end": 242,
+                "label": "DOMAIN_NAME",
+                "entity": "yahoomaillogin.freehostia.com"
+            }
         ]
     },
     {
         "text": "Opportunely, there are extensions you can install to your browser to automatically connect to HTTPS versions of websites. Take  HTTPS Everywhere , for example.",
-        "annotations": [{"start": 128, "end": 144, "label": "URL", "entity": "HTTPS Everywhere"}
+        "annotations": [
         ]
     },
     {
         "text": "...including the release of  Malwarebytes  4.0, vendor email compromise, fake news, robocalls, and more.",
-        "annotations": [{"start": 29, "end": 41, "label": "ACTOR", "entity": "Malwarebytes"}
+        "annotations": [
+            {
+                "start": 29,
+                "end": 41,
+                "label": "MALWARE_NAME",
+                "entity": "Malwarebytes"
+            }
         ]
     },
     {
         "text": "We’ve seen continued activity from the author of Pushdo this year, with new variants being pushed out on a regular basis, usually by spam. One of the latest tricks we’ve seen them use is to use unusual API calls with the intention of them failing with particular error codes, and then feeding those error codes into some maths to generate the key which the Pushdo then uses to decrypt its executable payload.",
         "annotations": [
-            {"start": 49, "end": 55, "label": "MALWARE_NAME", "entity": "Pushdo"},
-            {"start": 357, "end": 363, "label": "MALWARE_NAME", "entity": "Pushdo"}
+            {
+                "start": 49,
+                "end": 55,
+                "label": "MALWARE_NAME",
+                "entity": "Pushdo"
+            },
+            {
+                "start": 357,
+                "end": 363,
+                "label": "MALWARE_NAME",
+                "entity": "Pushdo"
+            }
         ]
     },
     {
         "text": "A special spam message was identified, masquerading as a flash player plug-in. The message enticed users with a video of the Large Hadron Collider, but instead of a video, it led to a malicious so-called Flash update, which is actually malware detected as Troj/TDSS-BP.",
-        "annotations": [{"start": 256, "end": 268, "label": "MALWARE_NAME", "entity": "Troj/TDSS-BP"}
+        "annotations": [
+            {
+                "start": 256,
+                "end": 268,
+                "label": "MALWARE_NAME",
+                "entity": "Troj/TDSS-BP"
+            }
         ]
     },
     {
         "text": "A spam email was received from whoswhopublication@gmail.com. The email claimed to be from the Cambridge Whos Who registry, but it was deemed suspicious due to the use of a Gmail address and because it was sent to AskESET. The email invited the recipient to be part of the 2010-11 Edition of Whos Who among Executives and Professionals, but it was identified as a scam attempt.",
-        "annotations": [{"start": 31, "end": 59, "label": "EMAIL_ADDRESSES", "entity": "whoswhopublication@gmail.com"}
+        "annotations": [
+            {
+                "start": 31,
+                "end": 59,
+                "label": "EMAIL_ADDRESSES",
+                "entity": "whoswhopublication@gmail.com"
+            }
         ]
     },
     {
         "text": "The malware masquerading as a Flash player plugin was identified as  TDSS-BP . This malicious software was part of a spam campaign using a deceptive message about a video of the Large Hadron Collider. Users were tricked into downloading what they thought was a necessary Flash update to view the video, but instead, they ended up downloading the TDSS-BP malware.",
         "annotations": [
-            {"start": 69, "end": 76, "label": "MALWARE_NAME", "entity": "TDSS-BP"},
-            {"start": 346, "end": 353, "label": "MALWARE_NAME", "entity": "TDSS-BP"}
+            {
+                "start": 69,
+                "end": 76,
+                "label": "MALWARE_NAME",
+                "entity": "TDSS-BP"
+            },
+            {
+                "start": 346,
+                "end": 353,
+                "label": "MALWARE_NAME",
+                "entity": "TDSS-BP"
+            }
         ]
     },
     {
         "text": "In a spam message about a supposed video of the Large Hadron Collider, recipients were directed to  http://mytinyurl.net/hidden . This URL was part of a malicious campaign, redirecting users to a page that prompted them to download a fake Flash update, which was actually the TDSS-BP malware.",
-        "annotations": [{"start": 100, "end": 127, "label": "URL", "entity": "http://mytinyurl.net/hidden"}
-        ]
-    },
-    {
-        "text": "SophosLabs reported on another mass-spammed JavaScript redirect attack. The email messages used social engineering to entice users to open an attachment containing HTML files that, when opened in a browser, ran malicious JavaScript. This script redirected users to a remote site showing a please wait page, then redirected again to a fake antivirus (AV) site after a four-second delay. The please wait page also contained an iframe linking to another remote site, likely hosting exploit scripts. Sophos protections against this attack included blocking spam messages, detecting spammed redirects, blocking the redirection page, and the scripts on the fake AV site, and proactively detecting the fake AV payload.",
         "annotations": [
-            {"start": 44, "end": 54, "label": "MALWARE_NAME", "entity": "JavaScript"},
-            {"start": 221, "end": 231, "label": "MALWARE_NAME", "entity": "JavaScript"}
+            {
+                "start": 100,
+                "end": 127,
+                "label": "URL",
+                "entity": "http://mytinyurl.net/hidden"
+            }
         ]
     },
     {
         "text": "In the context of the mass-spammed JavaScript redirects leading to fake antivirus sites, Sophos customers were protected through various measures. This included proactive detection of scripts used on the fake AV site as Mal/FakeAvJs-A and the fake AV payload itself as Mal/FakeAV-EI. Sophos layered protection approach ensured that even before the latest updates, their customers were safeguarded against these attacks through their anti-spam products, URL filtering, and proactive malware detections.",
         "annotations": [
-            {"start": 220, "end": 234, "label": "MALWARE_NAME", "entity": "Mal/FakeAvJs-A"},
-            {"start": 269, "end": 282, "label": "MALWARE_NAME", "entity": "Mal/FakeAV-EI"}
-        ]
-    },
-    {
-        "text": "SophosLabs encountered an interesting phishing attempt targeting McDonalds customers. The phishing email enticed recipients to complete a survey with the promise of a $90 credit. The email contained a link to a fake survey page about McDonalds products, which, despite being poorly coded and displaying errors, led to a phishing page. This page asked for personal information, including the recipients drivers license, credit card number, and CVV. Sophos provided protection against these emails and advised users to be cautious and think before clicking on such links. The phishing attempt was notable for its improbability and the lure of a high reward for minimal effort, a common tactic in such scams.",
-        "annotations": [
-            {"start": 138, "end": 144, "label": "MALWARE_NAME", "entity": "survey"},
-            {"start": 216, "end": 222, "label": "MALWARE_NAME", "entity": "survey"}
-        ]
-    },
-    {
-        "text": "As news spread amongst the loosely-knit group of Anonymous hackers who support WikiLeaks, websites belonging to the Zimbabwe government and Robert Mugabes ZANU-PF party were hit by distributed denial-of-service (DDoS) attacks and, in the case of the Finance Ministry, defacements.",
-        "annotations": [{"start": 49, "end": 58, "label": "ACTOR", "entity": "Anonymous"}
+            {
+                "start": 220,
+                "end": 234,
+                "label": "MALWARE_NAME",
+                "entity": "Mal/FakeAvJs-A"
+            },
+            {
+                "start": 269,
+                "end": 282,
+                "label": "MALWARE_NAME",
+                "entity": "Mal/FakeAV-EI"
+            }
         ]
     },
     {
         "text": "The Zimbabwe governments online portal at www.gta.gov.zw and the official ZANU-PF website continue to be offline, and the Finance Ministrys website now displays a message saying it is under maintenance.",
-        "annotations": [{"start": 42, "end": 56, "label": "URL", "entity": "www.gta.gov.zw"}
+        "annotations": [
+            {
+                "start": 4,
+                "end": 12,
+                "label": "GEO_LOCATION",
+                "entity": "Zimbabwe"
+            }
         ]
     },
     {
         "text": "Post navigation Previous: Stay alert for prize offers over the New Years holiday Next: Geinimi Android Trojan horse discovered",
-        "annotations": [{"start": 87, "end": 114, "label": "MALWARE_NAME", "entity": "Geinimi Android Trojan hors"}
+        "annotations": [
+            {
+                "start": 87,
+                "end": 115,
+                "label": "MALWARE_NAME",
+                "entity": "Geinimi Android Trojan horse"
+            }
         ]
     },
     {
         "text": "A statement published on an Anonymous website offered an explanation for the attacks, which have been dubbed Operation: Zimbabwe.",
-        "annotations": [{"start": 120, "end": 128, "label": "ACTOR", "entity": "Zimbabwe"}
+        "annotations": [
+            {
+                "start": 120,
+                "end": 128,
+                "label": "ACTOR",
+                "entity": "Zimbabwe"
+            }
         ]
     },
     {
         "text": "Rahul Gandhis Website Hacked By TeaMp0isoN - Pak Cyber Army!",
-        "annotations": [{"start": 32, "end": 59, "label": "ACTOR", "entity": "TeaMp0isoN - Pak Cyber Army"}
+        "annotations": [
+            {
+                "start": 32,
+                "end": 59,
+                "label": "ACTOR",
+                "entity": "TeaMp0isoN - Pak Cyber Army"
+            }
         ]
     },
     {
         "text": "Hacked Link: https://www.rahulgandhi.us/in-the-media-cms36",
-        "annotations": [{"start": 13, "end": 58, "label": "URL", "entity": "https://www.rahulgandhi.us/in-the-media-cms36"}
-        ]
-    },
-    {
-        "text": "EBook Link: https://rs221.rapidshare.com/files/356187584/1597494259_PenetrationA.rar",
-        "annotations": [{"start": 12, "end": 84, "label": "URL", "entity": "https://rs221.rapidshare.com/files/356187584/1597494259_PenetrationA.rar"}
+        "annotations": [
+            {
+                "start": 13,
+                "end": 58,
+                "label": "URL",
+                "entity": "https://www.rahulgandhi.us/in-the-media-cms36"
+            }
         ]
     },
     {
         "text": "FBI adds 5 Chinese APT41 hackers to its Cybers Most Wanted List",
-        "annotations": [{"start": 19, "end": 24, "label": "ACTOR", "entity": "APT41"}
+        "annotations": [
+            {
+                "start": 19,
+                "end": 24,
+                "label": "ACTOR",
+                "entity": "APT41"
+            }
         ]
     },
     {
         "text": "Android 11 \\u2014 5 New Security and Privacy Features You Need to Know [URL not provided in the text]",
-        "annotations": [{"start": 67, "end": 95, "label": "URL", "entity": "URL not provided in the text"}
+        "annotations": [
         ]
     },
     {
         "text": "U.S. Treasury Sanctions Hacking Group Backed by Iranian Intelligence",
-        "annotations": [{"start": 48, "end": 68, "label": "ACTOR", "entity": "Iranian Intelligence"}
+        "annotations": [
+            {
+                "start": 48,
+                "end": 68,
+                "label": "ACTOR",
+                "entity": "Iranian Intelligence"
+            }
         ]
     },
     {
         "text": "2 Hackers Charged for Defacing Sites after U.S. Airstrike Killed Iranian General",
-        "annotations": [{"start": 2, "end": 9, "label": "ACTOR", "entity": "Hackers"}
+        "annotations": [
         ]
     },
     {
         "text": "A group called Gnosis claimed responsibility for the hack, which exploited a flaw in the source code of Gawkers Web servers.",
-        "annotations": [{"start": 15, "end": 21, "label": "ACTOR", "entity": "Gnosis"}
+        "annotations": [
+            {
+                "start": 15,
+                "end": 21,
+                "label": "ACTOR",
+                "entity": "Gnosis"
+            }
         ]
     },
     {
         "text": "Chinese hackers not only attacked key federal departments: they also cracked into the computer system of the House of Commons, targeting MPs with large ethnic Chinese constituencies.",
-        "annotations": [{"start": 8, "end": 15, "label": "ACTOR", "entity": "hackers"}
+        "annotations": [
+            {
+                "start": 0,
+                "end": 7,
+                "label": "ACTOR",
+                "entity": "Chinese"
+            }
         ]
     },
     {
         "text": "Sources say Canadas secret cyber spy agency -- the Communications Security Establishment -- tracked the hacking operation to the Chinese embassy in Ottawa and to computer servers in Beijing.",
-        "annotations": [{"start": 182, "end": 189, "label": "GEO_LOCATION", "entity": "Beijing"}
-        ]
-    },
-    {"text": "Indra Gandhi Dental College Website & 40 other Indian Sites Hacked by TeaMp0isoN & ZHC!",
-        "annotations": [{"start": 70, "end": 86, "label": "ACTOR", "entity": "TeaMp0isoN & ZHC"}
-        ]
-    },
-    {
-        "text": "Site: https://igmt.org/",
-        "annotations": [{"start": 6, "end": 23, "label": "URL", "entity": "https://igmt.org/"}
+        "annotations": [
+            {
+                "start": 182,
+                "end": 189,
+                "label": "GEO_LOCATION",
+                "entity": "Beijing"
+            }
         ]
     },
     {
-        "text": "Mirror: https://zone-h.org/mirror/id/13179147",
-        "annotations": [{"start": 8, "end": 45, "label": "URL", "entity": "https://zone-h.org/mirror/id/13179147"}
+        "text": "Indra Gandhi Dental College Website & 40 other Indian Sites Hacked by TeaMp0isoN & ZHC!",
+        "annotations": [
+            {
+                "start": 70,
+                "end": 86,
+                "label": "ACTOR",
+                "entity": "TeaMp0isoN & ZHC"
+            }
         ]
     },
+
     {
         "text": "QNet has confirmed that its e-commerce portal was recently the target of a Distributed Denial of Service (DDoS) attack. This caused its main website to be offline for over 36 hours. The unknown actors launched a DDoS attack on QNets e-commerce portal.",
-        "annotations": [{"start": 186, "end": 200, "label": "ACTOR", "entity": "unknown actors"}
+        "annotations": [
         ]
     },
     {
         "text": "In the context of the DDoS attack, QNets e-commerce portal, https://www.qnet.net, was mentioned as being targeted and taken offline for an extended period.",
-        "annotations": [{"start": 60, "end": 80, "label": "URL", "entity": "https://www.qnet.net"}
+        "annotations": [
+            {
+                "start": 60,
+                "end": 80,
+                "label": "URL",
+                "entity": "https://www.qnet.net"
+            }
         ]
     },
     {
         "text": "QNet confirmed that its e-commerce portal was down due to a DDoS attack. The attack resulted in the website being offline for over 36 hours.",
-        "annotations": [{"start": 60, "end": 71, "label": "MALWARE_NAME", "entity": "DDoS attack"}
+        "annotations": [
         ]
     },
     {
         "text": "... Hackers circulate database containing millions of players’ details Wildly-popular online game impresses with its response to data breach Don’t worry if you haven’t heard of Animal Jam. It’s not a game that’s aimed at you – it’s target audience are kids between 7-12 years old. With more than 300 million registered players, Animal Jam is a wildly popular online game which sees kids adopt their favourite animal guises and explore a brightly-coloured world. Animal Jam likes to present itself as “safe and fun,” but this week we have learnt that that doesn’t mean it can’t ever suffer a security breach. WildWorks, the developer of Animal Jam, has confirmed that early last month a hacker broke into its systems and stole 46 million Animal Jam records. According to the alert posted on the Animal Jam website, the database containing the records was stolen following an attack that saw a hacker break into a third-party communications tool used by WildWorks employees, and steal an access key...",
-        "annotations": [{"start": 737, "end": 755, "label": "ACTOR", "entity": "Animal Jam records"}
+        "annotations": [
         ]
     },
     {
         "text": "The Darkness (Optima) DDoS Bot is a notable piece of malware used for Distributed Denial of Service (DDoS) attacks. It was developed by Russian malware coders and has been actively available in cybercrime-friendly online communities since 2009. The bot is known for its modular nature, allowing cybercriminals to customize it with various malicious modules. Key features include the ability to launch different types of DDoS attacks (HTTP, ICMP, SYN, UDP), execute arbitrary .exe files, bypass Windows Firewall, and operate on a wide range of Microsoft Windows versions. The bots effectiveness is further enhanced by its ability to bypass some Anti-DDoS defenses and use proxies.",
-        "annotations": [{"start": 4, "end": 30, "label": "MALWARE_NAME", "entity": "Darkness (Optima) DDoS Bot"}
+        "annotations": [
+            {
+                "start": 4,
+                "end": 30,
+                "label": "MALWARE_NAME",
+                "entity": "Darkness (Optima) DDoS Bot"
+            }
         ]
     },
     {
         "text": "The development and sale of the Darkness (Optima) DDoS Bot are attributed to Russian malware coders. These individuals are responsible for the bots ongoing development and distribution within cybercrime-friendly online communities. Their expertise in creating sophisticated malware tools is evident in the bots advanced features and modular nature, appealing to a wide range of cybercriminals seeking customizable and effective tools for DDoS attacks.",
-        "annotations": [{"start": 77, "end": 99, "label": "ACTOR", "entity": "Russian malware coders"}
+        "annotations": [
+            {
+                "start": 77,
+                "end": 84,
+                "label": "GEO_LOCATION",
+                "entity": "Russian"
+            }
         ]
     },
     {
         "text": "... At ESET we flag malicious autorun.inf files as  INF/Autorun  and this category of threat currently holds the number two spot in our Top World Threats...",
-        "annotations": [{"start": 52, "end": 63, "label": "MALWARE_NAME", "entity": "INF/Autorun"}
+        "annotations": [
+            {
+                "start": 52,
+                "end": 63,
+                "label": "MALWARE_NAME",
+                "entity": "INF/Autorun"
+            }
         ]
     },
     {
         "text": "... One particular USB-enabled worm–detected by ESET as  Win32/Pronny.xx –has been quite active of late and it employs autorun.inf files detected as INF/Autorun.AC...",
-        "annotations": [{"start": 57, "end": 72, "label": "MALWARE_NAME", "entity": "Win32/Pronny.xx"}
+        "annotations": [
+            {
+                "start": 57,
+                "end": 72,
+                "label": "MALWARE_NAME",
+                "entity": "Win32/Pronny.xx"
+            }
         ]
     },
-    {"text": "... Win32/Gapzs new bootkit technique modifies just 4 bytes of the original VBR, has an enhanced dropper and complex kernel mode functionality, and evades ELAM...",
-        "annotations": [{"start": 4, "end": 14, "label": "MALWARE_NAME", "entity": "Win32/Gapz"}
+    {
+        "text": "... Win32/Gapzs new bootkit technique modifies just 4 bytes of the original VBR, has an enhanced dropper and complex kernel mode functionality, and evades ELAM...",
+        "annotations": [
+            {
+                "start": 4,
+                "end": 14,
+                "label": "MALWARE_NAME",
+                "entity": "Win32/Gapz"
+            }
         ]
     },
     {
         "text": "... In the last couple of years a number of new bootkits have appeared in the wild targeting the Microsoft Windows platform. Among the most prominent examples are  TDL4 , Olmasco, and Rovnix...",
-        "annotations": [{"start": 164, "end": 168, "label": "MALWARE_NAME", "entity": "TDL4"}
+        "annotations": [
+            {
+                "start": 164,
+                "end": 168,
+                "label": "MALWARE_NAME",
+                "entity": "TDL4"
+            }
         ]
     },
     {
         "text": "... In the last couple of years a number of new bootkits have appeared in the wild targeting the Microsoft Windows platform. Among the most prominent examples are TDL4,  Olmasco , and Rovnix...",
-        "annotations": [{"start": 170, "end": 177, "label": "MALWARE_NAME", "entity": "Olmasco"}
+        "annotations": [
+            {
+                "start": 170,
+                "end": 177,
+                "label": "MALWARE_NAME",
+                "entity": "Olmasco"
+            }
         ]
     },
     {
         "text": "... In the last couple of years a number of new bootkits have appeared in the wild targeting the Microsoft Windows platform. Among the most prominent examples are TDL4, Olmasco, and  Rovnix ...",
         "annotations": [
-            {"start": 183, "end": 189, "label": "MALWARE_NAME", "entity": "Rovnix"}
+            {
+                "start": 183,
+                "end": 189,
+                "label": "MALWARE_NAME",
+                "entity": "Rovnix"
+            }
         ]
     },
     {
         "text": "... The bootkit functionality of Win32/Gapz is quite conventional: once the code in the malicious MBR has been executed it restores the original code into memory and reads sectors from the hard drive containing the next stage bootkit code, to which it passes control. The bootkit code hooks the int 13h handler so as to monitor the loading of the following system modules to setup hooks:  ntldr ,  bootmgr ,  winload.exe ...",
         "annotations": [
-            {"start": 389, "end": 394, "label": "FILE_PATH", "entity": "ntldr"},
-            {"start": 398, "end": 405, "label": "FILE_PATH", "entity": "bootmgr"},
-            {"start": 409, "end": 420, "label": "FILE_PATH", "entity": "winload.exe"}
+            {
+                "start": 389,
+                "end": 394,
+                "label": "FILE_PATH",
+                "entity": "ntldr"
+            },
+            {
+                "start": 398,
+                "end": 405,
+                "label": "FILE_PATH",
+                "entity": "bootmgr"
+            },
+            {
+                "start": 409,
+                "end": 420,
+                "label": "FILE_PATH",
+                "entity": "winload.exe"
+            }
         ]
     },
     {
         "text": "... ELAM is a new feature introduced in Microsoft Windows 8 operating systems. It allows antivirus software to load its own dedicated module: this provides assurance that it will be started before any other 3rd party kernel-mode drivers...",
-        "annotations": [{"start": 4, "end": 8, "label": "ACTOR", "entity": "ELAM"}
-        ]
-    },
-    {
-        "text": "... XSS Vulnerability discovered on  PayPal . Vansh and Vaibhuv, two Indian Hackers, found a XSS vulnerability in the world-famous site PayPal...",
-        "annotations": [{"start": 4, "end": 21, "label": "MALWARE_NAME", "entity": "XSS Vulnerability"}
-        ]
-    },
-    {
-        "text": "... XSS Vulnerability discovered on  PayPal . Vansh and Vaibhuv, two Indian Hackers, found a XSS vulnerability in the world-famous site PayPal...",
         "annotations": [
-            {"start": 37, "end": 43, "label": "ACTOR", "entity": "PayPal"},
-            {"start": 136, "end": 142, "label": "ACTOR", "entity": "PayPal"}
         ]
     },
     {
         "text": "...Six months ago, Flashback was attracting a lot of attention from researchers and media due to its wide spread and interesting features. Since then, we have witnessed its operator...",
-        "annotations": [{"start": 19, "end": 28, "label": "MALWARE_NAME", "entity": "Flashback"}
+        "annotations": [
+            {
+                "start": 19,
+                "end": 28,
+                "label": "MALWARE_NAME",
+                "entity": "Flashback"
+            }
         ]
     },
     {
         "text": "... Every day a new data breach is making headlines suggesting hackers have gone into overdrive. However, what is of particular interest is that a bulk of them is being attributed to cellphones. Hacking alone accounted for $3.2 billion in losses for the telecom industry, says the  CFCA . The culprits are ...",
-        "annotations": [{"start": 282, "end": 286, "label": "ACTOR", "entity": "CFCA"}
+        "annotations": [
         ]
     },
     {
         "text": "... downloading applications that appear to be legitimate. Once on the device, the app can do a variety of damage, and at times without alarming the user. The  App Genome Project  by the company Lookout showed that in a study of 100,000 apps for iPhones and Android devices, a substantial ...",
-        "annotations": [{"start": 160, "end": 178, "label": "MALWARE_NAME", "entity": "App Genome Project"}
+        "annotations": [
         ]
     },
     {
         "text": "... another recent finding, security researchers at Trend Micro discovered a malware on Android devices that disguised itself as a Google+ app. The app, called  Google++ , was capable of performing malicious activities like recording phone calls and gathering GPS location, and more ...",
-        "annotations": [{"start": 161, "end": 169, "label": "MALWARE_NAME", "entity": "Google++"}
+        "annotations": [
+            {
+                "start": 161,
+                "end": 169,
+                "label": "MALWARE_NAME",
+                "entity": "Google++"
+            }
         ]
     },
     {
         "text": "... In another report,  SMS Android Trojan  was hidden inside a movie player app and, once installed, would send out premium text messages. Many such malwares and viruses combined have affected up to 250,000 android devices to date ...",
-        "annotations": [{"start": 24, "end": 42, "label": "MALWARE_NAME", "entity": "SMS Android Trojan"}
+        "annotations": [
+            {
+                "start": 24,
+                "end": 42,
+                "label": "MALWARE_NAME",
+                "entity": "SMS Android Trojan"
+            }
         ]
     },
-    {"text": "... to hackers with malicious intent. This increased visibility has, however, put pressure on software companies ... Trojan stole $3.2 million from US victims,  Android users will be next target!  SpyEye Trojan stole $3.2 million from US victims ...",
-        "annotations": [{"start": 197, "end": 210, "label": "MALWARE_NAME", "entity": "SpyEye Trojan"}
+    {
+        "text": "... to hackers with malicious intent. This increased visibility has, however, put pressure on software companies ... Trojan stole $3.2 million from US victims,  Android users will be next target!  SpyEye Trojan stole $3.2 million from US victims ...",
+        "annotations": [
+            {
+                "start": 197,
+                "end": 210,
+                "label": "MALWARE_NAME",
+                "entity": "SpyEye Trojan"
+            }
         ]
     },
     {
         "text": "... smartphones, has come of age and is increasingly replacing PCs for internet surfing, emails, gaming and social networking. As per a recent survey by Neilson Media Research, smartphones now comprise over 38% of the  U.S. Cellphone Market  and will become the majority by end of the year ...",
-    "annotations": [{"start": 219, "end": 240, "label": "GEO_LOCATION", "entity": "U.S. Cellphone Market"}
-    ]
+        "annotations": [
+            {
+                "start": 219,
+                "end": 223,
+                "label": "GEO_LOCATION",
+                "entity": "U.S."
+            }
+        ]
     },
     {
         "text": "... 2012 - 02:00AM Win32/Gapz new bootkit technique modifies just 4 bytes of the original VBR, has an enhanced dropper and complex kernel mode functionality, and evades ELAM. In the last couple of years a number of new bootkits have appeared in the wild targeting the Microsoft Windows platform. Among the most prominent examples are TDL4, Olmasco and Rovnix. These each employ different ways of infecting the system by means of modifying either the MBR (Master Boot Record) or the VBR/IPL (Volume Boot Record/Initial Program Loader). This is shown in the figure below. In this blog I am going to describe a relatively new bootkit technique which allows the malware to execute its code before the OS loader receives control, using only a few modifications to the VBR (highlighted as BIOS Parameter Block modification in the figure above). This brand new technology was seen for the first time in the latest modification of the  Win32/Gapz  bootkit ...",
         "annotations": [
-            {"start": 19, "end": 29, "label": "MALWARE_NAME", "entity": "Win32/Gapz"},
-            {"start": 928, "end": 938, "label": "MALWARE_NAME", "entity": "Win32/Gapz"}
-        ]
-    },
-    {
-        "text": "... of new bootkits have appeared in the wild targeting the Microsoft Windows platform. Among the most prominent examples are  TDL4 , Olmasco and Rovnix ...",
-        "annotations": [
-            {"start": 127, "end": 131, "label": "MALWARE_NAME", "entity": "TDL4"},
-            {"start": 134, "end": 141, "label": "MALWARE_NAME", "entity": "Olmasco"},
-            {"start": 146, "end": 152, "label": "MALWARE_NAME", "entity": "Rovnix"}
-        ]
-    },
-    {
-        "text": "... appeared in the wild targeting the Microsoft Windows platform. Among the most prominent examples are TDL4,  Olmasco  and Rovnix ...",
-        "annotations": [
-            {"start": 105, "end": 109, "label": "MALWARE_NAME", "entity": "TDL4"},
-            {"start": 112, "end": 119, "label": "MALWARE_NAME", "entity": "Olmasco"},
-            {"start": 125, "end": 131, "label": "MALWARE_NAME", "entity": "Rovnix"}
-        ]
-    },
-    {
-        "text": "... in the wild targeting the Microsoft Windows platform. Among the most prominent examples are TDL4, Olmasco and  Rovnix . These each employ different ways ...",
-        "annotations": [
-            {"start": 96, "end": 100, "label": "MALWARE_NAME", "entity": "TDL4"},
-            {"start": 102, "end": 109, "label": "MALWARE_NAME", "entity": "Olmasco"},
-            {"start": 115, "end": 121, "label": "MALWARE_NAME", "entity": "Rovnix"}
-        ]
-    },
-    {
-        "text": "... to say a few words on the effectiveness of  ELAM  (Early Launch Anti-Malware Module) against bootkit threats, based on example of Win32/Gapz ...",
-        "annotations": [{"start": 48, "end": 52, "label": "MALWARE_NAME", "entity": "ELAM"}
+            {
+                "start": 19,
+                "end": 29,
+                "label": "MALWARE_NAME",
+                "entity": "Win32/Gapz"
+            },
+            {
+                "start": 928,
+                "end": 938,
+                "label": "MALWARE_NAME",
+                "entity": "Win32/Gapz"
+            }
         ]
     },
     {
         "text": "... The bootkit installed onto the system by the earliest modification of the malware consists of two parts:  malicious MBR , kernel-mode code and payload injected into user-mode processes ...",
-        "annotations": [{"start": 110, "end": 123, "label": "MALWARE_NAME", "entity": "malicious MBR"}
+        "annotations": [
+            {
+                "start": 110,
+                "end": 123,
+                "label": "MALWARE_NAME",
+                "entity": "malicious MBR"
+            }
         ]
     }
 ]
