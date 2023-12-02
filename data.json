@@ -357,29 +357,6 @@
         ]
     },
     {
-        "text": "The malware contains the ability to install the following registry key for persistence; this functionality is disabled in this variant. HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Locky HKCU\\Software\\Locky HKCU\\Control Panel\\Desktop\\Wallpaper is set to: %CSIDL_DESKTOPDIRECTORY%\\_Locky_recover_instructions.bmp",
-        "annotations": [
-            {
-                "start": 136,
-                "end": 192,
-                "label": "REG_KEY",
-                "entity": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Locky"
-            },
-            {
-                "start": 193,
-                "end": 212,
-                "label": "REG_KEY",
-                "entity": "HKCU\\Software\\Locky"
-            },
-            {
-                "start": 213,
-                "end": 249,
-                "label": "REG_KEY",
-                "entity": "HKCU\\Control Panel\\Desktop\\Wallpaper"
-            }
-        ]
-    },
-    {
         "text": "On Sunday, Dec. 13, FireEye released information related to a breach and data exfiltration originating from an unknown actor FireEye is calling UNC2452. Unit 42 tracks this and related activity as the SolarStorm. According to FireEye, SolarStorm has compromised organizations across the globe via a supply chain attack that consists of a trojanized update file for the SolarWinds Orion Platform.",
         "annotations": [
             {
@@ -617,7 +594,11 @@
         "annotations": [
             {
                 "start": 197,
+<<<<<<< Updated upstream
                 "end": 261,
+=======
+                "end": 262,
+>>>>>>> Stashed changes
                 "label": "HASH_VAL",
                 "entity": "f4dd44bc19c19056794d29151a5b1bb76afd502388622e24c863a8494af147dd"
             }
@@ -1129,17 +1110,6 @@
                 "end": 268,
                 "label": "MALWARE_NAME",
                 "entity": "Troj/TDSS-BP"
-            }
-        ]
-    },
-    {
-        "text": "A spam email was received from whoswhopublication@gmail.com. The email claimed to be from the Cambridge Whos Who registry, but it was deemed suspicious due to the use of a Gmail address and because it was sent to AskESET. The email invited the recipient to be part of the 2010-11 Edition of Whos Who among Executives and Professionals, but it was identified as a scam attempt.",
-        "annotations": [
-            {
-                "start": 31,
-                "end": 59,
-                "label": "EMAIL_ADDRESSES",
-                "entity": "whoswhopublication@gmail.com"
             }
         ]
     },
