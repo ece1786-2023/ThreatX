@@ -3,6 +3,8 @@ Text parser: langchain_parser.py
 
 Data format: 1786dataFormatProj.ipynb  
 
+Stratified sample data: new_data.json 
+
 Formatted data: data.json  
 
 Baseline model: baseline.py (for python), 1786modelProj  (for colab)  
