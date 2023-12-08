@@ -9,6 +9,8 @@ Formatted data: data.json
 
 Baseline model: baseline.py (for python), 1786modelProj  (for colab)  
 
+Gradio baseline UI: 1786gradioProj.ipynb 
+
 Config for baseline model training: base_config.cfg  
 
 Fine tune model Llama: FineTuneProjTestILLMA.ipynb  
