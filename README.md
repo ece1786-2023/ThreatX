@@ -1,18 +1,21 @@
 # ThreatX
-Text parser: langchain_parser.py  
+Processed dataset: data.json  
 
-Data format: 1786dataFormatProj.ipynb  
+Text parser: data_parser.ipynb  
 
-Stratified sample data: new_data.json 
+Data formatter: data_formatter.ipynb  
 
-Formatted data: data.json  
+Baseline model: baseline_with_evaluation.ipynb
 
-Baseline model: baseline.py (for python), 1786modelProj  (for colab)  
+Config file for baseline model training: base_config.cfg  
+Gradio baseline UI: UI_for_baseline.ipynb 
 
-Gradio baseline UI: 1786gradioProj.ipynb 
+Fine tune model Llama: fine_tune_proj_llama.ipynb  
+Fine tune model distilbert-base-uncased: fine_tune_proj_distilbert.ipynb 
 
-Config for baseline model training: base_config.cfg  
 
-Fine tune model Llama: FineTuneProjTestILLMA.ipynb  
 
-Fine tune model distilbert-base-uncased: 1786modelFineTuneProj.ipynb  
+
+
+
+ 
