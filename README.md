@@ -6,6 +6,7 @@ Text parser: data_parser.ipynb
 Data formatter: data_formatter.ipynb  
 
 Baseline model: baseline_with_evaluation.ipynb
+                baseline_local_use.py (using in local env)
 
 Config file for baseline model training: base_config.cfg  
 Gradio baseline UI: UI_for_baseline.ipynb 
