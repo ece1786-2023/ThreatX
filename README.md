@@ -14,11 +14,13 @@ Gradio baseline UI: UI_for_baseline.ipynb
 
 outputModel.zip: Model use for Gradio UI 
 
-
 Fine tune model Llama: fine_tune_proj_llama.ipynb 
 
 Fine tune model distilbert-base-uncased: fine_tune_proj_distilbert.ipynb 
 
+nerdata.json: BIO format data for distilbert train set 
+
+nerdataTest.json: BIO format data for distilbert test set 
 
 
 
