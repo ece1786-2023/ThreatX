@@ -5,15 +5,33 @@
 
 import json
 
+
 train_file = "data.json"
 with open(train_file, 'r') as json_file:
     data = json.load(json_file)
+
+
+labelList = []
+for i in range(len(data)):
+  labelList.append(data[i]['annotations'][0]['label'])
+
+
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import StratifiedShuffleSplit
+dataArray = np.array(data)
+split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
+for train_index, test_index in split.split(data, labelList):
+    strat_train_set = list(dataArray[train_index])
+    strat_test_set = list(dataArray[test_index])
+
 
 def extract_entities(annotation):
     start = annotation['start']
     end = annotation['end']
     label = annotation['label'].upper()
     return start, end, label
+
 
 def process_example(example):
     entities = [extract_entities(annotation) for annotation in example['annotations']]
@@ -22,7 +40,10 @@ def process_example(example):
         'entities': entities
     }
 
-training_data = [process_example(example) for example in data]
+
+train_data = [process_example(example) for example in strat_train_set]
+test_data = [process_example(example) for example in strat_test_set]
+
 
 def process_training_example(nlp, training_example):
     text = training_example['text']
@@ -45,25 +66,59 @@ def process_training_example(nlp, training_example):
     doc.ents = filtered_entities
     return doc
 
+
 import spacy
 from spacy.tokens import DocBin
 from tqdm import tqdm
-# Load a new spaCy model
-nlp = spacy.blank("en")
+def convert_to_spacy(training_data, output_path, desc="Processing training data"):
+  # Load a new spaCy model
+  nlp = spacy.blank("en")
 
-# Create a DocBin to store processed documents
-doc_bin = DocBin()
+  # Create a DocBin to store processed documents
+  doc_bin = DocBin()
+  # Process training data and add to DocBin
+  for training_example in tqdm(training_data, desc="Processing training data"):
+      processed_doc = process_training_example(nlp, training_example)
+      doc_bin.add(processed_doc)
+  # Save the processed documents to disk
+  doc_bin.to_disk(output_path)
 
-# Process training data and add to DocBin
-for training_example in tqdm(training_data, desc="Processing training data"):
-    processed_doc = process_training_example(nlp, training_example)
-    doc_bin.add(processed_doc)
 
 # Save the processed documents to disk
-doc_bin.to_disk("train.spacy")
+convert_to_spacy(train_data, "train.spacy")
+convert_to_spacy(test_data, "dev.spacy", "Processing testing data")
+
 
 #initialize config
 !python -m spacy init fill-config base_config.cfg base_config.cfg
 
+
 #train
 !python -m spacy train base_config.cfg --output ./output --paths.train /content/train.spacy --paths.dev /content/train.spacy
+
+
+#evaluate
+from spacy.scorer import Scorer
+from spacy.training.example import Example
+nlp_ner = spacy.load("./output/model-best")
+def evaluate(nlp_ner, test_data):
+  scorer = Scorer()
+  example = []
+  for obs in test_data:
+    # print('Input for a prediction:', obs['text'])
+    pred = nlp_ner(obs['text'])  ## custom_nlp is the custome model I am using to generate docs
+    # print('Predicted based off of input:', pred, '// Entities being reviewed:', obs['entities'])
+    temp = Example.from_dict(pred, {'entities': obs['entities']})
+    example.append(temp)
+  scores = scorer.score_spans(example, "ents")
+  return scores
+# example run
+results = evaluate(nlp_ner, test_data)
+results
+
+
+#save model
+from google.colab import files
+import shutil
+shutil.make_archive("output", 'zip', "output")
+files.download("output.zip")
